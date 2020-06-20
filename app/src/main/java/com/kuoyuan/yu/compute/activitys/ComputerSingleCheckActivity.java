@@ -1,6 +1,7 @@
 package com.kuoyuan.yu.compute.activitys;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 
 import androidx.viewpager.widget.ViewPager;
 
@@ -33,6 +34,8 @@ public class ComputerSingleCheckActivity extends BaseActivity<ComputerSingleChec
 
     @Override
     protected void initData(Bundle extras) {
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("单选题");
         getPresenter().getListData();
     }
 
@@ -48,4 +51,12 @@ public class ComputerSingleCheckActivity extends BaseActivity<ComputerSingleChec
         computerSingleCheckPagerAdapter.setData(listData);
     }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
 }

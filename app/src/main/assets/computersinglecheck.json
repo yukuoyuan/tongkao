@@ -944,6 +944,2106 @@
           "isRight": false
         }
       ]
+    },
+    {
+      "title": "在微型计算机的各种设备中，既可输入又可输出的设备是______。",
+      "checkData": [
+        {
+          "title": "磁盘驱动器",
+          "isRight": true
+        },
+        {
+          "title": "键盘",
+          "isRight": false
+        },
+        {
+          "title": "鼠标",
+          "isRight": false
+        },
+        {
+          "title": "绘图仪",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "计算机各部件传输信息的公共通路称为总线，一次传输信息的位数称为总线的______。",
+      "checkData": [
+        {
+          "title": "长度",
+          "isRight": false
+        },
+        {
+          "title": "粒度",
+          "isRight": false
+        },
+        {
+          "title": "宽度",
+          "isRight": true
+        },
+        {
+          "title": "深度",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "下列四项中，不属于多媒体所包括的媒体类型的是______。",
+      "checkData": [
+        {
+          "title": " X光",
+          "isRight": true
+        },
+        {
+          "title": "图像",
+          "isRight": false
+        },
+        {
+          "title": "音频",
+          "isRight": false
+        },
+        {
+          "title": "视频",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "计算机的运算速度是它的主要性能指标之一。计算机的主要性能指标还包括______。",
+      "checkData": [
+        {
+          "title": "内存容量",
+          "isRight": true
+        },
+        {
+          "title": "显示器尺寸",
+          "isRight": false
+        },
+        {
+          "title": "机箱类型",
+          "isRight": false
+        },
+        {
+          "title": "绘图机的图纸幅度大小",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "计算机中的所有信息都是以二进制方式表示的，主要理由是______。",
+      "checkData": [
+        {
+          "title": "运算速度快",
+          "isRight": false
+        },
+        {
+          "title": "节约元件",
+          "isRight": false
+        },
+        {
+          "title": "所需的物理元件最简单",
+          "isRight": true
+        },
+        {
+          "title": "信息处理方便",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在微型计算机中，应用最普遍的字符编码是______。",
+      "checkData": [
+        {
+          "title": "BCD码",
+          "isRight": false
+        },
+        {
+          "title": "ASCII码",
+          "isRight": true
+        },
+        {
+          "title": "汉字编码",
+          "isRight": false
+        },
+        {
+          "title": "补码",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在Word中\"打开\"文档的作用是______。",
+      "checkData": [
+        {
+          "title": "将指定的文档从内存中读入，并显示出来",
+          "isRight": false
+        },
+        {
+          "title": "为指定的文档打开一个空白窗口",
+          "isRight": false
+        },
+        {
+          "title": "将指定的文档从外存中读入，并显示出来",
+          "isRight": true
+        },
+        {
+          "title": "显示并打印指定文档的内容",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在Word的编辑状态，被编辑文档中的文字有\"四号\"、\"五号\"、\"16\"磅、\"18\"磅4种，下列关于所设定字号大小的比较中，正确的是______。",
+      "checkData": [
+        {
+          "title": "\"四号\"大于\"五号\"",
+          "isRight": true
+        },
+        {
+          "title": "\"四号\"小于\"五号\"",
+          "isRight": false
+        },
+        {
+          "title": "\"16\"磅大于\"18\"磅",
+          "isRight": false
+        },
+        {
+          "title": "字的大小一样，字体不同",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "若一个单元格的地址为F5，则其下边紧邻的一个单元格的地址为______。",
+      "checkData": [
+        {
+          "title": "F6",
+          "isRight": true
+        },
+        {
+          "title": "G5",
+          "isRight": false
+        },
+        {
+          "title": "E5",
+          "isRight": false
+        },
+        {
+          "title": "F4",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在创建Excel图表的过程中，第3步是选择图表______。",
+      "checkData": [
+        {
+          "title": "源数据",
+          "isRight": false
+        },
+        {
+          "title": "类型",
+          "isRight": false
+        },
+        {
+          "title": "选项",
+          "isRight": true
+        },
+        {
+          "title": "插入位置",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Windows中，“回收站”是______。",
+      "checkData": [
+        {
+          "title": "内存中的一块区域",
+          "isRight": false
+        },
+        {
+          "title": "硬盘中的特殊文件夹",
+          "isRight": true
+        },
+        {
+          "title": "软盘上的文件夹",
+          "isRight": false
+        },
+        {
+          "title": "高速缓存中的一块区域",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在Windows 中，\"写字板\"是一种______。",
+      "checkData": [
+        {
+          "title": "字处理软件",
+          "isRight": true
+        },
+        {
+          "title": "画图工具",
+          "isRight": false
+        },
+        {
+          "title": "网页编辑器",
+          "isRight": false
+        },
+        {
+          "title": "造字程序",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在Windows操作环境下，将整个屏幕画面全部复制到剪贴板中使用的键是______。",
+      "checkData": [
+        {
+          "title": "Print Screen",
+          "isRight": true
+        },
+        {
+          "title": "Page Up",
+          "isRight": false
+        },
+        {
+          "title": "Alt+F4",
+          "isRight": false
+        },
+        {
+          "title": "Ctrl+Space",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Windows 的\"控制面板\"窗口中不包含的图标______。",
+      "checkData": [
+        {
+          "title": "键盘",
+          "isRight": false
+        },
+        {
+          "title": "鼠标",
+          "isRight": false
+        },
+        {
+          "title": "Word",
+          "isRight": true
+        },
+        {
+          "title": "日期和时间",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在资源管理器中，复制文件命令的快捷键是______。",
+      "checkData": [
+        {
+          "title": "Ctrl+x",
+          "isRight": false
+        },
+        {
+          "title": "Ctrl+s",
+          "isRight": false
+        },
+        {
+          "title": "Ctrl+c",
+          "isRight": true
+        },
+        {
+          "title": "Ctrl+v",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "要迅速将网页保存到收藏夹列表中，请按_____。",
+      "checkData": [
+        {
+          "title": "可以按 BACKSPACE 键",
+          "isRight": false
+        },
+        {
+          "title": "CTRL+D键",
+          "isRight": true
+        },
+        {
+          "title": "请按 ALT+←键",
+          "isRight": false
+        },
+        {
+          "title": "按F4键",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在Outlook Express中设置唯一电子邮件账号：kao@sina.com，现成功接收到一封来自shi@sina.com的邮件，则以下说法正确的是______。",
+      "checkData": [
+        {
+          "title": "在收件箱中有kao@sina.com邮件",
+          "isRight": false
+        },
+        {
+          "title": "在收件箱中有shi@sina.com邮件",
+          "isRight": true
+        },
+        {
+          "title": "在本地文件夹中有kao@sina.com邮件",
+          "isRight": false
+        },
+        {
+          "title": "在本地文件夹中有shi@sina.com邮件",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "演示文稿中，超链接中所链接的目标可以是______",
+      "checkData": [
+        {
+          "title": "幻灯片中的图片",
+          "isRight": false
+        },
+        {
+          "title": "幻灯片中的文本",
+          "isRight": false
+        },
+        {
+          "title": "幻灯片中的动画",
+          "isRight": false
+        },
+        {
+          "title": "同一演示文稿的某一张幻灯片",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "在PowerPoint 2003中，下列有关幻灯片放映叙述错误的是______。",
+      "checkData": [
+        {
+          "title": "可自动放映，也可人工放映",
+          "isRight": false
+        },
+        {
+          "title": "放映时可只放映部分幻灯片",
+          "isRight": false
+        },
+        {
+          "title": "可以选择放映时放弃原来的动画设置",
+          "isRight": false
+        },
+        {
+          "title": "无循环放映选项",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "得到授权的实体需要时就能得到资源和获得相应的服务，这一属性指的是______。",
+      "checkData": [
+        {
+          "title": "保密性",
+          "isRight": false
+        },
+        {
+          "title": "完整性",
+          "isRight": false
+        },
+        {
+          "title": "可用性",
+          "isRight": true
+        },
+        {
+          "title": "可靠性",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "下类不属于计算机病毒特性的是______。",
+      "checkData": [
+        {
+          "title": "传染性",
+          "isRight": false
+        },
+        {
+          "title": "突发性",
+          "isRight": false
+        },
+        {
+          "title": "可预见性",
+          "isRight": true
+        },
+        {
+          "title": "隐藏性",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "允许用户在输入正确的保密信息时才能进入系统，采用的方法是_____。",
+      "checkData": [
+        {
+          "title": "口令",
+          "isRight": true
+        },
+        {
+          "title": "命令",
+          "isRight": false
+        },
+        {
+          "title": "序列号",
+          "isRight": false
+        },
+        {
+          "title": "公文",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "下面不属于访问控制策略的是______。",
+      "checkData": [
+        {
+          "title": "加口令",
+          "isRight": false
+        },
+        {
+          "title": "设置访问权限",
+          "isRight": false
+        },
+        {
+          "title": "加密",
+          "isRight": true
+        },
+        {
+          "title": "角色认证",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "以下软件中，不属于音频播放软件的是______。",
+      "checkData": [
+        {
+          "title": "Winamp",
+          "isRight": false
+        },
+        {
+          "title": "录音机",
+          "isRight": false
+        },
+        {
+          "title": "Premiere",
+          "isRight": true
+        },
+        {
+          "title": "RealPlayer",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "以下选项中，用于压缩视频文件的压缩标准是______。",
+      "checkData": [
+        {
+          "title": "JPEG标准",
+          "isRight": false
+        },
+        {
+          "title": "MP3压缩",
+          "isRight": false
+        },
+        {
+          "title": "MPEG标准",
+          "isRight": true
+        },
+        {
+          "title": "LWZ压缩",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "下列设备中，多媒体计算机常用的图像输入设备不包括______。",
+      "checkData": [
+        {
+          "title": "数码照相机",
+          "isRight": false
+        },
+        {
+          "title": "彩色扫描仪",
+          "isRight": false
+        },
+        {
+          "title": "键盘",
+          "isRight": true
+        },
+        {
+          "title": "彩色摄像机",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
     }
   ]
 }
