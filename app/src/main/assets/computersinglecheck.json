@@ -1492,124 +1492,124 @@
       ]
     },
     {
-      "title": "",
+      "title": "以下有关多媒体计算机说法错误的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "多媒体计算机包括多媒体硬件和多媒体软件系统",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "Windows XP不具备多媒体处理功能",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "Windows XP是一个多媒体操作系统",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "多媒体计算机一般有各种媒体的输入输出设备",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "配置TCP/IP参数的操作主要包括三个方面：______、指定网关和域名服务器地址。",
       "checkData": [
         {
-          "title": "",
-          "isRight": false
+          "title": "指定本地机的IP地址及子网掩码",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "指定本地机的主机名",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "指定代理服务器",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "指定服务器的IP地址",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "拨号上网时，若要加入BBS，一般不需要下列哪个设备______。",
       "checkData": [
         {
-          "title": "",
+          "title": "计算机一台",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "Modem一个",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "电话线路一根",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "摄像头一个",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "Internet主要由四部分组成，其中包括路由器、主机、信息资源与______。",
       "checkData": [
         {
-          "title": "",
+          "title": "数据库",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "管理员",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "销售商",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "通信线路",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "下面命令用于测试网络是否连通______。",
       "checkData": [
         {
-          "title": "",
+          "title": "telnet",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "nslookup",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "ping",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "ftp",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "计算机网络的目标是实现______。",
       "checkData": [
         {
-          "title": "",
+          "title": "数据处理",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "文献检索",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "资源共享和信息传输",
+          "isRight": true
         },
         {
           "title": "",
@@ -1618,1429 +1618,1513 @@
       ]
     },
     {
-      "title": "",
+      "title": "某型计算机运算速度为数千亿次\\秒，主要用于大型科学与工程计算和大规模数据处理，它属于_____。",
       "checkData": [
         {
-          "title": "",
-          "isRight": false
+          "title": "巨型计算机",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "小型计算机",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "微型计算机",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "专用计算机",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "计算机应用中最诱人、也是难度最大且目前研究最为活跃的领域之一是______。",
       "checkData": [
         {
-          "title": "",
-          "isRight": false
+          "title": "人工智能",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "信息处理",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "过程控制",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "辅助设计",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "对于信息，下列说法错误的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "信息是可以处理的",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "信息是可以传播的",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "信息是可以共享的",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "信息可以不依附于某种载体而存在",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "计算机程序设计语言中，可以直接被计算机识别并执行的是______。",
       "checkData": [
         {
-          "title": "",
-          "isRight": false
+          "title": "机器语言",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "汇编语言",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "算法语言",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "高级语言",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "下面关于显示器的叙述，正确的是：显示器是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "输入设备",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "输出设备",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "输入输出设备",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "存储设备",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "针式打印机术语中，\"24针\"是指______。",
       "checkData": [
         {
-          "title": "",
+          "title": "打印头有24×24根针",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "信号线接头有24根针",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "打印头有24根针",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "信号线接头和打印头各有12根针",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "衡量微型计算机价值的主要依据是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "功能",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "性能价格比",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "运算速度",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "操作次数",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "下列各项中，不是微型计算机的主要性能指标的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "字长",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "存取周期",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "主频",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "硬盘容量",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "在Word编辑状态下，要将另一文档的内容全部添加在当前文档的当前光标处，应选择的操作是单击______菜单项。",
       "checkData": [
         {
-          "title": "",
+          "title": " \"文件\"→\"打开\"",
           "isRight": false
         },
         {
-          "title": "",
+          "title": " \"文件\"→\"新建\"",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "\"插入\"→\"文件\"",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "\"插入\"→\"超级链接\"",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "启动Excel后自动建立的工作簿文件中自动带有电子工作表有______。",
       "checkData": [
         {
-          "title": "",
+          "title": "4个",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "3个",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "2个",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "1个",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "在Excel中求一组数值中的平均值函数为______。",
       "checkData": [
         {
-          "title": "",
-          "isRight": false
+          "title": "AVERAGE",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "MAX",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "MIN",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "SUM",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "关于Windows窗口的概念，以下叙述正确的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "屏幕上只能出现一个窗口，这就是活动窗口",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "屏幕上可以出现多个窗口，但只有一个是活动窗口",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "屏幕上可以出现多个窗口，但不止一个活动窗口",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "当屏幕上出现多个窗口时，就没有了活动窗口",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "在Windows中，要使用“附件”中的“计算器”计算5的3.7次方（53.7）的值，应选择______。",
       "checkData": [
         {
-          "title": "",
+          "title": "标准型",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "统计性",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "高级型",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "科学型",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "在Windows启动汉字输入法后，选定一种汉字输入法，屏幕上就会出现一个与该输入法相应的______。",
       "checkData": [
         {
-          "title": "",
+          "title": "汉字字体列表框",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "汉字字号列表框",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "汉字输入编码框",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "汉字输入法状态框",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "第三代计算机的运算速度大约是每秒______。",
       "checkData": [
         {
-          "title": "",
+          "title": "1万次",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "10万次",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "100万次",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "10000万次",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "在Windows中，\"粘贴\"命令的快捷组合键是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "Ctrl + C",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "Ctrl + X",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "Ctrl + A",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "Ctrl + V",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "要在IE中返回上一页，应该______。",
       "checkData": [
         {
-          "title": "",
-          "isRight": false
+          "title": "单击“后退”按钮",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "按F4键",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "按Delete 键",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "按CTRL+D键",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "关于发电子邮件的说法不正确的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "可以发送文本文件",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "可以发送图片文件",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "可以发送超文本文件",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "可以发送执行文件",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "在PowerPoint环境中，“常用”工具栏中的  按钮是用于______。",
       "checkData": [
         {
-          "title": "",
+          "title": "打开任务窗格",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "插入新幻灯片",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "设计幻灯片版式",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "设计幻灯片模板",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "对用PowerPoint 2003制作完毕的演示文稿，下列相关说法中错误的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "可以将其发布到Internet上供其他人浏览",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "只可以在制作它的计算机上进行演示",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "可以在其它计算机上演示",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "可以加上动画、声音等效果",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "下列情况中，破坏了数据的完整性的攻击是_______。",
       "checkData": [
         {
-          "title": "",
+          "title": "假冒他人地址发送数据",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "不承认做过信息的递交行为",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "数据在传输中途被篡改",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "数据在传输中途被窃听",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "下面关于计算机病毒描述错误的是______",
       "checkData": [
         {
-          "title": "",
+          "title": "计算机病毒具有传染性",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "通过网络传染计算机病毒，其破坏性大大高于单机系统",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "如果染上计算机病毒，该病毒会马上破坏你的计算机系统",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "计算机病毒主要破坏数据的完整性",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "实现验证通信双方真实性的技术手段是______。",
       "checkData": [
         {
-          "title": "",
-          "isRight": false
+          "title": "身份认证技术",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "防病毒技术",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "跟踪技术",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "防火墙技术",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "消息认证的内容不包括______。",
       "checkData": [
         {
-          "title": "",
+          "title": "证实消息的信源和信宿",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "消息内容是或曾受到偶然或有意的篡改",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "消息的序号和时间性",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "消息内容是否正确",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "使用Windows“画图”能够实现的功能是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "在图画中输入文字并给文字设置阴影效果",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "将图画放大到全屏模式显示并进行编辑",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "设置背景色和前景色",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "绘制直线时，不但可以设置粗细，还可以设置线条的类型（例如虚线）",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "以下关于文件压缩的说法中，错误的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "文件压缩后文件尺寸一般会变小",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "不同类型的文件的压缩比率是不同的",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "文件压缩的逆过程称为解压缩",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "使用文件压缩工具可以将JPG图像文件压缩70%左右",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "以下说法中，正确的是______",
       "checkData": [
         {
-          "title": "",
+          "title": "USB接口只能用于连接存储设备",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "VGA接口用于连接显示器",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "IEEE1394接口不能用于连接数码相机",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "SCSI接口不能用于连接扫描仪",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "对下列四组多媒体计算机能够处理的信息之描述，更全面的一组是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "中文、英文、日文和其他多种语言文字信息",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "通过键盘、鼠标、扫描仪和数字化仪等输入的多种信息",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "文字、音频、图形和视频等多种信息",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "用拼音码、全息码、五笔字形码多种编码输入的信息",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "提供不可靠传输的传输层协议是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "TCP",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "IP",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "UDP",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "PPP",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "电子邮件E-mail不可以传递______。",
       "checkData": [
         {
-          "title": "",
-          "isRight": false
+          "title": "汇款",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "文字",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "图像",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "音视频",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "关于网络协议，下列选项正确的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "是网民们签订的合同",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "协议，简单地说就是为了网络信息传递，共同遵守的约定",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "TCP/IP协议只能用于Internet，不能用于局域网",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "拨号网络对应的协议是IPX/SPX",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "如果您出差在外，住在宾馆中，并自己携带有配置Modem的笔记本电脑，通过______可以上互联网。",
       "checkData": [
         {
-          "title": "",
+          "title": "LAN",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "无限LAN",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "电话线拨号",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "手机卡",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "冯·诺依曼计算机的基本原理是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "程序外接",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "逻辑连接",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "数据内置",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "程序存储",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "局域网常用的设备是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "路由器",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "程控交换机",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "以太网交换机",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "调制解调器",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "使用代理服务器除了服务器端代理服务器软件需配置外，客户端需配置使用代理服务器，且指向代理服务器的_____________。",
       "checkData": [
         {
-          "title": "",
+          "title": "MAC地址和端口号",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "邮件地址和端口号",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "IP地址和网络号",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "IP地址和端口号",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "通常说一台微机的内存容量为128M",
       "checkData": [
         {
-          "title": "",
+          "title": "128M比特",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "128M字节",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "128M字长",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "128M字",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "冯·诺依曼计算机的基本原理是程序存储原理。计算机中存储的信息______。",
       "checkData": [
         {
-          "title": "",
+          "title": "都是以二进制方式表示的",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "程序以二进制方式表示，数据以十进制方式表示",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "程序以十进制方式表示，数据以二进制方式表示",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "由用户选择某种数制来表示",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "下列对软件配置的叙述中不正确的是______。",
       "checkData": [
         {
-          "title": "",
-          "isRight": false
+          "title": "软件配置独立于硬件",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "软件配置影响系统功能",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "软件配置影响系统性能",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "软件配置受硬件的制约",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "以下活动中，不属于电子商务范畴的是________。",
       "checkData": [
         {
-          "title": "",
+          "title": "网上购物",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "网上支付",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "在线谈判",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "现场交易",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "IPv4地址有______位二进制数组成。",
       "checkData": [
         {
-          "title": "",
+          "title": "16",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "32",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "64",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "128",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "下列说法正确的是________。",
       "checkData": [
         {
-          "title": "",
+          "title": "20世纪60年代初美国航空公司与微软合作开发了飞机订票系统,由一台主机和200多个终端组成",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "20世纪60年代初美国航空公司与IBM合作开发了飞机订票系统，由一台主机和2000多个终端组成",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "20世纪60年代初美国航空公司与IBM合作开发了飞机订票系统，终端无CPU及内存",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "20世纪60年代初美国航空公司与微软合作开发了飞机订票系统，终端有CPU及内存",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "多媒体和电视的区别在于______。",
       "checkData": [
         {
-          "title": "",
+          "title": "有无声音",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "有无图像",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "有无动画",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "有无交互性",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "不同的芯片有不同的字长，目前芯片有多种型号，其中奔腾Ⅳ芯片的字长是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "8位",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "16位",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "32位",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "64位",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "与二进制数11111110等值的十进制数是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "251",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "252",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "253",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "254",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "在Word中，下述关于分栏操作的说法，正确的是______。",
       "checkData": [
         {
-          "title": "",
-          "isRight": false
+          "title": "可以将指定的段落分成指定宽度的两栏",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "任何视图下均可看到分栏效果",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "设置的各栏宽度和间距与页面宽度无关",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "栏与栏之间不可以设置分隔线",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "启动Excel应用程序后自动建立的工作簿文件的文件名为______。",
       "checkData": [
         {
-          "title": "",
+          "title": "工作薄",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "工作薄文件",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "Book1",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "BookFile1",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "在Excel中一个单元格的行地址或列地址前，为表示为绝对地址引用应该加上的符号是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "@",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "#",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "$",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "%",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "下列4种说法中正确的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "安装了Windows的微型计算机，其内存容量不能超过4MB",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "Windows中的文件名不能用大写字母",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "安装了Windows操作系统之后才能安装应用软件",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "安装了Windows的计算机，硬盘常安装在主机箱内，因此是一种内存储器",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "在Windows中，同时显示多个应用程序窗口的正确方法是______。",
       "checkData": [
         {
-          "title": "",
-          "isRight": false
+          "title": "在任务栏空白区单击鼠标右键，在弹出快捷菜单中选“横向平铺”命令",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "在任务栏空白区单击鼠标左键，在弹出快捷菜单中选“排列图标”命令",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "按Ctrl+Tab进行排列",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "在资源管理器中进行排列",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "Windows中，要将屏幕分辨率调整到1024×768，进行设置时应选择控制面板中的______。",
       "checkData": [
         {
-          "title": "",
+          "title": "系统",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "显示",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "自动更新",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "管理工具",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "在Windows资源管理器中，选定多个非连续文件的操作为______。",
       "checkData": [
         {
-          "title": "",
+          "title": "按住Shift键，单击每一个要选定的文件图标",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "按住Ctrl键，单击每一个要选定的文件图标",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "先选中第一个文件，按住Shift键，再单击最后一个要选定的文件图标",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "先选中第一个文件，按住Ctrl键，再单击最后一个要选定的文件图标",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "如果想要控制计算机在Internet上可以访问的内容类型，可以使用IE的______功能。",
       "checkData": [
         {
-          "title": "",
+          "title": "病毒查杀",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "实时监控",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "分级审查",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "远程控制",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "使用Outlook Express的通讯簿，可以很好管理邮件，下列说法正确的是______。",
       "checkData": [
         {
-          "title": "",
-          "isRight": false
+          "title": "在通讯簿中可以建立地址组",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "两个地址组中的信箱地址不能重复",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "只能将已收到邮件的发件人地址加入到通讯簿中",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "更改某人的信箱地址，其相应的地址组中的地址不会自动更新",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "在PowerPoint 2003启动幻灯片放映的操作中，错误的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "单击演示文稿窗口左下角的\"幻灯片放映\"视图按钮",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "选择\"幻灯片放映\"菜单中的\"观看放映\"命令",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "选择\"幻灯片放映\"菜单中的\"幻灯片放映\"命令",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "按F5键",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "计算机安全不包括_______。",
       "checkData": [
         {
-          "title": "",
+          "title": "实体安全",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "操作安全",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "系统安全",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "信息安全",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "计算机病毒是计算机系统中一类隐藏在______上蓄意进行破坏的捣乱程序。",
       "checkData": [
         {
-          "title": "",
+          "title": "内存",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "外存",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "传输介质",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "网络",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "下面不属于计算机信息安全的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "安全法规",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "安全环境",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "安全技术",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "安全管理",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "以下有关Windows“画图”程序的说法中，正确的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "绘图区的大小是固定的，不可以更改",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "只能够选择图画中的矩形区域，不能选择其他形状的区域",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "绘制直线时可以选择线条的粗细",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "在调色板的色块上单击鼠标左键可以设置当前的背景色",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "下面有关多媒体信息处理工具的说法中，正确的是______。",
       "checkData": [
         {
-          "title": "",
-          "isRight": false
+          "title": "WinRAR既可以用于压缩文件，也可以用于解压缩文件",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "使用 WinRAR 制作的压缩文件可以在没有 WinRAR 的计算机中实现自动解压缩",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "Premiere 是一种专业的音频处理工具",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "Authorware 是一种专业的视频处理软件",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "在多媒体计算机中常用的图像输入设备是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "数码照相机",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "彩色扫描仪",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "彩色摄像机",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "以上3项全部都是",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "传输控制协议/网际协议即______，属工业标准协议，是Internet采用的主要协议。",
       "checkData": [
         {
-          "title": "",
+          "title": "Telnet",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "TCP/IP",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "HTTP",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "FTP",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "对于连接Internet的每一台计算机，都需要有确定的网络参数，这些参数不包括______。",
       "checkData": [
         {
-          "title": "",
+          "title": "IP地址",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "MAC地址",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "子网掩码",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "网关地址和DNS服务器地址",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "下面命令可以查看网卡的MAC地址______。",
       "checkData": [
         {
-          "title": "",
+          "title": "ipconfig /release",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "ipconfig /renew",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "ipconfig /all",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "ipconfig /registerdns",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "最早设计计算机的目的是进行科学计算，其主要计算的问题面向于______。",
       "checkData": [
         {
-          "title": "",
+          "title": "科研",
           "isRight": false
         },
         {
-          "title": "",
-          "isRight": false
+          "title": "军事",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "商业",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "管理",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "个人计算机简称PC机，这种计算机属于      。",
       "checkData": [
         {
-          "title": "",
+          "title": "微型计算机",
+          "isRight": true
+        },
+        {
+          "title": "小型计算机",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "超级计算机",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "巨型计算机",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "计算机系统应包括硬件和软件两部分，软件又必须包括______。",
+      "checkData": [
+        {
+          "title": "接口软件",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "系统软件",
+          "isRight": true
+        },
+        {
+          "title": "应用软件",
+          "isRight": false
+        },
+        {
+          "title": "支撑软件",
           "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "在对软硬磁盘及其驱动器的叙述中有许多专用术语，而与其无关的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "密度",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "磁道",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "扇区",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "光标",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "视频信息的采集和显示播放是通过视频卡、播放软件和显示设备来实现的，视频卡的作用不包括______。",
+      "checkData": [
+        {
+          "title": "调整来自打印机的信息",
+          "isRight": true
+        },
+        {
+          "title": "冻结、输出、捕捉来自激光视盘机的图像",
+          "isRight": false
+        },
+        {
+          "title": "放大、缩小和调整来自摄像机的图像",
           "isRight": false
+        },
+        {
+          "title": "存储、数字化来自录像机的图像",
+          "isRight": false
         }
       ]
     },
     {
-      "title": "",
+      "title": "计算机中存储容量的单位之间，其换算公式正确的是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "1KB=1024MB",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "1KB=1000B",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "1MB=1024KB",
+          "isRight": true
+        },
+        {
+          "title": "1MB=1024GB",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "进入Word的编辑状态后，进行中文与英文标点符号之间切换的快捷键是______。",
+      "checkData": [
+        {
+          "title": "Shift+空格",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "Shift+Ctrl",
+          "isRight": false
+        },
+        {
+          "title": "Shift+.",
           "isRight": false
+        },
+        {
+          "title": "Ctrl+.",
+          "isRight": true
         }
       ]
     },
     {
-      "title": "",
+      "title": "在Word编辑状态，能设定文档行间距命令的菜单是______。",
       "checkData": [
         {
-          "title": "",
+          "title": "\"文件\"菜单",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "\"窗口\"菜单",
           "isRight": false
         },
         {
-          "title": "",
+          "title": "\"格式\"菜单",
+          "isRight": true
+        },
+        {
+          "title": "\"工具\"菜单",
           "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在一个单元格的三维地址中，工作表名与列标之间的字符为______。",
+      "checkData": [
+        {
+          "title": "!",
+          "isRight": true
         },
         {
-          "title": "",
+          "title": "#",
+          "isRight": false
+        },
+        {
+          "title": "$",
+          "isRight": false
+        },
+        {
+          "title": "%",
           "isRight": false
         }
       ]
