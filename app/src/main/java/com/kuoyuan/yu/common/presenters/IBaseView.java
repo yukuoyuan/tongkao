@@ -7,4 +7,5 @@ package com.kuoyuan.yu.common.presenters;
  * @link github https://github.com/yukuoyuan
  */
 public interface IBaseView {
+
 }

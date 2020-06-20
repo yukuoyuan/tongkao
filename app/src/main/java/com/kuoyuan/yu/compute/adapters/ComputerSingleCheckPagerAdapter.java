@@ -7,7 +7,7 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import com.kuoyuan.yu.common.adapters.BaseFragmentStatePageAdapter;
-import com.kuoyuan.yu.compute.ComputerSingleCheckPagerFragment;
+import com.kuoyuan.yu.compute.fragments.ComputerSingleCheckPagerFragment;
 import com.kuoyuan.yu.compute.beans.ComputerSingleCheckListBean;
 
 /**

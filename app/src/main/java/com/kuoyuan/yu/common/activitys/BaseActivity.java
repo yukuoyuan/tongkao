@@ -68,6 +68,15 @@ public abstract class BaseActivity<P extends BasePresenter> extends AppCompatAct
     }
 
     /**
+     * 解绑逻辑层
+     */
+    public void unBindPresenter() {
+        if (null != presenter) {
+            presenter.unBindPresenter();
+        }
+    }
+
+    /**
      * 初始化数据
      *
      * @param extras 传递的数据
@@ -149,4 +158,9 @@ public abstract class BaseActivity<P extends BasePresenter> extends AppCompatAct
         return presenter;
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        unBindPresenter();
+    }
 }

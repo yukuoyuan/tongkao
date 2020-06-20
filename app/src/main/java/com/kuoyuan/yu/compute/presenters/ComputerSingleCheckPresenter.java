@@ -24,7 +24,7 @@ public class ComputerSingleCheckPresenter extends BasePresenter<IComputerSingleC
      * 获取列表数据
      */
     public void getListData() {
-        String listData = AssetsUtils.getInstance().getJson("assets/computersinglecheck.json", context);
+        String listData = AssetsUtils.getInstance().getJson("computersinglecheck.json", context);
         ComputerSingleCheckListBean computerSingleCheckBean = new Gson().fromJson(listData, ComputerSingleCheckListBean.class);
         if (getBaseView() != null && computerSingleCheckBean != null && !ListUtils.isEmpty(computerSingleCheckBean.data)) {
             getBaseView().initData2View(computerSingleCheckBean.data);

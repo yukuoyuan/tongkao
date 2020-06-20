@@ -12,6 +12,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.kuoyuan.yu.common.presenters.BasePresenter;
+
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
@@ -21,9 +23,13 @@ import butterknife.Unbinder;
  * @author yukuoyuan
  * @link github https://github.com/yukuoyuan
  */
-public abstract class BaseFragment extends Fragment {
+public abstract class BaseFragment<P extends BasePresenter> extends Fragment {
     public View mContextView;
     private Unbinder unbinder;
+    /**
+     * 逻辑层
+     */
+    private P presenter;
 
     @Nullable
     @Override
@@ -37,11 +43,16 @@ public abstract class BaseFragment extends Fragment {
     public void onDestroyView() {
         super.onDestroyView();
         this.unbinder.unbind();
+        unBindPresenter();
     }
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+        /*
+         * 绑定逻辑层
+         */
+        bindPresenter();
         /*
          * 初始化数据
          */
@@ -57,6 +68,42 @@ public abstract class BaseFragment extends Fragment {
      */
     private void initListener() {
 
+    }
+
+    /**
+     * 绑定逻辑层
+     */
+    public void bindPresenter() {
+        if (null == presenter) {
+            presenter = createPresenter();
+        }
+    }
+
+    /**
+     * 解绑逻辑层
+     */
+    public void unBindPresenter() {
+        if (null != presenter) {
+            presenter.unBindPresenter();
+        }
+    }
+
+    /**
+     * 创建一个逻辑层
+     *
+     * @return 逻辑层
+     */
+    protected P createPresenter() {
+        return null;
+    }
+
+    /**
+     * 获取一个逻辑层
+     *
+     * @return 逻辑层
+     */
+    protected P getPresenter() {
+        return presenter;
     }
 
     /**
