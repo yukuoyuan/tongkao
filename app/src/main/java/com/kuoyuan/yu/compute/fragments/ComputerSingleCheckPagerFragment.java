@@ -3,8 +3,12 @@ package com.kuoyuan.yu.compute.fragments;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.fragments.BaseFragment;
+import com.kuoyuan.yu.compute.adapters.ComputerSingleCheckListAdapter;
 import com.kuoyuan.yu.compute.beans.ComputerSingleCheckListBean;
 
 import butterknife.BindView;
@@ -16,6 +20,8 @@ import butterknife.BindView;
 public class ComputerSingleCheckPagerFragment extends BaseFragment {
     @BindView(R.id.tv_computer_single_check_title)
     TextView tvComputerSingleCheckTitle;
+    @BindView(R.id.rcv_computer_single_check_list)
+    RecyclerView rcvComputerSingleCheckList;
     /**
      * 第几个
      */
@@ -38,6 +44,17 @@ public class ComputerSingleCheckPagerFragment extends BaseFragment {
             mComputerSingleDataBean = extras.getParcelable("data");
         }
         tvComputerSingleCheckTitle.setText(mPosition + ". " + mComputerSingleDataBean.title);
+        initList();
+    }
+
+    /**
+     * 初始化列表
+     */
+    private void initList() {
+        rcvComputerSingleCheckList.setLayoutManager(new LinearLayoutManager(getActivity()));
+        ComputerSingleCheckListAdapter computerSingleCheckListAdapter = new ComputerSingleCheckListAdapter(getActivity());
+        rcvComputerSingleCheckList.setAdapter(computerSingleCheckListAdapter);
+        computerSingleCheckListAdapter.setData(mComputerSingleDataBean.checkData);
     }
 
     @Override
