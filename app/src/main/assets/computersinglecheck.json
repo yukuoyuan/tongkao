@@ -1,0 +1,949 @@
+{
+  "data": [
+    {
+      "title": "一般认为，世界上第一台电子数字计算机诞生于______。",
+      "checkData": [
+        {
+          "title": "1946年",
+          "isRight": true
+        },
+        {
+          "title": "1952年",
+          "isRight": false
+        },
+        {
+          "title": "1959年",
+          "isRight": false
+        },
+        {
+          "title": "1962年",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "计算机可分为数字计算机、模拟计算机和混合计算机，这种分类是依据______。",
+      "checkData": [
+        {
+          "title": "功能和用途",
+          "isRight": false
+        },
+        {
+          "title": "性能和规律",
+          "isRight": false
+        },
+        {
+          "title": "处理数据的方式",
+          "isRight": true
+        },
+        {
+          "title": "使用范围",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "计算机有多种技术指标，其中决定计算机的计算精度的是______。",
+      "checkData": [
+        {
+          "title": "运算速度",
+          "isRight": false
+        },
+        {
+          "title": "字长",
+          "isRight": true
+        },
+        {
+          "title": "存储容量",
+          "isRight": false
+        },
+        {
+          "title": "进位数制",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "计算机可以进行自动处理的基础是______。",
+      "checkData": [
+        {
+          "title": "存储程序",
+          "isRight": true
+        },
+        {
+          "title": "快速运算",
+          "isRight": false
+        },
+        {
+          "title": "能进行逻辑判断",
+          "isRight": false
+        },
+        {
+          "title": "计算精度高",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "利用计算机对指纹进行识别、对图像和声音进行处理属于的应用领域是______。",
+      "checkData": [
+        {
+          "title": "科学计算",
+          "isRight": false
+        },
+        {
+          "title": "自动控制",
+          "isRight": false
+        },
+        {
+          "title": "辅助设计",
+          "isRight": false
+        },
+        {
+          "title": "信息处理",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "计算机系统是由______。",
+      "checkData": [
+        {
+          "title": "硬件系统和软件系统组成",
+          "isRight": true
+        },
+        {
+          "title": "主机和外设组成",
+          "isRight": false
+        },
+        {
+          "title": "主机和网络组成",
+          "isRight": false
+        },
+        {
+          "title": "主机外设和网络组成",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "计算机断电后，会使存储的数据丢失的存储器是______。",
+      "checkData": [
+        {
+          "title": "RAM",
+          "isRight": true
+        },
+        {
+          "title": "硬盘",
+          "isRight": false
+        },
+        {
+          "title": "ROM",
+          "isRight": false
+        },
+        {
+          "title": "软盘",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "计算机硬件系统的主要组成部件有五大部分，下列各项中不属于这五大部分的是______。",
+      "checkData": [
+        {
+          "title": "运算器",
+          "isRight": false
+        },
+        {
+          "title": "软件",
+          "isRight": true
+        },
+        {
+          "title": "I/O设备",
+          "isRight": false
+        },
+        {
+          "title": "控制器",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "冯·诺依曼在1946年提出了计算机的程序存储原理。关于计算机的程序，其说法错误的是______。",
+      "checkData": [
+        {
+          "title": "程序由指令构成",
+          "isRight": false
+        },
+        {
+          "title": "程序和数据都用二进制数表示",
+          "isRight": false
+        },
+        {
+          "title": "指令由操作码和地址码构成",
+          "isRight": false
+        },
+        {
+          "title": "计算机以程序为中心",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "微型计算机的微处理器芯片上集成了______。",
+      "checkData": [
+        {
+          "title": "CPU和RAM",
+          "isRight": false
+        },
+        {
+          "title": "控制器和运算器",
+          "isRight": true
+        },
+        {
+          "title": "控制器和RAM",
+          "isRight": false
+        },
+        {
+          "title": "运算器和I/O接口",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "键盘一般分为4个区域，其中Shift为换档键，它的位置在______。",
+      "checkData": [
+        {
+          "title": "主键盘区",
+          "isRight": true
+        },
+        {
+          "title": "小键盘区",
+          "isRight": false
+        },
+        {
+          "title": "功能键区",
+          "isRight": false
+        },
+        {
+          "title": "编辑键区",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "微型计算机中，微处理器芯片上集成的是______。",
+      "checkData": [
+        {
+          "title": "控制器和运算器",
+          "isRight": true
+        },
+        {
+          "title": "控制器和存储器",
+          "isRight": false
+        },
+        {
+          "title": "CPU和控制器",
+          "isRight": false
+        },
+        {
+          "title": "运算器和I/O接口",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "计算机中，信息的最小单位是______。",
+      "checkData": [
+        {
+          "title": "字节",
+          "isRight": false
+        },
+        {
+          "title": "位",
+          "isRight": true
+        },
+        {
+          "title": "字",
+          "isRight": false
+        },
+        {
+          "title": "KB",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "计算机内部用于处理数据和指令的编码是______。",
+      "checkData": [
+        {
+          "title": "十进制码",
+          "isRight": false
+        },
+        {
+          "title": "二进制码",
+          "isRight": true
+        },
+        {
+          "title": "ASCII码",
+          "isRight": false
+        },
+        {
+          "title": "汉字编码",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在微型计算机中，应用最普遍的字符编码是______。",
+      "checkData": [
+        {
+          "title": "BCD码",
+          "isRight": false
+        },
+        {
+          "title": "ASCII码",
+          "isRight": false
+        },
+        {
+          "title": "汉字编码",
+          "isRight": false
+        },
+        {
+          "title": "补码",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "如果要将Word文档中选定的文本复制到其他文档中，首先要______。",
+      "checkData": [
+        {
+          "title": "单击“编辑”菜单中的“删除”命令",
+          "isRight": false
+        },
+        {
+          "title": "单击“编辑”菜单中的“剪切”命令",
+          "isRight": false
+        },
+        {
+          "title": "单击“编辑”菜单中的“复制”命令",
+          "isRight": true
+        },
+        {
+          "title": "单击“编辑”菜单中的“移动”命令",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在Word中，要新建文档，应选择______菜单中的命令。",
+      "checkData": [
+        {
+          "title": "文件",
+          "isRight": true
+        },
+        {
+          "title": "编辑",
+          "isRight": false
+        },
+        {
+          "title": "视图",
+          "isRight": false
+        },
+        {
+          "title": "插入",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Excel工作簿文件的默认扩展名为______。",
+      "checkData": [
+        {
+          "title": "doc",
+          "isRight": false
+        },
+        {
+          "title": "xls",
+          "isRight": true
+        },
+        {
+          "title": "ppt",
+          "isRight": false
+        },
+        {
+          "title": "mdb",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Excel主界面窗口中编辑栏上的“fx”按钮用来向单元格插入______。",
+      "checkData": [
+        {
+          "title": "文字",
+          "isRight": false
+        },
+        {
+          "title": "数字",
+          "isRight": false
+        },
+        {
+          "title": "公式",
+          "isRight": false
+        },
+        {
+          "title": "函数",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "启动Windows操作系统后，桌面系统的屏幕上肯定会显示的图标是______。",
+      "checkData": [
+        {
+          "title": "\"回收站\"和\"开始\"按钮等\n",
+          "isRight": true
+        },
+        {
+          "title": "\"我的电脑\"、\"回收站\"和\"资源管理器\"",
+          "isRight": false
+        },
+        {
+          "title": "\"我的电脑\"、\"回收站\"和\"Office 2000\"",
+          "isRight": false
+        },
+        {
+          "title": "\"我的电脑\"、\"开始\"按钮和\"Internet浏览器\"",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在Windows状态下不能启动\"控制面板\"的操作是______。",
+      "checkData": [
+        {
+          "title": "单击桌面上的\"开始\"按钮，在出现的菜单中单击\"控制面板\"",
+          "isRight": false
+        },
+        {
+          "title": "打开\"我的电脑\" 窗口，再单击左窗口中\"其它位置\"下的\"控制面板\"",
+          "isRight": false
+        },
+        {
+          "title": "打开\"资源管理器\"，在左窗口中，选择\"控制面板\"选项，再单击",
+          "isRight": false
+        },
+        {
+          "title": "单击\"附件\"中\"控制面板\"命令",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "以下不能进行输入法语言选择的是______。",
+      "checkData": [
+        {
+          "title": "先单击语言栏上表示语言的按钮，然后选择",
+          "isRight": false
+        },
+        {
+          "title": "先单击语言栏上表示键盘的按钮，然后选择",
+          "isRight": false
+        },
+        {
+          "title": "在任务栏属性对话框中设置",
+          "isRight": true
+        },
+        {
+          "title": "按下Ctrl和Shift键",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "下面是某单位的主页的Web地址URL，其中符号URL格式的是______。",
+      "checkData": [
+        {
+          "title": "Http//www.jnu.edu.cn",
+          "isRight": false
+        },
+        {
+          "title": "Http:www.jnu.edu.cn",
+          "isRight": false
+        },
+        {
+          "title": "Http://www.jnu.edu.cn",
+          "isRight": true
+        },
+        {
+          "title": "Http:/www.jnu.edu.cn",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在互联网上发送电子邮件时 ，下面说法不正确的是______。",
+      "checkData": [
+        {
+          "title": "自己要有一个电子邮件地址和密码",
+          "isRight": false
+        },
+        {
+          "title": "需要知道收件人的电子邮件地址和密码",
+          "isRight": true
+        },
+        {
+          "title": "自己可以给自己发电子邮件",
+          "isRight": false
+        },
+        {
+          "title": "电子邮件中还可以发送文件",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "PowerPoint中主要的编辑视图是______。",
+      "checkData": [
+        {
+          "title": "幻灯片浏览视图",
+          "isRight": false
+        },
+        {
+          "title": "普通视图",
+          "isRight": true
+        },
+        {
+          "title": "幻灯片放映视图",
+          "isRight": false
+        },
+        {
+          "title": "幻灯片发布视图",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "修改PowerPoint中超级链接的文字颜色，可以使用______。",
+      "checkData": [
+        {
+          "title": "格式",
+          "isRight": false
+        },
+        {
+          "title": "样式",
+          "isRight": false
+        },
+        {
+          "title": "幻灯片版式",
+          "isRight": false
+        },
+        {
+          "title": "配色方案",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "计算机安全的属性不包括________。",
+      "checkData": [
+        {
+          "title": "保密性",
+          "isRight": false
+        },
+        {
+          "title": "完整性",
+          "isRight": false
+        },
+        {
+          "title": "不可抵赖性和可用性",
+          "isRight": false
+        },
+        {
+          "title": "数据的合理性",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "计算机病毒主要破坏数据的______。",
+      "checkData": [
+        {
+          "title": "可审性",
+          "isRight": false
+        },
+        {
+          "title": "可靠性",
+          "isRight": false
+        },
+        {
+          "title": "完整性",
+          "isRight": true
+        },
+        {
+          "title": "可用性",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "下列不属于网络安全的技术是________。",
+      "checkData": [
+        {
+          "title": "防火墙",
+          "isRight": false
+        },
+        {
+          "title": "加密购",
+          "isRight": true
+        },
+        {
+          "title": "认证",
+          "isRight": false
+        },
+        {
+          "title": "防病毒",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "下面说法正确的是______。",
+      "checkData": [
+        {
+          "title": "信息的泄露只在信息的传输过程中发生",
+          "isRight": false
+        },
+        {
+          "title": "信息的泄露只在信息的存储过程中发生",
+          "isRight": false
+        },
+        {
+          "title": "信息的泄露在信息的传输和存储过程中都会发生",
+          "isRight": true
+        },
+        {
+          "title": "信息的泄露在信息的传输和存储过程中都不会发生",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "下面的多媒体软件工具，由Windows自带的是______。",
+      "checkData": [
+        {
+          "title": "Media Player",
+          "isRight": true
+        },
+        {
+          "title": "GoldWave",
+          "isRight": false
+        },
+        {
+          "title": "Winamp",
+          "isRight": false
+        },
+        {
+          "title": "RealPlayer",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "下列各项中，不属于常用的多媒体信息压缩标准的是______。",
+      "checkData": [
+        {
+          "title": "JPEG标准",
+          "isRight": false
+        },
+        {
+          "title": "MP3压缩",
+          "isRight": false
+        },
+        {
+          "title": "LWZ压缩",
+          "isRight": true
+        },
+        {
+          "title": "MPEG标准",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "对以下视频设备描述不正确的是______。",
+      "checkData": [
+        {
+          "title": "视频采集卡是用于采集视频数据",
+          "isRight": false
+        },
+        {
+          "title": "视频监控卡是用于监听音乐的",
+          "isRight": true
+        },
+        {
+          "title": "DV卡是用于与数码摄像机相连，将DV影片采集到PC的硬盘",
+          "isRight": false
+        },
+        {
+          "title": "电视卡是用于在PC机上看电视",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "下列关于多媒体技术同步特性的说法中，错误是______。",
+      "checkData": [
+        {
+          "title": "指多种媒体之间同步播放的特性",
+          "isRight": false
+        },
+        {
+          "title": "指单一媒体播放的特性",
+          "isRight": true
+        },
+        {
+          "title": "指两种以上媒体之间同步播放的特性，如：视频与音频的同步",
+          "isRight": false
+        },
+        {
+          "title": "指两种以上媒体之间同步播放的特性，如：声音与图像的播发同步",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "域名代表着一种身份，一般来说，从某网站名字www.**edu.com，可以看出它代表_____________。",
+      "checkData": [
+        {
+          "title": "教育机构",
+          "isRight": false
+        },
+        {
+          "title": "商业机构",
+          "isRight": true
+        },
+        {
+          "title": "政府机构",
+          "isRight": false
+        },
+        {
+          "title": "网络服务提供者",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "一般所说的拨号入网，是指通过______与Internet服务器连接。",
+      "checkData": [
+        {
+          "title": "微波",
+          "isRight": false
+        },
+        {
+          "title": "公用电话系统",
+          "isRight": true
+        },
+        {
+          "title": "专用电缆",
+          "isRight": false
+        },
+        {
+          "title": "电视线路",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "北京大学和清华大学的网站分别为www.pku.edu.cn和www.tsinghua.edu.cn，以下说法不正确的是______。",
+      "checkData": [
+        {
+          "title": "它们同属中国教育网",
+          "isRight": false
+        },
+        {
+          "title": "它们都提供www服务",
+          "isRight": false
+        },
+        {
+          "title": "它们分别属于两个学校的门户网站",
+          "isRight": false
+        },
+        {
+          "title": "它们使用同一个IP地址",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "自计算机问世至今已经经历了四个时代，划分时代的主要依据是计算机的______。",
+      "checkData": [
+        {
+          "title": "规模",
+          "isRight": false
+        },
+        {
+          "title": "功能",
+          "isRight": false
+        },
+        {
+          "title": "性能",
+          "isRight": false
+        },
+        {
+          "title": "构成元件",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "以下不属于电子数字计算机特点的是______。",
+      "checkData": [
+        {
+          "title": "运算快速",
+          "isRight": false
+        },
+        {
+          "title": "计算精度高",
+          "isRight": false
+        },
+        {
+          "title": "体积庞大",
+          "isRight": true
+        },
+        {
+          "title": "通用性强",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在Windows 中，\"画图\"文件默认的扩展名是______。",
+      "checkData": [
+        {
+          "title": ".CRD",
+          "isRight": false
+        },
+        {
+          "title": ".TXT",
+          "isRight": false
+        },
+        {
+          "title": ".WRI",
+          "isRight": false
+        },
+        {
+          "title": ".BMP",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "在Windows  中，\"资源管理器\"图标______。",
+      "checkData": [
+        {
+          "title": "一定出现在桌面上",
+          "isRight": false
+        },
+        {
+          "title": "可以设置到桌面上",
+          "isRight": true
+        },
+        {
+          "title": "可以通过单击将其显示到桌面上",
+          "isRight": false
+        },
+        {
+          "title": "不可能出现在桌面上",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "调制调解器（modem）的功能是实现______。",
+      "checkData": [
+        {
+          "title": "数字信号的编码",
+          "isRight": false
+        },
+        {
+          "title": "数字信号的整形",
+          "isRight": false
+        },
+        {
+          "title": "模拟信号的放大",
+          "isRight": false
+        },
+        {
+          "title": "模拟信号与数字信号的转换",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "计算机的应用范围很广，下列说法中正确的是______。",
+      "checkData": [
+        {
+          "title": "数据处理主要应用于数值计算",
+          "isRight": false
+        },
+        {
+          "title": "辅助设计是用计算机进行产品设计与绘图",
+          "isRight": true
+        },
+        {
+          "title": "过程控制只能应用于生产管理",
+          "isRight": false
+        },
+        {
+          "title": "计算机主要用于人工智能",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "所谓的信息是指______。",
+      "checkData": [
+        {
+          "title": "基本素材",
+          "isRight": false
+        },
+        {
+          "title": "非数值数据",
+          "isRight": false
+        },
+        {
+          "title": "数值数据",
+          "isRight": false
+        },
+        {
+          "title": "处理后的数据",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "在计算机内部，数据加工、处理和传送的形式是____。",
+      "checkData": [
+        {
+          "title": "二进制码",
+          "isRight": true
+        },
+        {
+          "title": "八进制码",
+          "isRight": false
+        },
+        {
+          "title": "十进制码",
+          "isRight": false
+        },
+        {
+          "title": "十六进制码",
+          "isRight": false
+        }
+      ]
+    }
+  ]
+}
