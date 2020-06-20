@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
+import com.kuoyuan.yu.common.utils.ListUtils;
+import com.kuoyuan.yu.compute.beans.ComputerSingleCheckListBean;
+
 import java.util.List;
 
 /**
@@ -23,14 +26,31 @@ public abstract class BaseFragmentStatePageAdapter<V> extends FragmentStatePager
         super(fm);
     }
 
-    @NonNull
-    @Override
-    public Fragment getItem(int position) {
-        return null;
-    }
-
     @Override
     public int getCount() {
-        return 0;
+        if (ListUtils.isEmpty(mList)) {
+            return 0;
+        }
+        return mList.size();
+    }
+
+    /**
+     * 设置数据源
+     *
+     * @param listData 数据源
+     */
+    public void setData(List<V> listData) {
+        mList = listData;
+        notifyDataSetChanged();
+    }
+
+    /**
+     * 获取条目数据
+     *
+     * @param position 条目索引
+     * @return 数据
+     */
+    public V getItemData(int position) {
+        return mList.get(position);
     }
 }

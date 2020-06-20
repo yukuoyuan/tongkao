@@ -17,19 +17,15 @@ public abstract class BasePresenter<T extends IBaseView> {
     public Context context;
 
     private T baseView;
-    /**
-     * 标签名字
-     */
-    public String tagName;
+
     /**
      * 登录失效
      */
     private final int LOGIN_INVALID = 1010;
 
-    public BasePresenter(@NonNull Context context, T baseView, String tagName) {
+    public BasePresenter(@NonNull Context context, T baseView ){
         this.context = context;
         this.baseView = baseView;
-        this.tagName = tagName;
     }
 
     /**
