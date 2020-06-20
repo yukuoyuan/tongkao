@@ -303,7 +303,7 @@
         },
         {
           "title": "ASCII码",
-          "isRight": false
+          "isRight": true
         },
         {
           "title": "汉字编码",
@@ -403,7 +403,7 @@
       "title": "启动Windows操作系统后，桌面系统的屏幕上肯定会显示的图标是______。",
       "checkData": [
         {
-          "title": "\"回收站\"和\"开始\"按钮等\n",
+          "title": "\"回收站\"和\"开始\"按钮等",
           "isRight": true
         },
         {
@@ -836,7 +836,7 @@
         },
         {
           "title": ".BMP",
-          "isRight": false
+          "isRight": true
         }
       ]
     },
@@ -1612,7 +1612,7 @@
           "isRight": true
         },
         {
-          "title": "",
+          "title": "信息传输",
           "isRight": false
         }
       ]
