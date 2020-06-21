@@ -18,4 +18,15 @@ public interface IComputerSingleCheckView extends IBaseView {
      */
     void initData2View(List<ComputerSingleCheckListBean.ComputerSingleDataBean> listData);
 
+    /**
+     * 展示底部的弹窗
+     */
+    void showSingleCheckBottomDialog();
+
+    /**
+     * 展示底部的提示
+     *
+     * @param position 选中的索引
+     */
+    void showBottomCountTip(int position);
 }
