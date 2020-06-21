@@ -1798,7 +1798,7 @@
         },
         {
           "title": "\"插入\"→\"文件\"",
-          "isRight": false
+          "isRight": true
         },
         {
           "title": "\"插入\"→\"超级链接\"",
@@ -2348,7 +2348,7 @@
         },
         {
           "title": "IP地址和端口号",
-          "isRight": false
+          "isRight": true
         }
       ]
     },
@@ -2361,7 +2361,7 @@
         },
         {
           "title": "128M字节",
-          "isRight": false
+          "isRight": true
         },
         {
           "title": "128M字长",
@@ -2378,7 +2378,7 @@
       "checkData": [
         {
           "title": "都是以二进制方式表示的",
-          "isRight": false
+          "isRight": true
         },
         {
           "title": "程序以二进制方式表示，数据以十进制方式表示",
@@ -2516,7 +2516,7 @@
         },
         {
           "title": "64位",
-          "isRight": false
+          "isRight": true
         }
       ]
     },
