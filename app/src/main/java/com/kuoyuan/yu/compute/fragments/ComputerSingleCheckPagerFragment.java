@@ -1,5 +1,6 @@
 package com.kuoyuan.yu.compute.fragments;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.TextView;
@@ -69,15 +70,18 @@ public class ComputerSingleCheckPagerFragment extends BaseFragment implements Ba
 
     @Override
     public void onItemClick(ComputerSingleCheckListBean.ComputerSingleDataBean.ComputerSingleCheckDataBean computerSingleCheckDataBean, int position, int type) {
-//        if (type == 1) {
-//            /*
-//             * 选择正确
-//             */
-//        } else if (type == 2) {
-//            /*
-//             * 选择错误
-//             */
-//        }
-        tvComputerSingleCheckErrorTip.setText(TextUtils.isEmpty(mComputerSingleDataBean.tip) ? "" : "错误提示:\n\n" + mComputerSingleDataBean.tip);
+        if (type == 1) {
+            /*
+             * 选择正确
+             */
+            tvComputerSingleCheckErrorTip.setTextColor(Color.BLUE);
+            tvComputerSingleCheckErrorTip.setText(TextUtils.isEmpty(mComputerSingleDataBean.tip) ? "" : "内容翻译:\n\n" + mComputerSingleDataBean.tip);
+        } else if (type == 2) {
+            /*
+             * 选择错误
+             */
+            tvComputerSingleCheckErrorTip.setTextColor(Color.RED);
+            tvComputerSingleCheckErrorTip.setText(TextUtils.isEmpty(mComputerSingleDataBean.tip) ? "" : "错误提示:\n\n" + mComputerSingleDataBean.tip);
+        }
     }
 }
