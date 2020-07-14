@@ -86,8 +86,14 @@ public class ComputerSingleCheckListAdapter extends BaseRecyclerViewAdapter<Comp
                         tvItemComputerSingleCheckIsRight.setVisibility(View.INVISIBLE);
                         ivItemComputerSingleCheckIsRight.setVisibility(View.VISIBLE);
                         ivItemComputerSingleCheckIsRight.setImageResource(R.drawable.icon_check_right);
+                        if (onItemClickListener != null) {
+                            onItemClickListener.onItemClick(computerSingleCheckDataBean, position, 1);
+                        }
                     } else {
                         notifyDataSetChanged();
+                        if (onItemClickListener != null) {
+                            onItemClickListener.onItemClick(computerSingleCheckDataBean, position, 2);
+                        }
                     }
                 }
             });

@@ -14,6 +14,7 @@ public class ComputerSingleCheckListBean {
 
     public static class ComputerSingleDataBean implements Parcelable {
         public String title;
+        public String tip;
         public List<ComputerSingleCheckDataBean> checkData;
 
         public static class ComputerSingleCheckDataBean implements Parcelable {
@@ -39,7 +40,7 @@ public class ComputerSingleCheckListBean {
                 this.isRight = in.readByte() != 0;
             }
 
-            public static final Parcelable.Creator<ComputerSingleCheckDataBean> CREATOR = new Parcelable.Creator<ComputerSingleCheckDataBean>() {
+            public static final Creator<ComputerSingleCheckDataBean> CREATOR = new Creator<ComputerSingleCheckDataBean>() {
                 @Override
                 public ComputerSingleCheckDataBean createFromParcel(Parcel source) {
                     return new ComputerSingleCheckDataBean(source);
@@ -60,6 +61,7 @@ public class ComputerSingleCheckListBean {
         @Override
         public void writeToParcel(Parcel dest, int flags) {
             dest.writeString(this.title);
+            dest.writeString(this.tip);
             dest.writeTypedList(this.checkData);
         }
 
@@ -68,10 +70,11 @@ public class ComputerSingleCheckListBean {
 
         protected ComputerSingleDataBean(Parcel in) {
             this.title = in.readString();
+            this.tip = in.readString();
             this.checkData = in.createTypedArrayList(ComputerSingleCheckDataBean.CREATOR);
         }
 
-        public static final Parcelable.Creator<ComputerSingleDataBean> CREATOR = new Parcelable.Creator<ComputerSingleDataBean>() {
+        public static final Creator<ComputerSingleDataBean> CREATOR = new Creator<ComputerSingleDataBean>() {
             @Override
             public ComputerSingleDataBean createFromParcel(Parcel source) {
                 return new ComputerSingleDataBean(source);
@@ -83,4 +86,5 @@ public class ComputerSingleCheckListBean {
             }
         };
     }
+
 }
