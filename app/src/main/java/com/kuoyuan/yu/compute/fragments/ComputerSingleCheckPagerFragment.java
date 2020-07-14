@@ -43,7 +43,7 @@ public class ComputerSingleCheckPagerFragment extends BaseFragment {
             mPosition = extras.getInt("position");
             mComputerSingleDataBean = extras.getParcelable("data");
         }
-        tvComputerSingleCheckTitle.setText(mPosition + ". " + mComputerSingleDataBean.title);
+        tvComputerSingleCheckTitle.setText(mPosition + ".\u3000" + mComputerSingleDataBean.title);
         initList();
     }
 

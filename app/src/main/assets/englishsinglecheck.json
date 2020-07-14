@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "title": "—How are you, Bob?\n—____________ Ted.",
+      "title": "—How are you, Bob?\n\u3000\u3000—____________ Ted.",
       "tip": "---你好吗， 鲍勃？\n---我很好， 特德。",
       "checkData": [
         {
@@ -17,13 +17,13 @@
           "isRight": false
         },
         {
-          "title": "",
+          "title": "Nice to meet you.",
           "isRight": false
         }
       ]
     },
     {
-      "title": "—Hi, Tom, how’s everything with you? \n—____________, and how are you? ",
+      "title": "—Hi, Tom, how’s everything with you? \n　　—____________, and how are you? ",
       "tip": "---你好， 汤姆， 近来都好吗？\n---还不错， 你呢?",
       "checkData": [
         {
@@ -45,8 +45,8 @@
       ]
     },
     {
-      "title": "— Hey, Tom, what’s up?\n— _______ ",
-      "tip": "---嗨， 汤姆， 你在忙什么？\n— _______",
+      "title": "— Hey, Tom, what’s up?\n—  _______ ",
+      "tip": "---嗨， 汤姆， 你在忙什么？\n  ---还行。",
       "checkData": [
         {
           "title": "Yes, definitely!",
@@ -62,6 +62,1150 @@
         },
         {
           "title": "How do you do?",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—Good morning, John. How are you doing?\n  —__________",
+      "tip": "---早上好， 约翰。 最近怎么样啊？\n  ---还不错。 你呢？",
+      "checkData": [
+        {
+          "title": "I’m pleased",
+          "isRight": false
+        },
+        {
+          "title": "Good night.",
+          "isRight": false
+        },
+        {
+          "title": "Not so bad. And you?",
+          "isRight": true
+        },
+        {
+          "title": "How do you do?",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—How do you do?\n  —_________",
+      "tip": "---你好。\n  ---你好。",
+      "checkData": [
+        {
+          "title": "Fine, thank you",
+          "isRight": false
+        },
+        {
+          "title": "How do you do?",
+          "isRight": true
+        },
+        {
+          "title": "Not too bad.",
+          "isRight": false
+        },
+        {
+          "title": "Very well",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—How’s your family?\n—__________",
+      "tip": "---你的家人都还好吧？\n  ---都还行。",
+      "checkData": [
+        {
+          "title": "Thanks all the same",
+          "isRight": false
+        },
+        {
+          "title": "Thanks for calling.",
+          "isRight": false
+        },
+        {
+          "title": "Not too bad.",
+          "isRight": true
+        },
+        {
+          "title": "Don’t mention it",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—Who’s that speaking?\n  —This is Tom ____________",
+      "tip": "---你是谁？\n  ---我是 TOM。",
+      "checkData": [
+        {
+          "title": "speaks",
+          "isRight": false
+        },
+        {
+          "title": "spoken",
+          "isRight": false
+        },
+        {
+          "title": "speaking",
+          "isRight": true
+        },
+        {
+          "title": "saying",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—Could I speak to Don Watkins, please?\n  —____________",
+      "tip": "---我能和 Don Watkins 说话吗？\n  ---请讲。（ 我就是。）",
+      "checkData": [
+        {
+          "title": "Speaking, please.",
+          "isRight": true
+        },
+        {
+          "title": "Oh, how are you?",
+          "isRight": false
+        },
+        {
+          "title": "I’m listening",
+          "isRight": false
+        },
+        {
+          "title": "I’m Don.",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—Good morning, may I speak to Mark, please?\n  —__________",
+      "tip": "---早上好， 我找马克。\n  —__________",
+      "checkData": [
+        {
+          "title": "Who’s there?",
+          "isRight": false
+        },
+        {
+          "title": "Who’s that speaking?",
+          "isRight": true
+        },
+        {
+          "title": "Who are you?",
+          "isRight": false
+        },
+        {
+          "title": "Who wants to speak to Mark?",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—Is Mary there?\n  —__________",
+      "tip": "---我想找玛丽。\n  ---请讲。（ 我就是。）",
+      "checkData": [
+        {
+          "title": "Speaking.",
+          "isRight": true
+        },
+        {
+          "title": "I’m not Mary",
+          "isRight": false
+        },
+        {
+          "title": "Who are you?",
+          "isRight": false
+        },
+        {
+          "title": "Mary is well today.",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "— _________?\n  —This is Mr. Smith speaking now.",
+      "tip": "---您是哪位？\n  ---我是史密斯。",
+      "checkData": [
+        {
+          "title": "Who are you",
+          "isRight": false
+        },
+        {
+          "title": "Who is that",
+          "isRight": true
+        },
+        {
+          "title": "Who are you calling",
+          "isRight": false
+        },
+        {
+          "title": "What do you want to say",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": " — Could you speak more loudly?\n  — _______________.",
+      "tip": "---你说话声音能再大一点吗？\n  ---线路不好。",
+      "checkData": [
+        {
+          "title": "It's a good line",
+          "isRight": false
+        },
+        {
+          "title": "The line is bad",
+          "isRight": true
+        },
+        {
+          "title": "I can hear you",
+          "isRight": false
+        },
+        {
+          "title": "You can't hear me",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "— I'm sorry. Bob is not in his office.\n  —_________",
+      "tip": "---对不起。 鲍勃不在办公室。\n  ---你能帮我留个言吗？",
+      "checkData": [
+        {
+          "title": "Can you take a message for me?",
+          "isRight": true
+        },
+        {
+          "title": "Are you sure for that?",
+          "isRight": false
+        },
+        {
+          "title": "Would you like to leave a message?",
+          "isRight": false
+        },
+        {
+          "title": "Can you phone me?",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "— Hi, is Mary there, please?\n  — _______",
+      "tip": "---请问 Mary 在吗？\n  ---别挂断， 我去叫她。",
+      "checkData": [
+        {
+          "title": "Hold on. I’ll get her.",
+          "isRight": true
+        },
+        {
+          "title": "No, she isn’t here.",
+          "isRight": false
+        },
+        {
+          "title": "Yes, she lives here.",
+          "isRight": false
+        },
+        {
+          "title": "Yes, what do you want?",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "— Could you help me with my physics, please?\n  —____________",
+      "tip": "---请问你能帮我做物理课作业吗？\n  ---很抱歉不行。 我马上要去开会。",
+      "checkData": [
+        {
+          "title": "No, no way.",
+          "isRight": false
+        },
+        {
+          "title": "No, I couldn’t",
+          "isRight": false
+        },
+        {
+          "title": " No, I can’t",
+          "isRight": false
+        },
+        {
+          "title": "Sorry I can’t. I have to go to a meeting right now.",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "— Please help yourself to the seafood.\n  — _______",
+      "tip": "---请吃点海鲜。\n  ---谢谢， 但是我不吃海鲜。",
+      "checkData": [
+        {
+          "title": "No, I can’t",
+          "isRight": false
+        },
+        {
+          "title": "Sorry, I can’t help.",
+          "isRight": false
+        },
+        {
+          "title": "Well, seafood don’t suit for.",
+          "isRight": false
+        },
+        {
+          "title": "Thanks, but I don’t like the seafood.",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "— Would you like to go to the concert with us this evening?\n  — _______",
+      "tip": "---今晚你能和我们一起去听音乐会吗？\n  ---我很高兴去， 但今晚我很忙。",
+      "checkData": [
+        {
+          "title": "No, I already have plans",
+          "isRight": false
+        },
+        {
+          "title": " I’d love to, but I’m busy tonight. ",
+          "isRight": true
+        },
+        {
+          "title": " No, I really don’t like being with you",
+          "isRight": false
+        },
+        {
+          "title": " I’m ill, so I shouldn’t go out.",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "— We are going to have a singing party tonight. Would you like to join us?\n  — _______",
+      "tip": "=---今晚我们有个歌唱聚会， 你想来吗？\n  ---恐怕不行， 因为我得参加一个重要会议。",
+      "checkData": [
+        {
+          "title": "I’m afraid not, because I have to go to an important meeting",
+          "isRight": true
+        },
+        {
+          "title": "Of course not. I have no idea.",
+          "isRight": false
+        },
+        {
+          "title": "No, I can’t.",
+          "isRight": false
+        },
+        {
+          "title": "That’s all set.",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—Would you like something to drink? What about a cup of tea?\n  —__________ ",
+      "tip": "---想喝点什么吗？ 来杯茶怎么样？\n  ---不用了， 谢谢！",
+      "checkData": [
+        {
+          "title": "No, thanks. ",
+          "isRight": true
+        },
+        {
+          "title": "No, I wouldn’t",
+          "isRight": false
+        },
+        {
+          "title": "Yes, I want.",
+          "isRight": false
+        },
+        {
+          "title": "Yes, I like",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "— Could you finish the task in two days? \n  — _______． I have something else to do these days",
+      "tip": "---你两天内能完成任务吗？\n  ---恐怕不行。 这些天我还有其他的事情要做",
+      "checkData": [
+        {
+          "title": " I could not",
+          "isRight": false
+        },
+        {
+          "title": "Yes. I think so",
+          "isRight": false
+        },
+        {
+          "title": "I'm afraid so",
+          "isRight": false
+        },
+        {
+          "title": "I'm afraid no",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "—Excuse me, can I smoke here？\n  — _________.",
+      "tip": "---打扰了， 我可以在这里吸烟吗？\n  ---你最好不要吸烟。",
+      "checkData": [
+        {
+          "title": "You mustn't",
+          "isRight": false
+        },
+        {
+          "title": "No",
+          "isRight": false
+        },
+        {
+          "title": "You'd better not",
+          "isRight": true
+        },
+        {
+          "title": "I'm sorry, you can",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "— Ben, would you like to play football with us?\n  — ______, but I have to wash the dishes first.",
+      "tip": "---本， 你愿意和我们一起踢足球吗？\n  ---我愿意， 但是我得先刷完盘子。",
+      "checkData": [
+        {
+          "title": "No, I can't",
+          "isRight": false
+        },
+        {
+          "title": "I don't want to",
+          "isRight": false
+        },
+        {
+          "title": "Yes, please",
+          "isRight": false
+        },
+        {
+          "title": "I'd love to",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "— Can I get you a drink?\n  — _______. But I have already got one. ",
+      "tip": "---喝点什么吧？\n  ---你真体贴， 但是我已经有喝的了。",
+      "checkData": [
+        {
+          "title": "That's very nice of you",
+          "isRight": true
+        },
+        {
+          "title": "No, you don't have to",
+          "isRight": false
+        },
+        {
+          "title": "Yes, please",
+          "isRight": false
+        },
+        {
+          "title": "With pleasure",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—Let’s go to the library this afternoon.\n  —__________",
+      "tip": "---今天下午我们去图书馆吧。\n  ---好主意。",
+      "checkData": [
+        {
+          "title": "Yes, that’s right",
+          "isRight": false
+        },
+        {
+          "title": "No, I can’t.",
+          "isRight": false
+        },
+        {
+          "title": "What about you?",
+          "isRight": false
+        },
+        {
+          "title": "That’s a good idea.",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "—We are planning an outing. _______\n  —Sure.",
+      "tip": "---我们计划出去郊游。 你想和我们一起去吗？\n  ---当然了。",
+      "checkData": [
+        {
+          "title": "Where are you going?",
+          "isRight": false
+        },
+        {
+          "title": "When will you leave?",
+          "isRight": false
+        },
+        {
+          "title": "How is everything?",
+          "isRight": false
+        },
+        {
+          "title": "Do you want to join us?",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "—Would you like to see a film?\n  —____________",
+      "tip": "---你想去看电影吗？\n  ---我愿意。",
+      "checkData": [
+        {
+          "title": "Yes, I’d love to.",
+          "isRight": true
+        },
+        {
+          "title": "Do it, please",
+          "isRight": false
+        },
+        {
+          "title": "No, you like it?",
+          "isRight": false
+        },
+        {
+          "title": "How do you do?",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—May I use my credit card here?\n  —_____________ ",
+      "tip": "---这里可以使用信用卡吗？\n  ---恐怕不行。",
+      "checkData": [
+        {
+          "title": "You can’t.",
+          "isRight": false
+        },
+        {
+          "title": "No one use it.",
+          "isRight": false
+        },
+        {
+          "title": "I am afraid you can’t. ",
+          "isRight": true
+        },
+        {
+          "title": "Who told you?",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—Thanks for your help.\n  —____________",
+      "tip": "---谢谢你的帮忙。\n  ---我很荣幸",
+      "checkData": [
+        {
+          "title": "My pleasure",
+          "isRight": true
+        },
+        {
+          "title": "Never mind.",
+          "isRight": false
+        },
+        {
+          "title": "Quite right.",
+          "isRight": false
+        },
+        {
+          "title": "Don’t thank me.",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—Thank you for inviting me.\n  —____________",
+      "tip": "---感谢您的邀请。\n  ---谢谢光临。",
+      "checkData": [
+        {
+          "title": " I really had a happy time",
+          "isRight": false
+        },
+        {
+          "title": "Oh, it’s too late",
+          "isRight": false
+        },
+        {
+          "title": "Thank you for coming.",
+          "isRight": true
+        },
+        {
+          "title": "Oh, so slowly?",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—Thank you so much for your lovely gift \n  —__________",
+      "tip": "---非常感谢你送我这么可爱的礼物。\n  ---很高兴你喜欢。",
+      "checkData": [
+        {
+          "title": "Never mind",
+          "isRight": false
+        },
+        {
+          "title": "I’m glad you like it.",
+          "isRight": true
+        },
+        {
+          "title": "Please don’t say so.",
+          "isRight": false
+        },
+        {
+          "title": "No, it’s not so good",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—Thank you for your invitation.\n  —__________ ",
+      "tip": "---谢谢你的邀请\n  ---我很荣幸（ 能邀请你）",
+      "checkData": [
+        {
+          "title": "It doesn’t matter.",
+          "isRight": false
+        },
+        {
+          "title": "It’s a pleasure.",
+          "isRight": true
+        },
+        {
+          "title": "It’s a small thing",
+          "isRight": false
+        },
+        {
+          "title": "I’ll appreciate it.",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—Thank you for calling.\n  —__________",
+      "tip": "---谢谢你打电话给我。\n  ---很高兴能同你交谈。",
+      "checkData": [
+        {
+          "title": "Don’t mention it",
+          "isRight": false
+        },
+        {
+          "title": "That’s fine",
+          "isRight": false
+        },
+        {
+          "title": "Nice talking to you.",
+          "isRight": true
+        },
+        {
+          "title": "Call back again.",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": " —Thank you for your help.\n  — _________.",
+      "tip": "---谢谢你的帮助。\n  ---别客气。",
+      "checkData": [
+        {
+          "title": "It doesn't matter",
+          "isRight": false
+        },
+        {
+          "title": "You're welcome",
+          "isRight": true
+        },
+        {
+          "title": "You're kind",
+          "isRight": false
+        },
+        {
+          "title": "I don't think so",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—This is a birthday present for you.\n  — _________ ",
+      "tip": "---这是你的生日礼物。\n  ---哇， 好大的惊喜！",
+      "checkData": [
+        {
+          "title": "What's the problem?",
+          "isRight": false
+        },
+        {
+          "title": "Oh, what a surprise!",
+          "isRight": true
+        },
+        {
+          "title": "I can't help it!",
+          "isRight": false
+        },
+        {
+          "title": "It's a pleasure.",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "— Congratulations! You won the first prize in today’s speech contest.\n  — _______.",
+      "tip": "---祝贺你在今天的演讲比赛中获得冠军。\n  ---谢谢你。",
+      "checkData": [
+        {
+          "title": "Yes, I beat the others.",
+          "isRight": false
+        },
+        {
+          "title": "No, no I didn’t do it well",
+          "isRight": false
+        },
+        {
+          "title": "Thank you",
+          "isRight": true
+        },
+        {
+          "title": "It’s a pleasure",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": " — Wow! This is a marvelous room! I’ve never known you’re so artistic.\n  — _______",
+      "tip": "哇呜！ 多么漂亮的房间啊， 我从来不知道你如此有艺术品位啊！\n  承蒙夸奖",
+      "checkData": [
+        {
+          "title": "Great, I am very art-conscious",
+          "isRight": false
+        },
+        {
+          "title": "Don’t mention it",
+          "isRight": false
+        },
+        {
+          "title": "Thanks for your compliments. ",
+          "isRight": true
+        },
+        {
+          "title": "It’s fine",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—What a beautiful dress you have on today!\n  —__________",
+      "tip": "---你今天穿的裙子太美了！\n  ---谢谢你。",
+      "checkData": [
+        {
+          "title": "It is suitable for me.",
+          "isRight": false
+        },
+        {
+          "title": "No, it isn’t",
+          "isRight": false
+        },
+        {
+          "title": "You want to have one, too?",
+          "isRight": false
+        },
+        {
+          "title": "Thank you",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "— Well done, Jim. You did very well in the high jump.\n  —_________. ",
+      "tip": "---干得好， 吉姆。 你的跳高表现很好！\n  ---谢谢！",
+      "checkData": [
+        {
+          "title": " I'm glad to hear that",
+          "isRight": false
+        },
+        {
+          "title": "That's right",
+          "isRight": false
+        },
+        {
+          "title": "Thank you",
+          "isRight": true
+        },
+        {
+          "title": "The same to you",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "— How good the news is for you!\n  — ______________. ",
+      "tip": "---这个消息对你来说太好了。\n  ---你这么说真好！",
+      "checkData": [
+        {
+          "title": "You are kind to tell me",
+          "isRight": false
+        },
+        {
+          "title": "I'm glad to see that",
+          "isRight": false
+        },
+        {
+          "title": "It's kind of you to say so",
+          "isRight": true
+        },
+        {
+          "title": "It's nice to hear from you",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
           "isRight": false
         }
       ]

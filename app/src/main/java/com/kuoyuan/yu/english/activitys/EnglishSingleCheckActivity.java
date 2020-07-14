@@ -62,6 +62,7 @@ public class EnglishSingleCheckActivity extends BaseActivity<EnglishSingleCheckP
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.tv_english_single_check_more:
+                showSingleCheckBottomDialog();
                 break;
             default:
                 break;
