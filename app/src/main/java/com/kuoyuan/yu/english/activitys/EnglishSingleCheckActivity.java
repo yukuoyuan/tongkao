@@ -40,7 +40,10 @@ public class EnglishSingleCheckActivity extends BaseActivity<EnglishSingleCheckP
      * 总数量
      */
     private int mTotalCount;
-
+    /**
+     * 数据源
+     */
+    private List<ComputerSingleCheckListBean.ComputerSingleDataBean> listData;
     @Override
     protected void initData(Bundle extras) {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -72,6 +75,7 @@ public class EnglishSingleCheckActivity extends BaseActivity<EnglishSingleCheckP
     @Override
     public void initData2View(List<ComputerSingleCheckListBean.ComputerSingleDataBean> listData) {
         mTotalCount = listData.size();
+        this.listData = listData;
         showBottomCountTip(0);
         ComputerSingleCheckPagerAdapter computerSingleCheckPagerAdapter = new ComputerSingleCheckPagerAdapter(getSupportFragmentManager());
         vpEnglishSingleCheck.setAdapter(computerSingleCheckPagerAdapter);
@@ -81,6 +85,7 @@ public class EnglishSingleCheckActivity extends BaseActivity<EnglishSingleCheckP
     @Override
     public void showSingleCheckBottomDialog() {
         SingCheckBottomDialog checkSingCheckBottomDialog = new SingCheckBottomDialog(this);
+        checkSingCheckBottomDialog.setData(listData);
         checkSingCheckBottomDialog.show();
         checkSingCheckBottomDialog.setOnSingleCheckBottomDialogListener(this);
     }

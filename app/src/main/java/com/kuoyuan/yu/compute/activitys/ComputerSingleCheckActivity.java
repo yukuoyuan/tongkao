@@ -37,6 +37,10 @@ public class ComputerSingleCheckActivity extends BaseActivity<ComputerSingleChec
      * 总数量
      */
     private int mTotalCount;
+    /**
+     * 数据源
+     */
+    private List<ComputerSingleCheckListBean.ComputerSingleDataBean> listData;
 
     @Override
     protected ComputerSingleCheckPresenter createPresenter() {
@@ -58,6 +62,7 @@ public class ComputerSingleCheckActivity extends BaseActivity<ComputerSingleChec
     @Override
     public void initData2View(List<ComputerSingleCheckListBean.ComputerSingleDataBean> listData) {
         mTotalCount = listData.size();
+        this.listData = listData;
         showBottomCountTip(0);
         ComputerSingleCheckPagerAdapter computerSingleCheckPagerAdapter = new ComputerSingleCheckPagerAdapter(getSupportFragmentManager());
         vpComputerSingleCheck.setAdapter(computerSingleCheckPagerAdapter);
@@ -67,6 +72,7 @@ public class ComputerSingleCheckActivity extends BaseActivity<ComputerSingleChec
     @Override
     public void showSingleCheckBottomDialog() {
         SingCheckBottomDialog checkSingCheckBottomDialog = new SingCheckBottomDialog(this);
+        checkSingCheckBottomDialog.setData(listData);
         checkSingCheckBottomDialog.show();
         checkSingCheckBottomDialog.setOnSingleCheckBottomDialogListener(this);
     }

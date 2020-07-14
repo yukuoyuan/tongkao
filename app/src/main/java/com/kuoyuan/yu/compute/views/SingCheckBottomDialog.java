@@ -37,18 +37,6 @@ public class SingCheckBottomDialog extends BaseBottomDialog implements
     @Override
     protected void initData() {
         rcvDialogSingleCheckList.setLayoutManager(new GridLayoutManager(context, 6));
-        getListData();
-    }
-
-    /**
-     * 获取列表数据
-     */
-    public void getListData() {
-        String listData = AssetsUtils.getInstance().getJson("computersinglecheck.json", context);
-        ComputerSingleCheckListBean computerSingleCheckBean = new Gson().fromJson(listData, ComputerSingleCheckListBean.class);
-        if (computerSingleCheckBean != null && !ListUtils.isEmpty(computerSingleCheckBean.data)) {
-            initData2View(computerSingleCheckBean.data);
-        }
     }
 
     /**
@@ -74,6 +62,17 @@ public class SingCheckBottomDialog extends BaseBottomDialog implements
             onSingleCheckBottomDialogListener.onSingleCheckBottomDialogCheck(position);
         }
         dismiss();
+    }
+
+    /**
+     * 设置数据源
+     *
+     * @param listData 数据源
+     */
+    public void setData(List<ComputerSingleCheckListBean.ComputerSingleDataBean> listData) {
+        if (!ListUtils.isEmpty(listData)) {
+            initData2View(listData);
+        }
     }
 
     /**
