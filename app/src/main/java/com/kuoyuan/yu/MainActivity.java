@@ -5,6 +5,7 @@ import android.view.View;
 
 import com.kuoyuan.yu.common.activitys.BaseActivity;
 import com.kuoyuan.yu.compute.activitys.ComputerSingleCheckActivity;
+import com.kuoyuan.yu.english.activitys.EnglishSingleCheckActivity;
 
 import butterknife.OnClick;
 
@@ -35,6 +36,10 @@ public class MainActivity extends BaseActivity {
                 intent2Activity(ComputerSingleCheckActivity.class);
                 break;
             case R.id.bt_english_single_check:
+                /*
+                 * 跳转英语b单选题界面
+                 */
+                intent2Activity(EnglishSingleCheckActivity.class);
                 break;
             default:
                 break;

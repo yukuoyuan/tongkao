@@ -20,6 +20,10 @@
         <activity
             android:name=".compute.activitys.ComputerSingleCheckActivity"
             android:screenOrientation="portrait" />
+        <!--      这是一个英语b题单选的界面  -->
+        <activity
+            android:name=".english.activitys.EnglishSingleCheckActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
