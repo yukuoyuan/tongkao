@@ -2019,7 +2019,7 @@
           "isRight": false
         },
         {
-          "title": "good evening ",
+          "title": "good night",
           "isRight": true
         }
       ]
@@ -2070,7 +2070,7 @@
     },
     {
       "title": "—Do you like to play basketball?\n  —__________",
-      "tip": "—Do you like to play basketball?\n  ---我很迷恋",
+      "tip": "---你喜欢打篮球吗?\n  ---我很迷恋",
       "checkData": [
         {
           "title": "Perhaps. ",
@@ -2095,19 +2095,19 @@
       "tip": "---这是一项具有挑战性的工作， 谁想承担？\n  ---我来做吧。",
       "checkData": [
         {
-          "title": "A. I'll take it. B. It's a good idea. C. You bet! D. No sweat!",
+          "title": "I'll take it.",
           "isRight": true
         },
         {
-          "title": "A. I'll take it. B. It's a good idea. C. You bet! D. No sweat!",
+          "title": "It's a good idea.",
           "isRight": false
         },
         {
-          "title": "A. I'll take it. B. It's a good idea. C. You bet! D. No sweat!",
+          "title": "You bet!",
           "isRight": false
         },
         {
-          "title": "A. I'll take it. B. It's a good idea. C. You bet! D. No sweat!",
+          "title": "No sweat!",
           "isRight": false
         }
       ]
