@@ -20,6 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_marginEnd="12dp"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
             android:drawableLeft="@drawable/icon_single_check_more"
             android:gravity="center"
             android:textColor="@android:color/black"

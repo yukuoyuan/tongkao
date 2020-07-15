@@ -15,5 +15,9 @@
         <!-- 无标题 -->
         <item name="android:windowNoTitle">true</item>
     </style>
-
+    <!--    不兼容5.0以下,不过目前可以忽略5.0以下系统,几乎没有了-->
+    <style name="RippleWhite">
+        <item name="android:colorControlHighlight">#FAFAFA</item>
+        <item name="android:radius">25dp</item>
+    </style>
 </resources>

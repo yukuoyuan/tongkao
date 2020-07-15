@@ -1453,19 +1453,19 @@
       ]
     },
     {
-      "title": "—Are you going on holiday for a long time? \n—__________ ",
-      "tip": "---你要度假很长一段时间吗？\n---不长， 只有几天。",
+      "title": "—Are you going on holiday for a long time? \n  —__________ ",
+      "tip": "---你要度假很长一段时间吗？\n  ---不长， 只有几天。",
       "checkData": [
         {
-          "title": "It was a long time. B. Two weeks ago.\nC. No. Only a couple of days. D. Not long time ago",
+          "title": "It was a long time.",
           "isRight": false
         },
         {
-          "title": "Two weeks ago.\nC. No. Only a couple of days. D. Not long time ago",
+          "title": "Two weeks ago.",
           "isRight": false
         },
         {
-          "title": "No. Only a couple of days. D. Not long time ago",
+          "title": "No. Only a couple of days.",
           "isRight": true
         },
         {
@@ -1519,8 +1519,8 @@
       ]
     },
     {
-      "title": "—Is that seat taken?\n—__________ ",
-      "tip": "---这个位子有人吗？\n---没有。 (我不这样认为)",
+      "title": "—Is that seat taken?\n  —__________ ",
+      "tip": "---这个位子有人吗？\n  ---没有。 (我不这样认为)",
       "checkData": [
         {
           "title": "Please don’t worry. ",
