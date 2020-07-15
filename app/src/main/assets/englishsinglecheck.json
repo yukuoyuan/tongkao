@@ -1765,7 +1765,7 @@
       "tip": "---可以看一下你的票吗？\n  ---当然可以。",
       "checkData": [
         {
-          "title": "Sure B. No, you can’t.",
+          "title": "Sure",
           "isRight": true
         },
         {
