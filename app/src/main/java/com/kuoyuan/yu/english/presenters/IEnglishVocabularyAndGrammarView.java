@@ -6,12 +6,12 @@ import com.kuoyuan.yu.compute.beans.ComputerSingleCheckListBean;
 import java.util.List;
 
 /**
- * Created on 2020/7/14
+ * Created on 2020/7/15
  *
  * @author yukuoyuan
  * @link github https://github.com/yukuoyuan
  */
-public interface IEnglishSingleCheckView extends IBaseView {
+public interface IEnglishVocabularyAndGrammarView extends IBaseView {
     /**
      * 初始化数据到界面
      *

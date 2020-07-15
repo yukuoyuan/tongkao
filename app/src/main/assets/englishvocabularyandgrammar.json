@@ -1,0 +1,2204 @@
+{
+  "data": [
+    {
+      "title": "—Write to me when you get home. \n  —OK, I __________",
+      "tip": "---到家后给我写信。\n  ---好的， 我会的。",
+      "checkData": [
+        {
+          "title": "must",
+          "isRight": false
+        },
+        {
+          "title": "should",
+          "isRight": false
+        },
+        {
+          "title": "will",
+          "isRight": true
+        },
+        {
+          "title": "can",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Tom is so talkative. I’m sure you’ll soon get tired ____ him.",
+      "tip": "汤姆那么爱讲话， 我肯定你很快就会讨厌他。",
+      "checkData": [
+        {
+          "title": "of",
+          "isRight": true
+        },
+        {
+          "title": "with",
+          "isRight": false
+        },
+        {
+          "title": "at",
+          "isRight": false
+        },
+        {
+          "title": "on",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "I don’t know ____ to deal with such matter.",
+      "tip": "我不知道如何处理这类问题",
+      "checkData": [
+        {
+          "title": "what",
+          "isRight": false
+        },
+        {
+          "title": "how",
+          "isRight": true
+        },
+        {
+          "title": "which",
+          "isRight": false
+        },
+        {
+          "title": "/",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—______ is your girl friend like? \n  — She is very kind and good-looking. ",
+      "tip": "---你女朋友是怎样的一个人？\n   ---她很善良， 也很漂亮。",
+      "checkData": [
+        {
+          "title": "How",
+          "isRight": false
+        },
+        {
+          "title": "What",
+          "isRight": true
+        },
+        {
+          "title": "Which",
+          "isRight": false
+        },
+        {
+          "title": "Who",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "He ____ driving me home, even though I told him I lived nearby.",
+      "tip": "尽管我告诉他我住在附近， 他仍执意开车送我回家。",
+      "checkData": [
+        {
+          "title": "insisted on",
+          "isRight": true
+        },
+        {
+          "title": "insisted at",
+          "isRight": false
+        },
+        {
+          "title": "insisted that",
+          "isRight": false
+        },
+        {
+          "title": "insisted in",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "We came finally ______ the conclusion that she has been telling lies all the time.",
+      "tip": "我们最终得出的结论是她一直以来都在撒谎。",
+      "checkData": [
+        {
+          "title": "of",
+          "isRight": false
+        },
+        {
+          "title": "into",
+          "isRight": false
+        },
+        {
+          "title": "to",
+          "isRight": true
+        },
+        {
+          "title": "at",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "I won’t make the ____ mistake next time.",
+      "tip": "下次我不会犯同样的错误了。",
+      "checkData": [
+        {
+          "title": "like",
+          "isRight": false
+        },
+        {
+          "title": "same",
+          "isRight": true
+        },
+        {
+          "title": "near",
+          "isRight": false
+        },
+        {
+          "title": "similar",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "He ____ lives in the house where he was born.",
+      "tip": "他仍然住在他出生的那间房子里。",
+      "checkData": [
+        {
+          "title": "already",
+          "isRight": false
+        },
+        {
+          "title": "yet",
+          "isRight": false
+        },
+        {
+          "title": "still",
+          "isRight": true
+        },
+        {
+          "title": "ever",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "I am not used to speaking ____ public.",
+      "tip": "我不习惯于当众演讲。",
+      "checkData": [
+        {
+          "title": "in",
+          "isRight": true
+        },
+        {
+          "title": "at",
+          "isRight": false
+        },
+        {
+          "title": "on",
+          "isRight": false
+        },
+        {
+          "title": "to",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "I didn’t know what to do, but then an idea suddenly ____ to me.",
+      "tip": "我不知道该做什么， 但突然间我有了一个主意。",
+      "checkData": [
+        {
+          "title": "appeared",
+          "isRight": false
+        },
+        {
+          "title": "happened",
+          "isRight": false
+        },
+        {
+          "title": "occurred",
+          "isRight": true
+        },
+        {
+          "title": "emerged",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Measles (麻疹) ____ a long time to get over.",
+      "tip": "麻疹要很长时间才能好。",
+      "checkData": [
+        {
+          "title": "spend",
+          "isRight": false
+        },
+        {
+          "title": "spends",
+          "isRight": false
+        },
+        {
+          "title": "take",
+          "isRight": false
+        },
+        {
+          "title": "takes",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "A pair of spectacles ____ what I need at the moment.",
+      "tip": "此刻我需要的是一副眼镜。",
+      "checkData": [
+        {
+          "title": "is",
+          "isRight": true
+        },
+        {
+          "title": "are",
+          "isRight": false
+        },
+        {
+          "title": "has",
+          "isRight": false
+        },
+        {
+          "title": "have",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "—Do you want to wait? \n  —Five days ____ too long for me to wait. ",
+      "tip": "---你想等一等吗？\n  ---等五天对我来说太长了。",
+      "checkData": [
+        {
+          "title": "was",
+          "isRight": false
+        },
+        {
+          "title": "were",
+          "isRight": false
+        },
+        {
+          "title": "is",
+          "isRight": true
+        },
+        {
+          "title": "are",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "You had better ____ a doctor as soon as possible.",
+      "tip": "你最好尽快去看医生",
+      "checkData": [
+        {
+          "title": "seeing",
+          "isRight": false
+        },
+        {
+          "title": "saw",
+          "isRight": false
+        },
+        {
+          "title": "see",
+          "isRight": true
+        },
+        {
+          "title": "seen",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The boy is not happy at the new school. He has ____ friends there.",
+      "tip": "这个男孩在新学校里不开心， 因为他在那儿几乎没有朋友",
+      "checkData": [
+        {
+          "title": "few",
+          "isRight": true
+        },
+        {
+          "title": "a few",
+          "isRight": false
+        },
+        {
+          "title": "little",
+          "isRight": false
+        },
+        {
+          "title": "a little",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "I fell and hurt myself while I ______ basketball yesterday.",
+      "tip": "昨天我在打篮球的时候摔伤了。",
+      "checkData": [
+        {
+          "title": "was playing",
+          "isRight": true
+        },
+        {
+          "title": "am playing",
+          "isRight": false
+        },
+        {
+          "title": "play",
+          "isRight": false
+        },
+        {
+          "title": "played",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Tom ____ more than twenty pounds on the novel. ",
+      "tip": "汤姆花了 20 多镑买了这本小说",
+      "checkData": [
+        {
+          "title": "spent",
+          "isRight": true
+        },
+        {
+          "title": "paid",
+          "isRight": false
+        },
+        {
+          "title": "cost",
+          "isRight": false
+        },
+        {
+          "title": "took",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Don’t forget ____ the window before leaving the room.",
+      "tip": "出门前别忘了关窗户。",
+      "checkData": [
+        {
+          "title": "to have closed",
+          "isRight": false
+        },
+        {
+          "title": "to close",
+          "isRight": true
+        },
+        {
+          "title": "having closed",
+          "isRight": false
+        },
+        {
+          "title": "closing",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Twenty people were ____ wounded in the air crash.",
+      "tip": "20 人在这次飞机失事中受了重伤。",
+      "checkData": [
+        {
+          "title": "quickly",
+          "isRight": false
+        },
+        {
+          "title": "wrongly",
+          "isRight": false
+        },
+        {
+          "title": "bitterly",
+          "isRight": false
+        },
+        {
+          "title": "seriously",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "The top of the Great Wall is ____ for five horses to go side by side.",
+      "tip": "长城上面宽到足以能让五匹马并行。",
+      "checkData": [
+        {
+          "title": "wide",
+          "isRight": false
+        },
+        {
+          "title": "so wide",
+          "isRight": false
+        },
+        {
+          "title": "wide enough",
+          "isRight": true
+        },
+        {
+          "title": "enough wide",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "We’ve missed the last bus. I’m afraid we have no ____ but to take a taxi.",
+      "tip": "我们已经错过了最后一班公共汽车， 恐怕我们除了打车之外别无选择了。",
+      "checkData": [
+        {
+          "title": "way",
+          "isRight": false
+        },
+        {
+          "title": "choice",
+          "isRight": true
+        },
+        {
+          "title": "possibility",
+          "isRight": false
+        },
+        {
+          "title": "selection",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Nancy is considered to be ____ the other students in her class.",
+      "tip": "大家认为南希和班上其他同学一样聪明",
+      "checkData": [
+        {
+          "title": "less intelligent",
+          "isRight": false
+        },
+        {
+          "title": "the most intelligent",
+          "isRight": false
+        },
+        {
+          "title": "intelligent as well",
+          "isRight": false
+        },
+        {
+          "title": "as intelligent as",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "It’s ____ that he was wrong.",
+      "tip": "很明显， 是他错了。",
+      "checkData": [
+        {
+          "title": "clearly",
+          "isRight": false
+        },
+        {
+          "title": "clarity",
+          "isRight": false
+        },
+        {
+          "title": "clear",
+          "isRight": true
+        },
+        {
+          "title": "clearing",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "There ____ a book and some magazines on the desk. ",
+      "tip": "桌子上有一本书和几本杂志。",
+      "checkData": [
+        {
+          "title": "is",
+          "isRight": true
+        },
+        {
+          "title": "be",
+          "isRight": false
+        },
+        {
+          "title": "have",
+          "isRight": false
+        },
+        {
+          "title": "has",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "She is not only my classmate ____ also my good friend.",
+      "tip": "她不仅是我同学， 还是我的好朋友。",
+      "checkData": [
+        {
+          "title": "or",
+          "isRight": false
+        },
+        {
+          "title": "but",
+          "isRight": true
+        },
+        {
+          "title": "and",
+          "isRight": false
+        },
+        {
+          "title": "too",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "He asked the waiter ____ the bill.",
+      "tip": "他向服务员要账单。",
+      "checkData": [
+        {
+          "title": "on",
+          "isRight": false
+        },
+        {
+          "title": "of",
+          "isRight": false
+        },
+        {
+          "title": "for",
+          "isRight": true
+        },
+        {
+          "title": "after",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "____ you are leaving tomorrow, we can have dinner together tonight.",
+      "tip": "既然你明天要走， 那我们今晚一起吃饭。",
+      "checkData": [
+        {
+          "title": "Since",
+          "isRight": true
+        },
+        {
+          "title": "While",
+          "isRight": false
+        },
+        {
+          "title": "For",
+          "isRight": false
+        },
+        {
+          "title": "Before",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "I would like to do the job ____ you don’t force me to study.",
+      "tip": "只要你不强迫我学习， 我愿意做这项工作。",
+      "checkData": [
+        {
+          "title": "in case",
+          "isRight": false
+        },
+        {
+          "title": "although",
+          "isRight": false
+        },
+        {
+          "title": "though",
+          "isRight": false
+        },
+        {
+          "title": "as long as",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "The reason I did not go abroad was ____ a job in my home town.",
+      "tip": "我没出国的原因是我在家乡找到了一份工作。",
+      "checkData": [
+        {
+          "title": "because",
+          "isRight": false
+        },
+        {
+          "title": "due to",
+          "isRight": false
+        },
+        {
+          "title": "that I got",
+          "isRight": true
+        },
+        {
+          "title": "because of getting",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "____ she survived the accident is miracle. ",
+      "tip": "她在这起事故中幸存， 真是个奇迹。",
+      "checkData": [
+        {
+          "title": "What",
+          "isRight": false
+        },
+        {
+          "title": "That",
+          "isRight": true
+        },
+        {
+          "title": "As",
+          "isRight": false
+        },
+        {
+          "title": "Which",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "I often see ____ the road on his way home. ",
+      "tip": "我经常看见他在回家的路上穿过那条马路",
+      "checkData": [
+        {
+          "title": "he cross",
+          "isRight": false
+        },
+        {
+          "title": "him cross",
+          "isRight": true
+        },
+        {
+          "title": "him crossed",
+          "isRight": false
+        },
+        {
+          "title": "he crossing",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "His mother ____ alone since his father died. ",
+      "tip": "自从他父亲去世， 他的母亲一直独自生活。",
+      "checkData": [
+        {
+          "title": "lived",
+          "isRight": false
+        },
+        {
+          "title": "lives",
+          "isRight": false
+        },
+        {
+          "title": "has lived",
+          "isRight": true
+        },
+        {
+          "title": "is living",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The workers are busy ______ models for the exhibition. ",
+      "tip": "那些工人在忙着为展会做模型。",
+      "checkData": [
+        {
+          "title": "to make",
+          "isRight": false
+        },
+        {
+          "title": "with making",
+          "isRight": false
+        },
+        {
+          "title": "being making",
+          "isRight": false
+        },
+        {
+          "title": "making",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "It was well known that Thomas Edison ____ the electric lamp.",
+      "tip": "众所周知， 托马斯•爱迪生发明了电灯",
+      "checkData": [
+        {
+          "title": "discovered",
+          "isRight": false
+        },
+        {
+          "title": "invented",
+          "isRight": true
+        },
+        {
+          "title": "found",
+          "isRight": false
+        },
+        {
+          "title": "developed",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "She wonders ____ will happen to her private life in the future.",
+      "tip": "她不知道未来在她私人生活中会发生什么事。",
+      "checkData": [
+        {
+          "title": "that",
+          "isRight": false
+        },
+        {
+          "title": "it",
+          "isRight": false
+        },
+        {
+          "title": "this",
+          "isRight": false
+        },
+        {
+          "title": "what",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "The higher the temperature, ____ the liquid evaporates. ",
+      "tip": "温度越高， 液体蒸发得越快。",
+      "checkData": [
+        {
+          "title": "the faster",
+          "isRight": true
+        },
+        {
+          "title": "the more fast",
+          "isRight": false
+        },
+        {
+          "title": "the slower",
+          "isRight": false
+        },
+        {
+          "title": "the more slower",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Australia is one of the few countries ____ people drive on the left of the road.",
+      "tip": "澳大利亚是少数几个沿左侧开车的国家之一。",
+      "checkData": [
+        {
+          "title": "which",
+          "isRight": false
+        },
+        {
+          "title": "that",
+          "isRight": false
+        },
+        {
+          "title": "where",
+          "isRight": true
+        },
+        {
+          "title": "on which",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Sunday is the day ____ people usually don’t go to work.",
+      "tip": "星期天是人们通常不上班的日子",
+      "checkData": [
+        {
+          "title": "when",
+          "isRight": true
+        },
+        {
+          "title": "which",
+          "isRight": false
+        },
+        {
+          "title": "in which",
+          "isRight": false
+        },
+        {
+          "title": "that",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "____ you know, David has been well lately.",
+      "tip": "正如你所知， 大卫最近身体很好。",
+      "checkData": [
+        {
+          "title": "Which",
+          "isRight": false
+        },
+        {
+          "title": "As",
+          "isRight": true
+        },
+        {
+          "title": "What",
+          "isRight": false
+        },
+        {
+          "title": "When",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The harder you study, ____ you will learn. ",
+      "tip": " 你学习越努力， 学到的东西越多。",
+      "checkData": [
+        {
+          "title": "much",
+          "isRight": false
+        },
+        {
+          "title": "many",
+          "isRight": false
+        },
+        {
+          "title": "the more",
+          "isRight": true
+        },
+        {
+          "title": "much more",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "They got there an hour ____ than the others.",
+      "tip": "他们比别人早到一小时。",
+      "checkData": [
+        {
+          "title": "early",
+          "isRight": false
+        },
+        {
+          "title": "much early",
+          "isRight": false
+        },
+        {
+          "title": "more early",
+          "isRight": false
+        },
+        {
+          "title": "earlier",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "The grey building is the place where the workers live, and the white building is the place where the spare \n  parts ____. ",
+      "tip": "灰色建筑是工人们住的地方， 白色建筑是生产零部件的地方。",
+      "checkData": [
+        {
+          "title": "are producing",
+          "isRight": false
+        },
+        {
+          "title": "are produced",
+          "isRight": true
+        },
+        {
+          "title": "produced",
+          "isRight": false
+        },
+        {
+          "title": "being produced",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": " Once environmental damage ____, it takes many years for the system to recover.",
+      "tip": "环境一旦被破坏， 需要很多年才能恢复过来",
+      "checkData": [
+        {
+          "title": "is to do",
+          "isRight": false
+        },
+        {
+          "title": "does",
+          "isRight": false
+        },
+        {
+          "title": "had done",
+          "isRight": false
+        },
+        {
+          "title": "is done",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "We worked hard and completed the task ____. ",
+      "tip": "我们努力工作并且提前完成了任务。",
+      "checkData": [
+        {
+          "title": "in the time",
+          "isRight": false
+        },
+        {
+          "title": "on the time",
+          "isRight": false
+        },
+        {
+          "title": "ahead of time",
+          "isRight": true
+        },
+        {
+          "title": "before time",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "I didn’t expect you to turn ____ at the meeting yesterday.",
+      "tip": "昨天我没想到你会出现在会议上。",
+      "checkData": [
+        {
+          "title": "up",
+          "isRight": true
+        },
+        {
+          "title": "to",
+          "isRight": false
+        },
+        {
+          "title": "out",
+          "isRight": false
+        },
+        {
+          "title": "over",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "I like the teacher ____ classes are very interesting and creative.",
+      "tip": "我喜欢那位上课既有趣又有创意的老师",
+      "checkData": [
+        {
+          "title": "which",
+          "isRight": false
+        },
+        {
+          "title": "who",
+          "isRight": false
+        },
+        {
+          "title": "whose",
+          "isRight": true
+        },
+        {
+          "title": "what",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "When Lily came home at 5 p.m. yesterday, her mother ______ dinner in the kitchen",
+      "tip": "莉莉昨天五点钟回家时， 她妈妈正在厨房里做晚饭。",
+      "checkData": [
+        {
+          "title": "cooked",
+          "isRight": false
+        },
+        {
+          "title": "was cooking",
+          "isRight": true
+        },
+        {
+          "title": "cooks",
+          "isRight": false
+        },
+        {
+          "title": "has cooked",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "I don’t know the park, but it’s ______ to be quite beautiful.",
+      "tip": "我不了解这公园， 但据说很美",
+      "checkData": [
+        {
+          "title": "said",
+          "isRight": true
+        },
+        {
+          "title": "told",
+          "isRight": false
+        },
+        {
+          "title": "spoken",
+          "isRight": false
+        },
+        {
+          "title": "talked",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Mike is better than Peter ______ swimming.",
+      "tip": "Mike 比 Peter 更擅长游泳。",
+      "checkData": [
+        {
+          "title": "for",
+          "isRight": false
+        },
+        {
+          "title": "at",
+          "isRight": true
+        },
+        {
+          "title": "on",
+          "isRight": false
+        },
+        {
+          "title": "in",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The young lady coming over to us ______ our English teacher; the way she walks tells us that!",
+      "tip": "那个正朝我们走来的年轻女子肯定是我们的英语老师； 她走路的样子就告诉我们了",
+      "checkData": [
+        {
+          "title": "must be",
+          "isRight": true
+        },
+        {
+          "title": "can be",
+          "isRight": false
+        },
+        {
+          "title": "would be",
+          "isRight": false
+        },
+        {
+          "title": "could be",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Eggs, though rich in nourishments, have ______ of fat.",
+      "tip": "尽管鸡蛋营养丰富， 但它含有大量的脂肪",
+      "checkData": [
+        {
+          "title": "a large number",
+          "isRight": false
+        },
+        {
+          "title": "the large number",
+          "isRight": false
+        },
+        {
+          "title": "a large amount",
+          "isRight": true
+        },
+        {
+          "title": "the large amount",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Neither John ______ his father was able to wake up early enough to catch the morning train.",
+      "tip": "约翰和他父亲都没能早点起来赶上早班火车。",
+      "checkData": [
+        {
+          "title": "nor",
+          "isRight": true
+        },
+        {
+          "title": "or",
+          "isRight": false
+        },
+        {
+          "title": "but",
+          "isRight": false
+        },
+        {
+          "title": "and",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Jane’s dress is similar in design ______ her sister’s.",
+      "tip": "简的裙子和她妹妹的在设计上很相似。",
+      "checkData": [
+        {
+          "title": "like",
+          "isRight": false
+        },
+        {
+          "title": "with",
+          "isRight": false
+        },
+        {
+          "title": "to",
+          "isRight": true
+        },
+        {
+          "title": "as",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "His salary as a driver is much higher than ______.",
+      "tip": "他当司机的工资比当搬运工的工资要高的多。",
+      "checkData": [
+        {
+          "title": "a porter",
+          "isRight": false
+        },
+        {
+          "title": "is a porter",
+          "isRight": false
+        },
+        {
+          "title": "as a porter",
+          "isRight": false
+        },
+        {
+          "title": "that of a porter",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "_______ these honors he received a sum of money.",
+      "tip": "除了这些荣誉外， 他还得到了一笔钱。",
+      "checkData": [
+        {
+          "title": "Except",
+          "isRight": false
+        },
+        {
+          "title": "But",
+          "isRight": false
+        },
+        {
+          "title": "Besides",
+          "isRight": true
+        },
+        {
+          "title": "Outside",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Would you let _______ to the park with my classmate, Mum?",
+      "tip": "妈妈， 让我和同学一起去公园好吗？",
+      "checkData": [
+        {
+          "title": "me go",
+          "isRight": true
+        },
+        {
+          "title": "me going",
+          "isRight": false
+        },
+        {
+          "title": "I go",
+          "isRight": false
+        },
+        {
+          "title": "I going",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "I have been looking forward to _______ from my parents",
+      "tip": "我一直盼望着收到父母的来信。",
+      "checkData": [
+        {
+          "title": "hear",
+          "isRight": false
+        },
+        {
+          "title": "being heard",
+          "isRight": false
+        },
+        {
+          "title": "be heard",
+          "isRight": false
+        },
+        {
+          "title": "hearing",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "The manager will not _______ us to use his car.",
+      "tip": "经理不允许我们用他的车。",
+      "checkData": [
+        {
+          "title": "have",
+          "isRight": false
+        },
+        {
+          "title": "let",
+          "isRight": false
+        },
+        {
+          "title": "agree",
+          "isRight": false
+        },
+        {
+          "title": "allow",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "_______ her and then try to copy what she does. ",
+      "tip": "留心观察， 然后照她的样子做",
+      "checkData": [
+        {
+          "title": "Mind",
+          "isRight": false
+        },
+        {
+          "title": "See",
+          "isRight": false
+        },
+        {
+          "title": "Stare at",
+          "isRight": false
+        },
+        {
+          "title": "Watch",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "Will you _______ me a favor, please? ",
+      "tip": "你愿意帮我个忙吗？",
+      "checkData": [
+        {
+          "title": "do",
+          "isRight": true
+        },
+        {
+          "title": "make",
+          "isRight": false
+        },
+        {
+          "title": "bring",
+          "isRight": false
+        },
+        {
+          "title": "give",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "It’s bad _______ for you to smoke in the public places where smoking is not allowed",
+      "tip": "在禁止吸烟的公共场所吸烟是一个坏的举止行为。",
+      "checkData": [
+        {
+          "title": "behavior",
+          "isRight": true
+        },
+        {
+          "title": "action",
+          "isRight": false
+        },
+        {
+          "title": "manner",
+          "isRight": false
+        },
+        {
+          "title": "movement",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "— It’s a good idea. But who’s going to _______ the plan? \n  — I think John and Peter will.",
+      "tip": "这是个好主意。 但谁去执行这个计划呢？\n  我认为约翰和比德可以去执行这个计划",
+      "checkData": [
+        {
+          "title": "carry out",
+          "isRight": true
+        },
+        {
+          "title": "get through",
+          "isRight": false
+        },
+        {
+          "title": "take in",
+          "isRight": false
+        },
+        {
+          "title": "set aside",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The computer system _______ suddenly while he was searching for information on the Internet.",
+      "tip": "在他上网查找资料的时候计算机系统突然瘫痪。",
+      "checkData": [
+        {
+          "title": "broke down",
+          "isRight": true
+        },
+        {
+          "title": "broke out",
+          "isRight": false
+        },
+        {
+          "title": "broke up",
+          "isRight": false
+        },
+        {
+          "title": "broke in",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "If she wants to stay thin, she must make a ______ in her diet.",
+      "tip": "如果她想保持身材苗条， 就必须在饮食有所改变。",
+      "checkData": [
+        {
+          "title": "change",
+          "isRight": true
+        },
+        {
+          "title": "turn",
+          "isRight": false
+        },
+        {
+          "title": "run",
+          "isRight": false
+        },
+        {
+          "title": "go",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": " ______ the War of Independence, the United States was an English colony.",
+      "tip": "在独立战争以前， 美国时英国的一个殖民地。",
+      "checkData": [
+        {
+          "title": "Before",
+          "isRight": true
+        },
+        {
+          "title": "At",
+          "isRight": false
+        },
+        {
+          "title": "In",
+          "isRight": false
+        },
+        {
+          "title": "Between",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "A police officer claimed that the young man had attempted to _______ paying his fare.",
+      "tip": "警官说这个年轻人试图拒付费用。",
+      "checkData": [
+        {
+          "title": "avoid",
+          "isRight": true
+        },
+        {
+          "title": "reject",
+          "isRight": false
+        },
+        {
+          "title": "refuse",
+          "isRight": false
+        },
+        {
+          "title": "neglect",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "While I was in the university, I learned taking a photo, _______ is very useful now for me",
+      "tip": "上大学时， 我学会了摄影， 现在这对我很有用。",
+      "checkData": [
+        {
+          "title": "it",
+          "isRight": false
+        },
+        {
+          "title": "which",
+          "isRight": true
+        },
+        {
+          "title": "that",
+          "isRight": false
+        },
+        {
+          "title": "what",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "He is not seriously ill, but only a ____ headache.",
+      "tip": "他病得并不严重， 只是有些轻微头痛。",
+      "checkData": [
+        {
+          "title": "obvious",
+          "isRight": false
+        },
+        {
+          "title": "delicate",
+          "isRight": false
+        },
+        {
+          "title": "slight",
+          "isRight": true
+        },
+        {
+          "title": "temporary",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "On average, a successful lawyer has to talk to several ______ a day.",
+      "tip": "一般一个成功的律师一天要接待好几个委托人。",
+      "checkData": [
+        {
+          "title": "customers",
+          "isRight": false
+        },
+        {
+          "title": "supporters",
+          "isRight": false
+        },
+        {
+          "title": "guests",
+          "isRight": false
+        },
+        {
+          "title": "clients",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "What is the train _____ to Birmingham?",
+      "tip": "到伯明翰的火车票多少钱？",
+      "checkData": [
+        {
+          "title": "fee",
+          "isRight": false
+        },
+        {
+          "title": "tip",
+          "isRight": false
+        },
+        {
+          "title": "fare",
+          "isRight": true
+        },
+        {
+          "title": "cost",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "You shouldn’t ______ your time like that, Bob; you have to finish your school work tonight.",
+      "tip": "鲍勃， 你不该那样浪费时间； 你今晚得完成学校得作业。",
+      "checkData": [
+        {
+          "title": "cut",
+          "isRight": false
+        },
+        {
+          "title": "do",
+          "isRight": false
+        },
+        {
+          "title": "kill",
+          "isRight": true
+        },
+        {
+          "title": "kick",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Both the kids and their parents ______ English, I think. I know it from their accent",
+      "tip": "我想， 这些孩子和他们的父母都是英格兰人。 从他们的口音我可以知道。",
+      "checkData": [
+        {
+          "title": "is",
+          "isRight": false
+        },
+        {
+          "title": "been",
+          "isRight": false
+        },
+        {
+          "title": "are",
+          "isRight": true
+        },
+        {
+          "title": "was",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The man ______Mary was so tall that she could hardly see the show.",
+      "tip": "玛丽前面的这个人个子真高， 以至于她几乎都看不到演出了。",
+      "checkData": [
+        {
+          "title": "in front of",
+          "isRight": true
+        },
+        {
+          "title": "in the front of",
+          "isRight": false
+        },
+        {
+          "title": "at the back of",
+          "isRight": false
+        },
+        {
+          "title": "at the beginning of",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Jane likes singing. We often hear her _______after class.",
+      "tip": "简喜欢唱歌。 我们经常听到她课后唱歌。",
+      "checkData": [
+        {
+          "title": "sing",
+          "isRight": true
+        },
+        {
+          "title": "to sing",
+          "isRight": false
+        },
+        {
+          "title": "sings",
+          "isRight": false
+        },
+        {
+          "title": "sang",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "He is seriously ill; there is ______hope for him.",
+      "tip": "他病得很重， 没有治愈的希望了",
+      "checkData": [
+        {
+          "title": "a few",
+          "isRight": false
+        },
+        {
+          "title": "few",
+          "isRight": false
+        },
+        {
+          "title": "little",
+          "isRight": true
+        },
+        {
+          "title": "a little",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Many people watched the boys ______the mountain at that time.",
+      "tip": "许多人看到男孩那时正在爬山。",
+      "checkData": [
+        {
+          "title": "climb",
+          "isRight": false
+        },
+        {
+          "title": "climbing",
+          "isRight": true
+        },
+        {
+          "title": "to climb",
+          "isRight": false
+        },
+        {
+          "title": "climbed",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "She had _____to do, so she was free.",
+      "tip": "她没事可做了， 所以她现在很自由。",
+      "checkData": [
+        {
+          "title": "something",
+          "isRight": false
+        },
+        {
+          "title": "anything",
+          "isRight": false
+        },
+        {
+          "title": "nothing",
+          "isRight": true
+        },
+        {
+          "title": "everything",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Miss Wang wanted to know _______for the film. ",
+      "tip": "王小姐想知道为什么他看电影迟到了。",
+      "checkData": [
+        {
+          "title": "why was he late",
+          "isRight": false
+        },
+        {
+          "title": "why is he late",
+          "isRight": false
+        },
+        {
+          "title": "why he is late",
+          "isRight": false
+        },
+        {
+          "title": "why he was late",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "It's reported that a new hospital _____________here next year.",
+      "tip": "据报道， 明年将会新建一家医院。",
+      "checkData": [
+        {
+          "title": "would be set up ",
+          "isRight": false
+        },
+        {
+          "title": "was going to set up ",
+          "isRight": false
+        },
+        {
+          "title": "will be set up",
+          "isRight": true
+        },
+        {
+          "title": "is going to set up",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "He couldn't buy the dictionary because he had ________money with him.",
+      "tip": "他买不起字典， 因为身上没有钱了。",
+      "checkData": [
+        {
+          "title": "a few",
+          "isRight": false
+        },
+        {
+          "title": "few",
+          "isRight": false
+        },
+        {
+          "title": "a little",
+          "isRight": false
+        },
+        {
+          "title": "little",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "When father was young, he ______from morning till night",
+      "tip": "父亲年轻的时候， 他被迫从早干到晚。",
+      "checkData": [
+        {
+          "title": "was made work",
+          "isRight": false
+        },
+        {
+          "title": "was made working",
+          "isRight": false
+        },
+        {
+          "title": "made to work",
+          "isRight": false
+        },
+        {
+          "title": "was made to work",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "_____________you like some coffee? ",
+      "tip": "你想要喝点咖啡吗？",
+      "checkData": [
+        {
+          "title": "Will",
+          "isRight": false
+        },
+        {
+          "title": "Shall",
+          "isRight": false
+        },
+        {
+          "title": "Would",
+          "isRight": true
+        },
+        {
+          "title": "Should",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "You've caught a cold. You'd better _______to school.",
+      "tip": "你感冒了， 最好不要去学校了。",
+      "checkData": [
+        {
+          "title": "go",
+          "isRight": false
+        },
+        {
+          "title": "to go",
+          "isRight": false
+        },
+        {
+          "title": "not go",
+          "isRight": true
+        },
+        {
+          "title": "not to go",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The boys enjoyed _______football very much.",
+      "tip": "男孩们很享受踢足球。",
+      "checkData": [
+        {
+          "title": "played",
+          "isRight": false
+        },
+        {
+          "title": "playing",
+          "isRight": true
+        },
+        {
+          "title": "play",
+          "isRight": false
+        },
+        {
+          "title": "to play",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": " Every morning Mr. Smith takes a ______to his office",
+      "tip": " 每天早晨， 史密斯先生步行 20 分钟去办公室。",
+      "checkData": [
+        {
+          "title": "20 minutes' walk ",
+          "isRight": false
+        },
+        {
+          "title": "20 minute's walk",
+          "isRight": false
+        },
+        {
+          "title": "20-minutes walk",
+          "isRight": false
+        },
+        {
+          "title": "20-minute walk",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "Suzan speaks English _______John. ",
+      "tip": "苏珊比约翰说英语流利多了。",
+      "checkData": [
+        {
+          "title": "so fluently as",
+          "isRight": false
+        },
+        {
+          "title": "as fluent as ",
+          "isRight": false
+        },
+        {
+          "title": "more fluent than ",
+          "isRight": false
+        },
+        {
+          "title": "much more fluently than",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "I saw that she was in difficulty with all those parcels, so I offered my_____.",
+      "tip": "我看到她处理这些包裹很费劲， 所以我帮助了她。",
+      "checkData": [
+        {
+          "title": "service B. money C. use D. chance",
+          "isRight": false
+        },
+        {
+          "title": "service B. money C. use D. chance",
+          "isRight": false
+        },
+        {
+          "title": "service B. money C. use D. chance",
+          "isRight": false
+        },
+        {
+          "title": "service B. money C. use D. chance",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "I prefer classic music_____ pop music. ",
+      "tip": "比起流行音乐， 我更喜欢古典音乐。",
+      "checkData": [
+        {
+          "title": "than",
+          "isRight": false
+        },
+        {
+          "title": "on",
+          "isRight": false
+        },
+        {
+          "title": "with",
+          "isRight": false
+        },
+        {
+          "title": "to",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "There is _________in today's newspaper.",
+      "tip": "今天的报纸上有些新内容。",
+      "checkData": [
+        {
+          "title": "new anything",
+          "isRight": false
+        },
+        {
+          "title": "new something",
+          "isRight": false
+        },
+        {
+          "title": "anything new",
+          "isRight": false
+        },
+        {
+          "title": "something new",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "I forgot to return the book to you yesterday. So I _____________today",
+      "tip": "昨天忘记把书还给你了， 所以今天我一定要还给你",
+      "checkData": [
+        {
+          "title": "might do it",
+          "isRight": false
+        },
+        {
+          "title": "must do it",
+          "isRight": true
+        },
+        {
+          "title": "had to do it",
+          "isRight": false
+        },
+        {
+          "title": "must have to do it",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Little Tom is used to getting up _______eight every morning.",
+      "tip": "小汤姆习惯每天早晨 8 点起床。",
+      "checkData": [
+        {
+          "title": "at",
+          "isRight": true
+        },
+        {
+          "title": "on",
+          "isRight": false
+        },
+        {
+          "title": "in",
+          "isRight": false
+        },
+        {
+          "title": "of",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "There’s ______water in the bottle. Don't throw it away.",
+      "tip": "瓶子里还有一点水， 不要扔了",
+      "checkData": [
+        {
+          "title": "little",
+          "isRight": false
+        },
+        {
+          "title": "a little",
+          "isRight": true
+        },
+        {
+          "title": "a few",
+          "isRight": false
+        },
+        {
+          "title": "few",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The students _______a good rest last weekend. They were preparing for the test.",
+      "tip": "上个周末， 学生们没有好好休息， 他们那时正在准备考试。",
+      "checkData": [
+        {
+          "title": "don't have",
+          "isRight": false
+        },
+        {
+          "title": "didn't have",
+          "isRight": true
+        },
+        {
+          "title": "hadn't",
+          "isRight": false
+        },
+        {
+          "title": "won't have",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "We`ll go for a picnic if it ________tomorrow.",
+      "tip": "明天如果不下雨的话， 我们就去野餐。",
+      "checkData": [
+        {
+          "title": "isn't going to rain",
+          "isRight": false
+        },
+        {
+          "title": "won't rain",
+          "isRight": false
+        },
+        {
+          "title": "doesn't rain",
+          "isRight": true
+        },
+        {
+          "title": "isn't raining",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Five-year-old children are too young to go to school, ________?",
+      "tip": "5 岁的孩子去上学还太早了， 不是吗？",
+      "checkData": [
+        {
+          "title": "are they",
+          "isRight": true
+        },
+        {
+          "title": "aren't they",
+          "isRight": false
+        },
+        {
+          "title": "were they",
+          "isRight": false
+        },
+        {
+          "title": "have they",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The dog was tearing the cloth _____ its teeth.",
+      "tip": "狗正在用牙撕扯衣服",
+      "checkData": [
+        {
+          "title": "with",
+          "isRight": true
+        },
+        {
+          "title": "by",
+          "isRight": false
+        },
+        {
+          "title": "through",
+          "isRight": false
+        },
+        {
+          "title": "in",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Compared with last year, the output of the factory this year has increased____20%.",
+      "tip": "与去年相比， 今年工厂的产出提高了 20%。",
+      "checkData": [
+        {
+          "title": "with",
+          "isRight": false
+        },
+        {
+          "title": "at",
+          "isRight": false
+        },
+        {
+          "title": "for",
+          "isRight": false
+        },
+        {
+          "title": "by",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "The____ is nearly shortage of electricity, so I cannot start the car again.",
+      "tip": "电池快没有电了， 所以我没法再发动汽车了",
+      "checkData": [
+        {
+          "title": "bean",
+          "isRight": false
+        },
+        {
+          "title": "beam",
+          "isRight": false
+        },
+        {
+          "title": "bake",
+          "isRight": false
+        },
+        {
+          "title": "battery",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "There____a lot of____on the roads yesterday.",
+      "tip": "昨天马路上交通量很大。",
+      "checkData": [
+        {
+          "title": "was…traffic",
+          "isRight": true
+        },
+        {
+          "title": "were…traffics",
+          "isRight": false
+        },
+        {
+          "title": "was…traffics",
+          "isRight": false
+        },
+        {
+          "title": "were…traffic",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "We’ve ____paper and ink. Ask Mr. Howard to lend us some.",
+      "tip": "我们已经用光纸和墨了， 跟霍华德先生借一些吧。",
+      "checkData": [
+        {
+          "title": "run away with",
+          "isRight": true
+        },
+        {
+          "title": "run out of",
+          "isRight": true
+        },
+        {
+          "title": "run off",
+          "isRight": false
+        },
+        {
+          "title": "run down",
+          "isRight": false
+        }
+      ]
+    }
+  ]
+}
