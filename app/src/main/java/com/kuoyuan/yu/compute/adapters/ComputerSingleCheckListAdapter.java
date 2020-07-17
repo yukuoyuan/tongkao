@@ -6,6 +6,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.adapters.BaseRecyclerViewAdapter;
@@ -21,6 +22,7 @@ import butterknife.BindView;
  * @link github https://github.com/yukuoyuan
  */
 public class ComputerSingleCheckListAdapter extends BaseRecyclerViewAdapter<ComputerSingleCheckListBean.ComputerSingleDataBean.ComputerSingleCheckDataBean, ComputerSingleCheckListAdapter.MyHolder> {
+
 
     /**
      * 选中的索引
@@ -48,7 +50,8 @@ public class ComputerSingleCheckListAdapter extends BaseRecyclerViewAdapter<Comp
 
     public class MyHolder extends BaseViewHolder {
 
-
+        @BindView(R.id.cl_item_computer_single_check)
+        ConstraintLayout clItemComputerSingleCheck;
         @BindView(R.id.tv_item_computer_single_check_is_right)
         TextView tvItemComputerSingleCheckIsRight;
         @BindView(R.id.iv_item_computer_single_check_is_right)
@@ -76,7 +79,7 @@ public class ComputerSingleCheckListAdapter extends BaseRecyclerViewAdapter<Comp
             tvItemComputerSingleCheckIsRight.setText(mPosition);
             tvItemComputerSingleCheck.setText(computerSingleCheckDataBean.title);
 
-            tvItemComputerSingleCheck.setOnClickListener(v -> {
+            clItemComputerSingleCheck.setOnClickListener(v -> {
                 if (mCheckPosition == -1) {
                     mCheckPosition = position;
                     /*
