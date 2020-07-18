@@ -22,9 +22,6 @@
             android:name=".english.activitys.SingleCheckActivity"
             android:screenOrientation="portrait" />
         <!--        这是一个词汇和语法单选的界面-->
-        <activity
-            android:name=".english.activitys.EnglishVocabularyAndGrammarActivity"
-            android:screenOrientation="portrait" />
 
     </application>
 

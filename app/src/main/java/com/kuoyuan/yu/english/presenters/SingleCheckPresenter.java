@@ -17,8 +17,8 @@ import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
  * @author yukuoyuan
  * @link github https://github.com/yukuoyuan
  */
-public class SingleCheckPresenter extends BasePresenter<IEnglishSingleCheckView> {
-    public SingleCheckPresenter(@NonNull Context context, IEnglishSingleCheckView baseView) {
+public class SingleCheckPresenter extends BasePresenter<ISingleCheckView> {
+    public SingleCheckPresenter(@NonNull Context context, ISingleCheckView baseView) {
         super(context, baseView);
     }
 

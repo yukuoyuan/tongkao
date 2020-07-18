@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.adapters.BaseRecyclerViewAdapter;
 import com.kuoyuan.yu.common.fragments.BaseFragment;
-import com.kuoyuan.yu.compute.adapters.ComputerSingleCheckListAdapter;
+import com.kuoyuan.yu.compute.adapters.SingleCheckListAdapter;
 import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 
 import butterknife.BindView;
@@ -57,10 +57,10 @@ public class SingleCheckPagerFragment extends BaseFragment implements BaseRecycl
      */
     private void initList() {
         rcvComputerSingleCheckList.setLayoutManager(new LinearLayoutManager(getActivity()));
-        ComputerSingleCheckListAdapter computerSingleCheckListAdapter = new ComputerSingleCheckListAdapter(getActivity());
-        rcvComputerSingleCheckList.setAdapter(computerSingleCheckListAdapter);
-        computerSingleCheckListAdapter.setData(mComputerSingleDataBean.checkData);
-        computerSingleCheckListAdapter.setOnItemClickListener(this);
+        SingleCheckListAdapter singleCheckListAdapter = new SingleCheckListAdapter(getActivity());
+        rcvComputerSingleCheckList.setAdapter(singleCheckListAdapter);
+        singleCheckListAdapter.setData(mComputerSingleDataBean.checkData);
+        singleCheckListAdapter.setOnItemClickListener(this);
     }
 
     @Override

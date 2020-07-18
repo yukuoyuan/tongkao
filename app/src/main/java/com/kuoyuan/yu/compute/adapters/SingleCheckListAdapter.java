@@ -21,7 +21,7 @@ import butterknife.BindView;
  * @author yukuoyuan
  * @link github https://github.com/yukuoyuan
  */
-public class ComputerSingleCheckListAdapter extends BaseRecyclerViewAdapter<SingleCheckListBean.SingleDataBean.ComputerSingleCheckDataBean, ComputerSingleCheckListAdapter.MyHolder> {
+public class SingleCheckListAdapter extends BaseRecyclerViewAdapter<SingleCheckListBean.SingleDataBean.ComputerSingleCheckDataBean, SingleCheckListAdapter.MyHolder> {
 
 
     /**
@@ -29,7 +29,7 @@ public class ComputerSingleCheckListAdapter extends BaseRecyclerViewAdapter<Sing
      */
     private int mCheckPosition = -1;
 
-    public ComputerSingleCheckListAdapter(@NonNull Context context) {
+    public SingleCheckListAdapter(@NonNull Context context) {
         super(context);
     }
 

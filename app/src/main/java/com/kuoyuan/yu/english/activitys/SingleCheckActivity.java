@@ -14,7 +14,7 @@ import com.kuoyuan.yu.compute.adapters.SingleCheckPagerAdapter;
 import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 import com.kuoyuan.yu.compute.views.SingCheckBottomDialog;
 import com.kuoyuan.yu.english.presenters.SingleCheckPresenter;
-import com.kuoyuan.yu.english.presenters.IEnglishSingleCheckView;
+import com.kuoyuan.yu.english.presenters.ISingleCheckView;
 
 import java.util.List;
 
@@ -29,7 +29,7 @@ import butterknife.OnPageChange;
  * @author yukuoyuan
  * @link github https://github.com/yukuoyuan
  */
-public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> implements IEnglishSingleCheckView, SingCheckBottomDialog.OnSingleCheckBottomDialogListener {
+public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> implements ISingleCheckView, SingCheckBottomDialog.OnSingleCheckBottomDialogListener {
 
 
     @BindView(R.id.vp_english_single_check)
