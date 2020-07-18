@@ -35,6 +35,8 @@ public class SingleCheckPresenter extends BasePresenter<ISingleCheckView> {
             fileName = "computersinglecheck.json";
         } else if (pageTypeValue == Constants.PAGE_TYPE_ENGLISH_VOCABULARY_AND_GRAMMAR_SINGLE) {
             fileName = "englishvocabularyandgrammar.json";
+        } else if (pageTypeValue == Constants.PAGE_TYPE_ENGLISH_ACADEMIC_DEGREE_SINGLE) {
+            fileName = "englishacademicdegreesinglecheck.json";
         }
         String listData = AssetsUtils.getInstance().getJson(fileName, context);
         SingleCheckListBean singleCheckBean = new Gson().fromJson(listData, SingleCheckListBean.class);

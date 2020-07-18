@@ -8,23 +8,29 @@
         android:id="@+id/bt_computer_single_check"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="计算机单选题" />
+        android:text="统考计算机单选题" />
 
     <Button
         android:id="@+id/bt_english_single_check"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="英语单选题" />
+        android:text="统考英语B单选题" />
 
     <Button
         android:id="@+id/bt_english_vocabulary_and_grammar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="英语词汇和语法" />
+        android:text="统考英语B英语词汇和语法" />
 
     <Button
         android:id="@+id/bt_english_reading_comprehension"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="英语阅读理解" />
+        android:text="统考英语B英语阅读理解" />
+
+    <Button
+        android:id="@+id/bt_english_academic_degree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="学位英语英语阅读理解" />
 </LinearLayout>

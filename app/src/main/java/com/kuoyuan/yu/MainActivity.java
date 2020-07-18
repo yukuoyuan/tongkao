@@ -27,7 +27,8 @@ public class MainActivity extends BaseActivity {
 
 
     @OnClick({R.id.bt_computer_single_check, R.id.bt_english_single_check,
-            R.id.bt_english_vocabulary_and_grammar, R.id.bt_english_reading_comprehension})
+            R.id.bt_english_vocabulary_and_grammar, R.id.bt_english_reading_comprehension,
+            R.id.bt_english_academic_degree})
     public void onViewClicked(View view) {
         Bundle bundle = new Bundle();
         switch (view.getId()) {
@@ -56,6 +57,13 @@ public class MainActivity extends BaseActivity {
                 /*
                  * 阅读理解
                  */
+                break;
+            case R.id.bt_english_academic_degree:
+                /*
+                 * 学位英语词汇练习
+                 */
+                bundle.putInt(Constants.PAGE_TYPE_KEY, Constants.PAGE_TYPE_ENGLISH_ACADEMIC_DEGREE_SINGLE);
+                intent2Activity(SingleCheckActivity.class, bundle);
                 break;
             default:
                 break;

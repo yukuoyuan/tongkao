@@ -23,4 +23,8 @@ public class Constants {
      * 英语统考b词汇单选
      */
     public static final int PAGE_TYPE_ENGLISH_VOCABULARY_AND_GRAMMAR_SINGLE = 203;
+    /**
+     * 学位英语词汇与语法单选
+     */
+    public static final int PAGE_TYPE_ENGLISH_ACADEMIC_DEGREE_SINGLE = 204;
 }
