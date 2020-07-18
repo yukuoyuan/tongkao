@@ -4,11 +4,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.kuoyuan.yu.common.activitys.BaseActivity;
-import com.kuoyuan.yu.compute.activitys.ComputerSingleCheckActivity;
-import com.kuoyuan.yu.english.activitys.EnglishSingleCheckActivity;
-import com.kuoyuan.yu.english.activitys.EnglishVocabularyAndGrammarActivity;
+import com.kuoyuan.yu.common.config.Constants;
+import com.kuoyuan.yu.english.activitys.SingleCheckActivity;
 
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
@@ -31,24 +29,28 @@ public class MainActivity extends BaseActivity {
     @OnClick({R.id.bt_computer_single_check, R.id.bt_english_single_check,
             R.id.bt_english_vocabulary_and_grammar, R.id.bt_english_reading_comprehension})
     public void onViewClicked(View view) {
+        Bundle bundle = new Bundle();
         switch (view.getId()) {
             case R.id.bt_computer_single_check:
                 /*
                  * 跳转计算机单选界面
                  */
-                intent2Activity(ComputerSingleCheckActivity.class);
+                bundle.putInt(Constants.PAGE_TYPE_KEY, Constants.PAGE_TYPE_COMPUTER_SINGLE);
+                intent2Activity(SingleCheckActivity.class, bundle);
                 break;
             case R.id.bt_english_single_check:
                 /*
                  * 跳转英语b单选题界面
                  */
-                intent2Activity(EnglishSingleCheckActivity.class);
+                bundle.putInt(Constants.PAGE_TYPE_KEY, Constants.PAGE_TYPE_ENGLISH_B_SINGLE);
+                intent2Activity(SingleCheckActivity.class, bundle);
                 break;
             case R.id.bt_english_vocabulary_and_grammar:
                 /*
                  * 词汇和语法
                  */
-                intent2Activity(EnglishVocabularyAndGrammarActivity.class);
+                bundle.putInt(Constants.PAGE_TYPE_KEY, Constants.PAGE_TYPE_ENGLISH_VOCABULARY_AND_GRAMMAR_SINGLE);
+                intent2Activity(SingleCheckActivity.class, bundle);
                 break;
             case R.id.bt_english_reading_comprehension:
                 /*

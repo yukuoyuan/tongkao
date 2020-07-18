@@ -12,7 +12,7 @@ import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.adapters.BaseRecyclerViewAdapter;
 import com.kuoyuan.yu.common.fragments.BaseFragment;
 import com.kuoyuan.yu.compute.adapters.ComputerSingleCheckListAdapter;
-import com.kuoyuan.yu.compute.beans.ComputerSingleCheckListBean;
+import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 
 import butterknife.BindView;
 
@@ -20,7 +20,7 @@ import butterknife.BindView;
  * @author yukuoyuan
  * @date 2020/6/20
  */
-public class ComputerSingleCheckPagerFragment extends BaseFragment implements BaseRecyclerViewAdapter.OnItemClickListener<ComputerSingleCheckListBean.ComputerSingleDataBean.ComputerSingleCheckDataBean> {
+public class SingleCheckPagerFragment extends BaseFragment implements BaseRecyclerViewAdapter.OnItemClickListener<SingleCheckListBean.SingleDataBean.ComputerSingleCheckDataBean> {
     @BindView(R.id.tv_computer_single_check_title)
     TextView tvComputerSingleCheckTitle;
     @BindView(R.id.rcv_computer_single_check_list)
@@ -34,10 +34,10 @@ public class ComputerSingleCheckPagerFragment extends BaseFragment implements Ba
     /**
      * 数据
      */
-    private ComputerSingleCheckListBean.ComputerSingleDataBean mComputerSingleDataBean;
+    private SingleCheckListBean.SingleDataBean mComputerSingleDataBean;
 
-    public static ComputerSingleCheckPagerFragment newInstance(Bundle args) {
-        ComputerSingleCheckPagerFragment fragment = new ComputerSingleCheckPagerFragment();
+    public static SingleCheckPagerFragment newInstance(Bundle args) {
+        SingleCheckPagerFragment fragment = new SingleCheckPagerFragment();
         fragment.setArguments(args);
         return fragment;
     }
@@ -69,7 +69,7 @@ public class ComputerSingleCheckPagerFragment extends BaseFragment implements Ba
     }
 
     @Override
-    public void onItemClick(ComputerSingleCheckListBean.ComputerSingleDataBean.ComputerSingleCheckDataBean computerSingleCheckDataBean, int position, int type) {
+    public void onItemClick(SingleCheckListBean.SingleDataBean.ComputerSingleCheckDataBean computerSingleCheckDataBean, int position, int type) {
         if (type == 1) {
             /*
              * 选择正确

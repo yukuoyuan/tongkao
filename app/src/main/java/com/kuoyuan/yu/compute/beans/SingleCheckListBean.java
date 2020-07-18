@@ -9,10 +9,10 @@ import java.util.List;
  * @author yukuoyuan
  * @date 2020/6/20
  */
-public class ComputerSingleCheckListBean {
-    public List<ComputerSingleDataBean> data;
+public class SingleCheckListBean {
+    public List<SingleDataBean> data;
 
-    public static class ComputerSingleDataBean implements Parcelable {
+    public static class SingleDataBean implements Parcelable {
         public String title;
         public String tip;
         public List<ComputerSingleCheckDataBean> checkData;
@@ -65,24 +65,24 @@ public class ComputerSingleCheckListBean {
             dest.writeTypedList(this.checkData);
         }
 
-        public ComputerSingleDataBean() {
+        public SingleDataBean() {
         }
 
-        protected ComputerSingleDataBean(Parcel in) {
+        protected SingleDataBean(Parcel in) {
             this.title = in.readString();
             this.tip = in.readString();
             this.checkData = in.createTypedArrayList(ComputerSingleCheckDataBean.CREATOR);
         }
 
-        public static final Creator<ComputerSingleDataBean> CREATOR = new Creator<ComputerSingleDataBean>() {
+        public static final Creator<SingleDataBean> CREATOR = new Creator<SingleDataBean>() {
             @Override
-            public ComputerSingleDataBean createFromParcel(Parcel source) {
-                return new ComputerSingleDataBean(source);
+            public SingleDataBean createFromParcel(Parcel source) {
+                return new SingleDataBean(source);
             }
 
             @Override
-            public ComputerSingleDataBean[] newArray(int size) {
-                return new ComputerSingleDataBean[size];
+            public SingleDataBean[] newArray(int size) {
+                return new SingleDataBean[size];
             }
         };
     }

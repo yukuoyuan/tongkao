@@ -17,12 +17,9 @@
             </intent-filter>
         </activity>
         <!--      这是一个计算机题单选的界面  -->
-        <activity
-            android:name=".compute.activitys.ComputerSingleCheckActivity"
-            android:screenOrientation="portrait" />
         <!--      这是一个英语b题单选的界面  -->
         <activity
-            android:name=".english.activitys.EnglishSingleCheckActivity"
+            android:name=".english.activitys.SingleCheckActivity"
             android:screenOrientation="portrait" />
         <!--        这是一个词汇和语法单选的界面-->
         <activity

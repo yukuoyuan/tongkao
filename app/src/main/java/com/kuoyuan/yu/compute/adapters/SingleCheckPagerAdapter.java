@@ -7,16 +7,16 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import com.kuoyuan.yu.common.adapters.BaseFragmentStatePageAdapter;
-import com.kuoyuan.yu.compute.fragments.ComputerSingleCheckPagerFragment;
-import com.kuoyuan.yu.compute.beans.ComputerSingleCheckListBean;
+import com.kuoyuan.yu.compute.fragments.SingleCheckPagerFragment;
+import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 
 /**
  * @author yukuoyuan
  * @date 2020/6/20
  */
-public class ComputerSingleCheckPagerAdapter extends BaseFragmentStatePageAdapter<ComputerSingleCheckListBean.ComputerSingleDataBean> {
+public class SingleCheckPagerAdapter extends BaseFragmentStatePageAdapter<SingleCheckListBean.SingleDataBean> {
 
-    public ComputerSingleCheckPagerAdapter(@NonNull FragmentManager fm) {
+    public SingleCheckPagerAdapter(@NonNull FragmentManager fm) {
         super(fm);
     }
 
@@ -26,6 +26,6 @@ public class ComputerSingleCheckPagerAdapter extends BaseFragmentStatePageAdapte
         Bundle bundle = new Bundle();
         bundle.putInt("position", position);
         bundle.putParcelable("data", getItemData(position));
-        return ComputerSingleCheckPagerFragment.newInstance(bundle);
+        return SingleCheckPagerFragment.newInstance(bundle);
     }
 }

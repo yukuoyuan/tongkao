@@ -1,0 +1,2579 @@
+{
+  "data": [
+    {
+      "title": "If I had the time, I______on a holiday like that in Spain.",
+      "tip": "【解析】A本题考查虚拟语气。句意：如果我有时间，我一定会到西班牙去过一个那样的假期。if引导的条件句中的虚拟语气，如果表示与现在事实相反的情况，从句用一般过去时，主句用过去将来时，故答案为A",
+      "checkData": [
+        {
+          "title": "would go",
+          "isRight": true
+        },
+        {
+          "title": "would have gone",
+          "isRight": false
+        },
+        {
+          "title": "had gone",
+          "isRight": false
+        },
+        {
+          "title": "will go",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "You should______that there are no grammar and spelling mistakes in your essay.",
+      "tip": "【解析】C本题考查动词词组辨析。句意：你应该确保你的文章中没有语法和拼写错误。make sure意为“确保，证实”，故答案为C。look out意为“留意，当心”；find out 意为“发现，找出（真相）”；keep aware意为“让……意识到”。",
+      "checkData": [
+        {
+          "title": "look out",
+          "isRight": false
+        },
+        {
+          "title": "find out ",
+          "isRight": false
+        },
+        {
+          "title": "make sure",
+          "isRight": true
+        },
+        {
+          "title": "keep aware",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Just leave your bags there and I' ll______the porter to carry them to your room.",
+      "tip": "【解析】D本题考查使役动词辨析。句意：你的行李就放在那儿吧，我让行李搬运工送到你的房间去。get sb.to do sth.意为“让某人做某事”，故答案为D。make，have和let作为使役动词时后接省略to的动词不定式结构，故排除。",
+      "checkData": [
+        {
+          "title": "make",
+          "isRight": false
+        },
+        {
+          "title": "have",
+          "isRight": false
+        },
+        {
+          "title": "let",
+          "isRight": false
+        },
+        {
+          "title": "get",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "Visitors from the US have increased______8 percent since last year.",
+      "tip": "【解析】B 本题考查介词词义辨析。句意：从美国来的访客自去年起增加了8%。介词by主要表示“途径、方式、时间”，接在动词increase之后时，表示“增长的程度”，故答案为B。介词in可表示“时间、地点、状态”；介词with可表示“原因、方式”；介词from可表示“起点、出处、原因”。",
+      "checkData": [
+        {
+          "title": "in",
+          "isRight": false
+        },
+        {
+          "title": "by",
+          "isRight": true
+        },
+        {
+          "title": "with",
+          "isRight": false
+        },
+        {
+          "title": "from",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The hotel was reasonably comfortable but the food lacked______and the service was poor.",
+      "tip": "【解析】C本题考查名词词义辨析。句意：旅馆还是比较舒适的，但是食物品种不多，而且服务很差。variety意为“品种，多样性”，故答案为C。energy意为“精力，能量”；standard意为“标准，规格”；heat意为“热，热度”。",
+      "checkData": [
+        {
+          "title": "energy",
+          "isRight": false
+        },
+        {
+          "title": "standard",
+          "isRight": false
+        },
+        {
+          "title": "variety",
+          "isRight": true
+        },
+        {
+          "title": "heat",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "As a place where east______west, Berlin is one of the busiest cities in the world.",
+      "tip": "【解析】B本题考查动词词义辨析。句意：作为一个东西方交汇的地方，柏林是这个世界上最繁忙的城市之一。meets在此处的意思是“相遇，交汇”，故答案为B。beats意为“打败，敲击”；reaches意为“到达”；switches意为“转换，抽打”。",
+      "checkData": [
+        {
+          "title": "beats",
+          "isRight": false
+        },
+        {
+          "title": "meets",
+          "isRight": true
+        },
+        {
+          "title": "reaches",
+          "isRight": false
+        },
+        {
+          "title": "switches",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "If you were the general manager of the company, what would you do______the current situation?",
+      "tip": "【解析】A本题考查非谓语动词。句意：如果你是这个公司的总经理，你会做些什么来改善目前的状况？空格处所填内容在句子的主谓宾结构之后，作目的状语，因此应使用不定式形式，故答案为A。",
+      "checkData": [
+        {
+          "title": "to improve",
+          "isRight": true
+        },
+        {
+          "title": "improving ",
+          "isRight": false
+        },
+        {
+          "title": "to have improved",
+          "isRight": false
+        },
+        {
+          "title": "having improved",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "It was a rush but we arrived just______—a few minutes later and we'd have missed the flight.",
+      "tip": "【解析】C本题考查介词短语辨析。句意：正当交通高峰期，但是我们还是及时赶到了，如果再晚几分钟，我们就会误了航班。in time意为“及时”，故答案为C。behind time意为“迟到，逾期”；on time意为“按时”；well ahead of time意为“提前，事先”。",
+      "checkData": [
+        {
+          "title": "behind time",
+          "isRight": false
+        },
+        {
+          "title": "on time",
+          ,
+          "isRight": false
+        },
+        {
+          "title": "in time",
+          "isRight": true
+        },
+        {
+          "title": "well ahead of time",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "We had to wait in line for 30 minutes because only a few clients were allowed in______.",
+      "tip": "【解析】A本题考查介词短语辨析。句意：我们不得不排队等候了半个小时，因为一次只允许几名顾客进去。at one time意为“同时，一次”，故答案为A。at all times意为“一直，始终”；at certain times意为“在某些时候”；at no time意为“决不，从不”",
+      "checkData": [
+        {
+          "title": "at one time",
+          "isRight": true
+        },
+        {
+          "title": "at all times ",
+          "isRight": false
+        },
+        {
+          "title": "at certain times",
+          "isRight": false
+        },
+        {
+          "title": "at no time",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "If the current______continues, our country may turn out to be the world's largest economy by 2020.",
+      "tip": "【解析】D本题考查名词词义辨析。句意：如果目前的趋势持续下去的话，到2020年我们的国家有可能成为世界上最大的经济体。trend意为“趋势，倾向”，故答案为D。recovery意为“复原，复苏”；event意为“事件”；potential意为“潜力，潜能”。",
+      "checkData": [
+        {
+          "title": "recovery ",
+          "isRight": false
+        },
+        {
+          "title": "event",
+          "isRight": false
+        },
+        {
+          "title": "potential ",
+          "isRight": false
+        },
+        {
+          "title": "trend",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "The historical church was______damaged in a fire attack on 21Dec.,2007.",
+      "tip": "【解析】B本题考查副词词义辨析。句意：这座古老的教堂在2007年12月21日的大火中彻底受损。extensively意为“彻底地，严重地”，故答案为B。intensively意为“强烈地，集中地”；decisively意为“决然地，果断地”；repeatedly意为“重复地，再三地”。",
+      "checkData": [
+        {
+          "title": "intensively",
+          "isRight": false
+        },
+        {
+          "title": "extensively ",
+          "isRight": true
+        },
+        {
+          "title": "decisively",
+          "isRight": false
+        },
+        {
+          "title": "repeatedly",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Women are better than men at detecting sweet, sour, salty,______biter tastes.",
+      "tip": "【解析】D]本题考查连词用法辨析。句意：女人对于甜、酸、咸和苦的味道比男人更敏感。and在肯定句中连接词性相同、成分相当的部分，故答案为D。than表示比较；or连接并列成分时多用于问句和否定句；as作连词表示原因及伴随关系",
+      "checkData": [
+        {
+          "title": "than",
+          "isRight": false
+        },
+        {
+          "title": "or ",
+          "isRight": false
+        },
+        {
+          "title": "as",
+          "isRight": false
+        },
+        {
+          "title": "and",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "She has a very good command of both German and French, and is now learning______foreign language.",
+      "tip": "【解析】A本题考查不定代词的用法。句意：她已经很好地掌握了德语和法语，现在正在学习另一门外语。another指三者以上中的另一个，故答案为A。the other表示两个中的另一个；other用在单数或复数名词前，意为“别的，其他的”；any other 指同一范围内除了某人或某物以外的其他人或物，意为“任何其他的”",
+      "checkData": [
+        {
+          "title": "another",
+          "isRight": true
+        },
+        {
+          "title": "the other",
+          "isRight": false
+        },
+        {
+          "title": "other ",
+          "isRight": false
+        },
+        {
+          "title": "any other",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "We can't emphasize______the importance of air and water for the survival of al species.",
+      "tip": "【解析】B本题考查副词词组辨析。句意：空气和水对所有物种生存的重要性怎么强调都不为过。can't..toomuch为固定表达，表示“无论怎么……都不为过”，故答案为B。very much 意为“非常”；pretty much意为“几乎（全部），差不多”；quite much意为“相当多”。",
+      "checkData": [
+        {
+          "title": "very much",
+          "isRight": false
+        },
+        {
+          "title": "too much",
+          "isRight": true
+        },
+        {
+          "title": "pretty much",
+          "isRight": false
+        },
+        {
+          "title": "quite much",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "While being questioned on the court, the man denied______the old lady's necklace.",
+      "tip": "【解析】B本题考查非谓语动词的时态。句意：在法庭接受问讯时，那位男士否认自己偷了老太太的项链。动词deny 之后应接动名词形式，故选项C和选项D应排除。偷项链这一动作发生在法庭问讯之前，因此应使用动名词的完成形式，故答案为B。",
+      "checkData": [
+        {
+          "title": "taking",
+          "isRight": false
+        },
+        {
+          "title": "having taken",
+          "isRight": true
+        },
+        {
+          "title": "to have taken",
+          "isRight": false
+        },
+        {
+          "title": "to take",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Not until a monkey is several years old______to exhibit signs of independence from its mother.",
+      "tip": "【解析】C本题考查倒装句的用法。句意：猴子长到几岁后才会表现出脱离母亲的迹象。前面的时间状语从句以否定连词not until开头，其后的主句应该使用部分倒装，即将助动词置于主语之前，故答案为C。",
+      "checkData": [
+        {
+          "title": "it does begin",
+          "isRight": false
+        },
+        {
+          "title": "when it begins",
+          "isRight": false
+        },
+        {
+          "title": "does it begin ",
+          "isRight": true
+        },
+        {
+          "title": "before it begins",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Although_____happened in the developed country sounds like science fiction, it could occur elsewhere in the world.",
+      "tip": "【解析】B本题考查名词性从句的连接词。句意：虽然在发达国家发生的事情听上去像科幻小说，但是它也可能发生在世界上的其他地方。空格部分在让步状语从句中引导主语从句，且在主语从句中作主语，因此应使用连接代词。根据句意可知，答案为B。which虽然也是连接代词，但不符合句意；how为连接副词，在句中作状语；it为人称代词，不能引导从句。",
+      "checkData": [
+        {
+          "title": "which ",
+          "isRight": false
+        },
+        {
+          "title": "what ",
+          "isRight": true
+        },
+        {
+          "title": "how",
+          "isRight": false
+        },
+        {
+          "title": "it",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "During the last three decades, the number of people participating in physical fitness programs_____sharply.",
+      "tip": "【解析】A本题考查主谓一致和动词的时态。句意：在过去的30年中，参加健身活动的人猛增。the number of..表示……的数量”，作主语时，谓语动词用单数形式。时间状语during the last three decades应与现在完成时搭配，故答案为A。",
+      "checkData": [
+        {
+          "title": "has increased",
+          "isRight": true
+        },
+        {
+          "title": "were increasing",
+          "isRight": false
+        },
+        {
+          "title": "had increased",
+          "isRight": false
+        },
+        {
+          "title": "have increased",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "She is quite rich_____money. However, this does not mean that she is happy.",
+      "tip": "【解析】C本题考查介词短语辨析。句意：她在金钱方面很富有，但并不意味着她很幸福。in terms of意为“在……方面，按照，根据”，故答案为C。in spite of意为“不管，尽管”；in favor of意为“赞同，支持”；in case of意为“假设，万一”。",
+      "checkData": [
+        {
+          "title": "in spite of",
+          "isRight": false
+        },
+        {
+          "title": "in favor of ",
+          "isRight": false
+        },
+        {
+          "title": "in terms of",
+          "isRight": true
+        },
+        {
+          "title": "in case of",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "As the train will not leave until one hour later, we______grab a bite at the snack bar.",
+      "tip": "【解析】D本题考查副词短语辨析。句意：火车一个小时后才开，我们最好到小吃店去吃点东西。might as well意为“不如，最好，还是…的好”，故答案为D。may well意为“很可能，有充分的理由可以……”；just as well意为“幸好，无妨”；as well意为“也，同样地”。",
+      "checkData": [
+        {
+          "title": "may well",
+          "isRight": false
+        },
+        {
+          "title": "just as well",
+          "isRight": false
+        },
+        {
+          "title": "as well",
+          "isRight": false
+        },
+        {
+          "title": "might as well",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "John_____away for the last two days but he should be back tomorrow.",
+      "tip": "【解析】C 本题考查动词的时态。句意：约翰这两天都不在，但是他明天应该会回来。动作发生在过去但一直持续到现在，因此应该使用现在完成时。根据时间状语 for the last two days可知，谓语动词应为延续性动词，故答案为C。",
+      "checkData": [
+        {
+          "title": "is",
+          "isRight": false
+        },
+        {
+          "title": "went",
+          "isRight": false
+        },
+        {
+          "title": "has been",
+          "isRight": true
+        },
+        {
+          "title": "has gone",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "They will not decide their attitude until they_____what the speaker has to say.",
+      "tip": "【解析】A 本题考查动词的时态。句意：在听到说话人要讲的内容之前，他们不能决定自己的态度。主句中使用的是一般将来时，until引导的时间状语从句应使用与现在有关的时态，而要强调“听到”这个动作发生在“做决定”之前，因此应使用现在完成时，故答案为A。",
+      "checkData": [
+        {
+          "title": "have heard",
+          "isRight": true
+        },
+        {
+          "title": "will hear",
+          "isRight": false
+        },
+        {
+          "title": "would hear",
+          "isRight": false
+        },
+        {
+          "title": "had heard",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "_____dinner is ready, I' ll give you a call.",
+      "tip": "【解析】A 本题考查从句的引导词。句意：晚餐一做好，我就给你打电话。as soon as意为“….就……”，强调主从句动作发生的时间十分接近，故答案为A。no soner than和hardly when都意为“刚…….就……”，但两者的常见用法是no sooner..…than..…和hardly...when.…，句子要用倒装结构，且no sooner和hardly 后一般用过去完成时；other than意为“不同于，除了”。",
+      "checkData": [
+        {
+          "title": "as soon as",
+          "isRight": true
+        },
+        {
+          "title": "no soner than",
+          "isRight": false
+        },
+        {
+          "title": "hardly when",
+          "isRight": false
+        },
+        {
+          "title": "other than",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "She has not arrived yet. She_____the bus.",
+      "tip": "【解析】C 本题考查虚拟语气。句意：她还没到，可能是没赶上公共汽车吧。表示对已经发生情况的推测，应使用may have done，故答案为C。选项A和选项B表示可能性，不表示虚拟，故排除；should have done是对过去事情的假设，表示过去应该做某事却没有做。",
+      "checkData": [
+        {
+          "title": "might miss ",
+          "isRight": false
+        },
+        {
+          "title": "may miss",
+          "isRight": false
+        },
+        {
+          "title": "may have missed",
+          "isRight": true
+        },
+        {
+          "title": "should have missed",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "You needn’t_____the class to tell me that; you could have come up to me afterwards.",
+      "tip": "【解析】A 本题考查虚拟语气。句意：你没有必要中断课堂来告诉我那件事；你本可以下课后再来找我。本题空格处表示对过去已经发生的事情的虚拟，使用完成形式，而情态动词need之后，使用省略to的不定式，故答案为A",
+      "checkData": [
+        {
+          "title": "have interrupted",
+          "isRight": true
+        },
+        {
+          "title": "to have interrupted ",
+          "isRight": false
+        },
+        {
+          "title": "interrupt",
+          "isRight": false
+        },
+        {
+          "title": "to interrupt",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The_____impact of inflation lies in the decline of people's living standard and social instability.",
+      "tip": "【解析】B 本题考查形容词词义辨析。句意：通货膨胀的负面影响在于它降低了人们的生活水平和社会的稳定性。negative意为“负面的，否定的”，故答案为B。native意为“本国的，本地的”；natural意为“自然的，天生的”；national意为“国家的，民族的”。",
+      "checkData": [
+        {
+          "title": "native",
+          "isRight": false
+        },
+        {
+          "title": "negative",
+          "isRight": true
+        },
+        {
+          "title": "natural",
+          "isRight": false
+        },
+        {
+          "title": "national",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "There is very_____knowledge about how to make the transition from childhood to adulthood less painful.",
+      "tip": "【解析】B 本题考查形容词词义辨析。句意：关于如何使童年向成年转变的过程更轻松一些的知识非常少。litle表示“很少，几乎没有”，修饰不可数名词，故答案为B。knowledge是不可数名词，因此不能用few和many修饰；much修饰名词时，前面不能使用very。",
+      "checkData": [
+        {
+          "title": "few",
+          "isRight": false
+        },
+        {
+          "title": "little",
+          "isRight": true
+        },
+        {
+          "title": "many",
+          "isRight": false
+        },
+        {
+          "title": "much",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "_____the flood, the ship would have reached its destination on time.",
+      "tip": "【解析】D 本题考查虚拟语气。句意：要不是发洪水，船早就按时到达目的地了。but for意为“要不是，如果没有”，后接名词，功能相当于一个虚拟条件从句，故答案为D。in case of意为“假设，万一”；in spite of 意为“不管”；because of意为“因为”。",
+      "checkData": [
+        {
+          "title": "In case of ",
+          "isRight": false
+        },
+        {
+          "title": "In spite of",
+          "isRight": false
+        },
+        {
+          "title": "Because of",
+          "isRight": false
+        },
+        {
+          "title": "But for",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "Young people are redefining for themselves_____it means to be a man or a woman.",
+      "tip": "【解析】D 本题考查宾语从句的引导词。句意：年轻人正在重新为自己定义什么是男人和女人。分析句子结构可知，themselves后为动词redefine的宾语从句，该从句中缺少宾语，因此应用连接代词来引导。what在引导宾语从句时，既起连接作用，又在句中作成分，故答案为D。how为连接副词，在从句中作方式状语；that为连接代词，但不充当句子成分；which也是连接代词，但在此处不符合句意",
+      "checkData": [
+        {
+          "title": "how",
+          "isRight": false
+        },
+        {
+          "title": "that",
+          "isRight": false
+        },
+        {
+          "title": "which",
+          "isRight": false
+        },
+        {
+          "title": "what",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "You' re the person you are, so it makes sense to be that person rather than someone_____.",
+      "tip": "【解析】C 本题考查形容词和副词词义辨析。句意：你就是你，所以你就做自己，而不是做别人。分析句子结构可知，空格处应填入一个形容词，作someone的后置定语。else意为“另外的，其他的”，符合句意，故答案为C。elsewhere为副词，意为“在别处”；otherwise为副词，意为“否则，不然”；other意为“另外的，其他的”，但一般不修饰不定代词且修饰名词或代词时一般前置。",
+      "checkData": [
+        {
+          "title": "elsewhere",
+          "isRight": false
+        },
+        {
+          "title": "otherwise ",
+          "isRight": false
+        },
+        {
+          "title": "else",
+          "isRight": true
+        },
+        {
+          "title": "other",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "John had his leg broken the other day, which_____his absence from class for the last week.",
+      "tip": "【解析】B 本题考查动词短语辨析。句意：约翰那天把腿摔折了，这就是他上周没来上课的原因。accounts for意为“说明….的原因，对……做出解释”，故答案为B。calls for意为“要求，提倡”；shows off意为“炫耀，卖弄”；sets forth意为“阐明，陈述”",
+      "checkData": [
+        {
+          "title": "calls for",
+          "isRight": false
+        },
+        {
+          "title": "accounts for ",
+          "isRight": true
+        },
+        {
+          "title": "shows off",
+          "isRight": false
+        },
+        {
+          "title": "sets forth",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Not all persons arrested and_____with a crime are guilty.",
+      "tip": "【解析】D 本题考查动词词义辨析。句意：并不是所有被逮捕或受指控的人都有罪。\ncharged意为“指控，加罪于”，故答案为D。sentenced意为“判决，宣判”；accused意为“谴责，非难”；persecuted意为“迫害”。\n",
+      "checkData": [
+        {
+          "title": "sentenced ",
+          "isRight": false
+        },
+        {
+          "title": "accused",
+          "isRight": false
+        },
+        {
+          "title": "persecuted",
+          "isRight": false
+        },
+        {
+          "title": "charged",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "Communication is the process of_____a message from a source to an audience via a channel.",
+      "tip": "【解析】B 本题考查动词词义辨析。句意：通信是消息从某个来源通过某种渠道向受众传播的过程。transmitting意为“传播，传输”，故答案为B。transforming意为“转换，转变”；submiting意为“提交，递交”；switching意为“转变”。",
+      "checkData": [
+        {
+          "title": "transforming",
+          "isRight": false
+        },
+        {
+          "title": "transmitting ",
+          "isRight": true
+        },
+        {
+          "title": "submitting",
+          "isRight": false
+        },
+        {
+          "title": "switching",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "What_____a crime depends on what the country's law allows.",
+      "tip": "【解析】C 本题考查动词词义辨析。句意：什么情况构成犯罪要视这个国家的法律而定。constitutes意为“是，被算作，构成”，故答案为C。relates意为“使联系，发生关系”；commits意为“犯（错误），干（坏事）”；reaches意为“到达；伸出”。",
+      "checkData": [
+        {
+          "title": "relates",
+          "isRight": false
+        },
+        {
+          "title": "commits ",
+          "isRight": false
+        },
+        {
+          "title": "constitutes",
+          "isRight": true
+        },
+        {
+          "title": "reaches",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "They talked for a long time,_____longer than he felt was necessary.",
+      "tip": "【解析】D 本题考查副词的用法辨析。句意：他们谈了很长时间，比他认为所需的时间要长得多。空格后为形容词比较级longer，备选项中能修饰比较级的只有much，故答案为D。其余各项一般都修饰形容词原级。",
+      "checkData": [
+        {
+          "title": "quite",
+          "isRight": false
+        },
+        {
+          "title": "pretty ",
+          "isRight": false
+        },
+        {
+          "title": "fairly",
+          "isRight": false
+        },
+        {
+          "title": "much",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "Sister Wendy only eats plain food_____she doesn't drink alcohol.",
+      "tip": "【解析】A 本题考查连词辨析。句意：温蒂姐姐只吃清淡的食物，而且不喝酒。空格前后分别为两个意义和结构完整的句子，且两者之间为并列关系，因此应使用连词and，故答案为A。but 表示转折；while 表示对比；yet表示转折。",
+      "checkData": [
+        {
+          "title": "and",
+          "isRight": true
+        },
+        {
+          "title": "but ",
+          "isRight": false
+        },
+        {
+          "title": "while",
+          "isRight": false
+        },
+        {
+          "title": "yet",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "_____all my relatives,I like my Aunt Emily the best.",
+      "tip": "【解析】C 本题考查介词词义与用法辨析。句意：在我所有的亲戚当中，我最喜欢艾米丽姑姑。of意为“在……之中”，表示范围，故答案为C。above意为“在……上方”，表示方位；for意为“为了”，表示目的；in意为“在……里面”，表示场所、时间或期限等。",
+      "checkData": [
+        {
+          "title": "Above",
+          "isRight": false
+        },
+        {
+          "title": "For ",
+          "isRight": false
+        },
+        {
+          "title": "Of",
+          "isRight": true
+        },
+        {
+          "title": "In",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "You_____me a lot beer if you came from the ton where I grew up.",
+      "tip": "【解析】B 本题考查虚拟语气。句意：如果你来自我长大的那个小镇，你就更能理解我。if引导的条件状语从句表示与现在情况事实相反的情况，从句使用一般过去时，主句用“would/should/could/might+动词原形”，故答案为B。",
+      "checkData": [
+        {
+          "title": "will understand ",
+          "isRight": false
+        },
+        {
+          "title": "would understand",
+          "isRight": true
+        },
+        {
+          "title": "would be understanding",
+          "isRight": false
+        },
+        {
+          "title": "will be understanding",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "He told me that Lisa_____her final exams.",
+      "tip": "【解析】B 本题考查动词的时态。句意：他告诉我丽莎通过了期末考试。空格处是宾语从句的谓语动词，主句中的谓语动词是told，为一般过去时，而pass这一动作发生在此之前，因此应使用过去完成时，故答案为B。",
+      "checkData": [
+        {
+          "title": "has passed",
+          "isRight": false
+        },
+        {
+          "title": "had passed",
+          "isRight": true
+        },
+        {
+          "title": "was passing",
+          "isRight": false
+        },
+        {
+          "title": "is passing",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The view from the top of a mountain_____the man and captures his emotion.",
+      "tip": "【解析】B 本题考查动词词义辨析。句意：山顶上看到的景色启发了这个男人，他被深深地吸引住了。inspires意为“启示，鼓舞，感动”，故答案为B。inspects意为“检查，视察”；instructs意为“教导，命令，指示”；insults意为“侮辱，凌侮”。",
+      "checkData": [
+        {
+          "title": "inspects",
+          "isRight": false
+        },
+        {
+          "title": "inspires",
+          "isRight": true
+        },
+        {
+          "title": "instructs",
+          "isRight": false
+        },
+        {
+          "title": "insults",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "You can     the dangers of driving by obeying traffic rules.",
+      "tip": "【解析】D 本题考查动词词义辨析。句意：遵守交通规则可以使开车的危险最小化。minimize意为“使最小化”，故答案为D。realize意为“理解，领会”；emphasize意为“强调，重视”；recognize意为“认识，认出”。",
+      "checkData": [
+        {
+          "title": "realize",
+          "isRight": false
+        },
+        {
+          "title": "emphasize ",
+          "isRight": false
+        },
+        {
+          "title": "recognize",
+          "isRight": false
+        },
+        {
+          "title": "minimize",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "We looked around: there was nothing but sand     .",
+      "tip": "【解析】A 本题考查介词短语辨析。句意：我们环顾四周：除了沙子，什么也没看到。in sight意为“看得见，在视线内”，故答案为A。at large意为“详尽的，未被捕的”；at a glance意为“一瞥，看一眼”；in our view意为“在我们看来”。",
+      "checkData": [
+        {
+          "title": "in sight",
+          "isRight": true
+        },
+        {
+          "title": "at large",
+          "isRight": false
+        },
+        {
+          "title": "at a glance",
+          "isRight": false
+        },
+        {
+          "title": "in our view",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "You shouldn’t change jobs      , or people will doubt your ability to hold any job.",
+      "tip": "【解析】D 本题考查副词词义辨析。句意：你不应该不断地换工作，否则人们会质疑你是否能胜任一项工作。constantly意为“不断地，时常地”，故答案为D。consciously意为“自觉地，有意识地”；curiously意为“好奇地”；continuously意为“连续地，持续地”。",
+      "checkData": [
+        {
+          "title": "consciously",
+          "isRight": false
+        },
+        {
+          "title": "curiously ",
+          "isRight": false
+        },
+        {
+          "title": "continuously",
+          "isRight": false
+        },
+        {
+          "title": "constantly",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "The basketball coach asked the players to      with their training after some instructions.",
+      "tip": "【解析】C 本题考查动词词义辨析。句意：发布一些指令后，篮球教练要求队员们继续训练。proceed意为“继续做”，故答案为C。stay意为“停留，待”；share意为“分享，共有”；process意为“加工，处理”。",
+      "checkData": [
+        {
+          "title": "stay",
+          "isRight": false
+        },
+        {
+          "title": "share ",
+          "isRight": false
+        },
+        {
+          "title": "proceed",
+          "isRight": true
+        },
+        {
+          "title": "process",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "When asked why he had been absent, little Frank      a good excuse.",
+      "tip": "【解析】B 本题考查动词短语辨析。句意：当被问到为什么缺席时，小弗兰克想到了一个很好的借口。came up with意为“想出”，故答案为B。caught up with意为“赶上，逮捕”；put up with 意为“忍受”；kept up with意为“保持联系，赶上”。",
+      "checkData": [
+        {
+          "title": "caught up with",
+          "isRight": false
+        },
+        {
+          "title": "came up with",
+          "isRight": true
+        },
+        {
+          "title": "put up with",
+          "isRight": false
+        },
+        {
+          "title": "kept up with",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "I am sure her decision will work well, for she has had a      for being fair and just.",
+      "tip": "【解析】A 本题考查名词词义辨析。句意：我相信她的决定会很好，因为她向来以公平公正而著称。reputation意为“名誉，名声”，故答案为A。requirement意为“必要条件”；responsibility意为“责任，负责”；resolution意为“决心，坚决”。",
+      "checkData": [
+        {
+          "title": "reputation",
+          "isRight": true
+        },
+        {
+          "title": "requirement ",
+          "isRight": false
+        },
+        {
+          "title": "responsibility",
+          "isRight": false
+        },
+        {
+          "title": "resolution",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The question was      the electrical equipment should be installed.",
+      "tip": "【解析】B 本题考查表语从句的引导词。句意：问题是电气设备应该安装在哪里。分析句子结构可知，表语从句中缺少一个地点状语。关系副词where在引导表语从句时，既起着连接作用，同时又在从句中充当地点状语，故答案为B。",
+      "checkData": [
+        {
+          "title": "that",
+          "isRight": false
+        },
+        {
+          "title": "where",
+          "isRight": true
+        },
+        {
+          "title": "what",
+          "isRight": false
+        },
+        {
+          "title": "which",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "      it will do us harm or good remains to be seen.",
+      "tip": "【解析】B 本题考查主语从句的引导词。句意：它对我们有益还是有害还有待于观察。空格处需要填入主语从句的引导词。备选项中，只有选项A和选项B表示“是否”，符合句意。但if引导主语从句时，只能用于it作形式主语的从句中。故答案为B。",
+      "checkData": [
+        {
+          "title": "If",
+          "isRight": false
+        },
+        {
+          "title": "Whether ",
+          "isRight": false
+        },
+        {
+          "title": "Why",
+          "isRight": false
+        },
+        {
+          "title": "How",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "      be careful when crossing the street!",
+      "tip": "【解析】D 本题考查助动词的用法。句意：过马路时一定要当心！在祈使句句首加上助动词do，表示强调，故答案为D。",
+      "checkData": [
+        {
+          "title": "Must",
+          "isRight": false
+        },
+        {
+          "title": "Should",
+          "isRight": false
+        },
+        {
+          "title": "Ought to",
+          "isRight": false
+        },
+        {
+          "title": "Do",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "They couldn't eat in a restaurant because      of them had any money on them.",
+      "tip": "【解析】C 本题考查代词辨析。句意：他们不能在餐馆吃饭，因为他们身上都没有钱。根据句中的any可知，空格处需要填入一个表示否定意义的词语，选项中只有none意为“没有一个”，表示否定，且符合句意，故答案为C。",
+      "checkData": [
+        {
+          "title": "all",
+          "isRight": false
+        },
+        {
+          "title": "any ",
+          "isRight": false
+        },
+        {
+          "title": "none",
+          "isRight": true
+        },
+        {
+          "title": "some",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "     , they continued their work.",
+      "tip": "【解析】D 本题考查让步状语从句。句意：尽管很晚了，但他们仍在继续工作。当as意为“虽然”时，引导让步状语从句，句子需要用部分倒装结构，必须将表语、状语或动词原形提到as前面，故答案为D。",
+      "checkData": [
+        {
+          "title": "As it was late",
+          "isRight": false
+        },
+        {
+          "title": "It was so late",
+          "isRight": false
+        },
+        {
+          "title": "So late as it was",
+          "isRight": false
+        },
+        {
+          "title": " Late as it was",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "Whoever has finished the task ahead of time will be rewarded, though we don't know who      will be.",
+      "tip": "【解析】A 本题考查代词辨析。句意：无论谁提前完成了任务都会得到奖励，尽管我们还不知道那个人是谁。分析句子结构可知，know后为宾语从句，宾语从句中缺少主语。当指代不知道的人时，通常用人称代词it，故答案为A。",
+      "checkData": [
+        {
+          "title": "it",
+          "isRight": true
+        },
+        {
+          "title": "they",
+          "isRight": false
+        },
+        {
+          "title": "she",
+          "isRight": false
+        },
+        {
+          "title": "that",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Businesses today routinely keep      of large amounts of market information.",
+      "tip": "【解析】D 本题考查固定词组。句意：现在的企业需要每天跟踪大量的市场信息。kep track of为固定短语，意为“掌握…….的线索，了解……的动态”，故答案为D。",
+      "checkData": [
+        {
+          "title": "up",
+          "isRight": false
+        },
+        {
+          "title": "out ",
+          "isRight": false
+        },
+        {
+          "title": "trace",
+          "isRight": false
+        },
+        {
+          "title": "track",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "A healthy diet is      for maintaining good overall health.",
+      "tip": "【解析】A 本题考查形容词词义辨析。句意：健康的饮食对保持整体的身体健康至关重要。essential意为“极其重要的”，故答案为A。potential意为“潜在的，可能的”；regular意为“规则的，有规律的”；particular意为“格外的，特别的”",
+      "checkData": [
+        {
+          "title": "essential",
+          "isRight": true
+        },
+        {
+          "title": "potential ",
+          "isRight": false
+        },
+        {
+          "title": "regular",
+          "isRight": false
+        },
+        {
+          "title": "particular",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "Thousands of protesters gathered on the streets, demanding that construction of a chemical plant close to their homes      stopped.",
+      "tip": "【解析】C 本题考查虚拟语气。句意：成千上万的抗议者聚集在街头，要求停止在他们的家园附近建设化工厂。demand后接宾语从句时，从句谓语一般要用虚拟语气，即“should+动词原形”，其被动语态为“should+be+动词过去分词”，其中should可以省略。故答案为C。",
+      "checkData": [
+        {
+          "title": "would be",
+          "isRight": false
+        },
+        {
+          "title": "must be ",
+          "isRight": false
+        },
+        {
+          "title": "be",
+          "isRight": true
+        },
+        {
+          "title": "were",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "In 2013, physical health      its lowest point in the past six years, largely due to rising rates of overweight.",
+      "tip": "【解析】C 本题考查动词辨析。句意：2013年身体健康指标达到了六年来的最低点，这很大程度上是由于持续上升的超重率造成的。reached意为“达到（某点），进入（某阶段）”，故答案为C。attained意为“获得，得到”；arrived at意为“到达（目的地），抵达（某地）”；went to意为“通到，通向”。",
+      "checkData": [
+        {
+          "title": "attained",
+          "isRight": false
+        },
+        {
+          "title": "arrived at ",
+          "isRight": false
+        },
+        {
+          "title": "reached",
+          "isRight": true
+        },
+        {
+          "title": "went to",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "This hospital is      provides the best services in the city.",
+      "tip": "【解析】D 本题考查定语从句。句意：这家医院是该城市中服务最好的。the one表示特指，作先行词时，定语从句的引导词应用that，故答案为D。",
+      "checkData": [
+        {
+          "title": "what",
+          "isRight": false
+        },
+        {
+          "title": "that ",
+          "isRight": false
+        },
+        {
+          "title": "one which",
+          "isRight": false
+        },
+        {
+          "title": "the one that",
+          "isRight": true
+        }
+      ]
+    },
+    {
+      "title": "Extreme shyness can get     of language development.",
+      "tip": "【解析】A 本题考查介词短语辨析。句意：极度害羞会阻碍语言的发展。in the way意为“妨碍，挡道”，故答案为A。by the way 意为“顺便说说”；on the way 意为“在路上，在途中”；in a way意为“在某种程度上”",
+      "checkData": [
+        {
+          "title": "in the way",
+          "isRight": true
+        },
+        {
+          "title": "by the way",
+          "isRight": false
+        },
+        {
+          "title": "on the way",
+          "isRight": false
+        },
+        {
+          "title": "in a way",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "After a long walk, we finally found a shelter     for the night.",
+      "tip": "【解析】C 本题考查非谓语动词。句意：走了很长的一段路后，我们终于找到了一个过夜的地方。动词不定式可以作宾语补足语，同时stay为不及物动词，故其后需要加介词才能接宾语，故答案为C。",
+      "checkData": [
+        {
+          "title": "to stay",
+          "isRight": false
+        },
+        {
+          "title": "staying ",
+          "isRight": false
+        },
+        {
+          "title": "to stay in",
+          "isRight": true
+        },
+        {
+          "title": "staying in",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "The response to the concert was not warm enough so I decided to postpone ticket booking     later in the year.",
+      "tip": "【解析】A 本题考查词义辨析。句意：对演唱会的反应还不够热烈，所以我决定推迟到今年晚些时候再订票。until意为“到……时，直到……为止”，故答案为A。unless意为“除非，如果不”；except 意为“除……之外”；beyond意为“超出……之外”。",
+      "checkData": [
+        {
+          "title": "until",
+          "isRight": true
+        },
+        {
+          "title": "unless",
+          "isRight": false
+        },
+        {
+          "title": "except",
+          "isRight": false
+        },
+        {
+          "title": "beyond",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    },
+    {
+      "title": "",
+      "tip": "",
+      "checkData": [
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        },
+        {
+          "title": "",
+          "isRight": false
+        }
+      ]
+    }
+  ]
+}

@@ -9,8 +9,8 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.activitys.BaseActivity;
-import com.kuoyuan.yu.compute.adapters.ComputerSingleCheckPagerAdapter;
-import com.kuoyuan.yu.compute.beans.ComputerSingleCheckListBean;
+import com.kuoyuan.yu.compute.adapters.SingleCheckPagerAdapter;
+import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 import com.kuoyuan.yu.compute.views.SingCheckBottomDialog;
 import com.kuoyuan.yu.english.presenters.EnglishVocabularyAndGrammarPresenter;
 import com.kuoyuan.yu.english.presenters.IEnglishVocabularyAndGrammarView;
@@ -41,7 +41,7 @@ public class EnglishVocabularyAndGrammarActivity extends BaseActivity<EnglishVoc
     /**
      * 数据源
      */
-    private List<ComputerSingleCheckListBean.ComputerSingleDataBean> listData;
+    private List<SingleCheckListBean.SingleDataBean> listData;
 
     @Override
     protected EnglishVocabularyAndGrammarPresenter createPresenter() {
@@ -77,11 +77,11 @@ public class EnglishVocabularyAndGrammarActivity extends BaseActivity<EnglishVoc
     }
 
     @Override
-    public void initData2View(List<ComputerSingleCheckListBean.ComputerSingleDataBean> listData) {
+    public void initData2View(List<SingleCheckListBean.SingleDataBean> listData) {
         mTotalCount = listData.size();
         this.listData = listData;
         showBottomCountTip(0);
-        ComputerSingleCheckPagerAdapter computerSingleCheckPagerAdapter = new ComputerSingleCheckPagerAdapter(getSupportFragmentManager());
+        SingleCheckPagerAdapter computerSingleCheckPagerAdapter = new SingleCheckPagerAdapter(getSupportFragmentManager());
         vpEnglishVocabularyGrammar.setAdapter(computerSingleCheckPagerAdapter);
         computerSingleCheckPagerAdapter.setData(listData);
     }

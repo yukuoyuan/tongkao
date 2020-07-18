@@ -11,7 +11,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.adapters.BaseRecyclerViewAdapter;
 import com.kuoyuan.yu.common.adapters.BaseViewHolder;
-import com.kuoyuan.yu.compute.beans.ComputerSingleCheckListBean;
+import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 
 import butterknife.BindView;
 
@@ -21,7 +21,7 @@ import butterknife.BindView;
  * @author yukuoyuan
  * @link github https://github.com/yukuoyuan
  */
-public class ComputerSingleCheckListAdapter extends BaseRecyclerViewAdapter<ComputerSingleCheckListBean.ComputerSingleDataBean.ComputerSingleCheckDataBean, ComputerSingleCheckListAdapter.MyHolder> {
+public class ComputerSingleCheckListAdapter extends BaseRecyclerViewAdapter<SingleCheckListBean.SingleDataBean.ComputerSingleCheckDataBean, ComputerSingleCheckListAdapter.MyHolder> {
 
 
     /**
@@ -65,7 +65,7 @@ public class ComputerSingleCheckListAdapter extends BaseRecyclerViewAdapter<Comp
 
         @Override
         public void setData2View(int position) {
-            ComputerSingleCheckListBean.ComputerSingleDataBean.ComputerSingleCheckDataBean computerSingleCheckDataBean = getItem(position);
+            SingleCheckListBean.SingleDataBean.ComputerSingleCheckDataBean computerSingleCheckDataBean = getItem(position);
             String mPosition = "";
             if (position == 0) {
                 mPosition = "A";

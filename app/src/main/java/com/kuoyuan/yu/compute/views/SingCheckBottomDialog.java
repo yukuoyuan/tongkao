@@ -6,14 +6,12 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.gson.Gson;
 import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.adapters.BaseRecyclerViewAdapter;
-import com.kuoyuan.yu.common.utils.AssetsUtils;
 import com.kuoyuan.yu.common.utils.ListUtils;
 import com.kuoyuan.yu.common.views.BaseBottomDialog;
 import com.kuoyuan.yu.compute.adapters.SingCheckBottomListAdapter;
-import com.kuoyuan.yu.compute.beans.ComputerSingleCheckListBean;
+import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 
 import java.util.List;
 
@@ -24,7 +22,7 @@ import butterknife.BindView;
  * @date 2020/6/21
  */
 public class SingCheckBottomDialog extends BaseBottomDialog implements
-        BaseRecyclerViewAdapter.OnItemClickListener<ComputerSingleCheckListBean.ComputerSingleDataBean> {
+        BaseRecyclerViewAdapter.OnItemClickListener<SingleCheckListBean.SingleDataBean> {
 
     @BindView(R.id.rcv_dialog_single_check_list)
     RecyclerView rcvDialogSingleCheckList;
@@ -44,7 +42,7 @@ public class SingCheckBottomDialog extends BaseBottomDialog implements
      *
      * @param data 数据
      */
-    private void initData2View(List<ComputerSingleCheckListBean.ComputerSingleDataBean> data) {
+    private void initData2View(List<SingleCheckListBean.SingleDataBean> data) {
         SingCheckBottomListAdapter singCheckBottomListAdapter = new SingCheckBottomListAdapter(context);
         rcvDialogSingleCheckList.setAdapter(singCheckBottomListAdapter);
         singCheckBottomListAdapter.setData(data);
@@ -57,7 +55,7 @@ public class SingCheckBottomDialog extends BaseBottomDialog implements
     }
 
     @Override
-    public void onItemClick(ComputerSingleCheckListBean.ComputerSingleDataBean computerSingleDataBean, int position, int type) {
+    public void onItemClick(SingleCheckListBean.SingleDataBean computerSingleDataBean, int position, int type) {
         if (onSingleCheckBottomDialogListener != null) {
             onSingleCheckBottomDialogListener.onSingleCheckBottomDialogCheck(position);
         }
@@ -69,7 +67,7 @@ public class SingCheckBottomDialog extends BaseBottomDialog implements
      *
      * @param listData 数据源
      */
-    public void setData(List<ComputerSingleCheckListBean.ComputerSingleDataBean> listData) {
+    public void setData(List<SingleCheckListBean.SingleDataBean> listData) {
         if (!ListUtils.isEmpty(listData)) {
             initData2View(listData);
         }

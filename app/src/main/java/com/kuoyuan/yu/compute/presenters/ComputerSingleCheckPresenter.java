@@ -8,7 +8,7 @@ import com.google.gson.Gson;
 import com.kuoyuan.yu.common.presenters.BasePresenter;
 import com.kuoyuan.yu.common.utils.AssetsUtils;
 import com.kuoyuan.yu.common.utils.ListUtils;
-import com.kuoyuan.yu.compute.beans.ComputerSingleCheckListBean;
+import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 
 /**
  * @author yukuoyuan
@@ -25,7 +25,7 @@ public class ComputerSingleCheckPresenter extends BasePresenter<IComputerSingleC
      */
     public void getListData() {
         String listData = AssetsUtils.getInstance().getJson("computersinglecheck.json", context);
-        ComputerSingleCheckListBean computerSingleCheckBean = new Gson().fromJson(listData, ComputerSingleCheckListBean.class);
+        SingleCheckListBean computerSingleCheckBean = new Gson().fromJson(listData, SingleCheckListBean.class);
         if (getBaseView() != null && computerSingleCheckBean != null && !ListUtils.isEmpty(computerSingleCheckBean.data)) {
             getBaseView().initData2View(computerSingleCheckBean.data);
         }

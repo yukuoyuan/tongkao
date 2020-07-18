@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.adapters.BaseRecyclerViewAdapter;
 import com.kuoyuan.yu.common.adapters.BaseViewHolder;
-import com.kuoyuan.yu.compute.beans.ComputerSingleCheckListBean;
+import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 
 import butterknife.BindView;
 
@@ -17,7 +17,7 @@ import butterknife.BindView;
  * @author yukuoyuan
  * @date 2020/6/21
  */
-public class SingCheckBottomListAdapter extends BaseRecyclerViewAdapter<ComputerSingleCheckListBean.ComputerSingleDataBean, SingCheckBottomListAdapter.MyHolder> {
+public class SingCheckBottomListAdapter extends BaseRecyclerViewAdapter<SingleCheckListBean.SingleDataBean, SingCheckBottomListAdapter.MyHolder> {
 
 
     public SingCheckBottomListAdapter(@NonNull Context context) {

@@ -1,12 +1,10 @@
 package com.kuoyuan.yu.common.adapters;
 
 import androidx.annotation.NonNull;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import com.kuoyuan.yu.common.utils.ListUtils;
-import com.kuoyuan.yu.compute.beans.ComputerSingleCheckListBean;
 
 import java.util.List;
 

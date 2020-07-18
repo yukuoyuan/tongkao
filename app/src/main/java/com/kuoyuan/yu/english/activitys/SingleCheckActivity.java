@@ -9,16 +9,16 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.activitys.BaseActivity;
-import com.kuoyuan.yu.compute.adapters.ComputerSingleCheckPagerAdapter;
-import com.kuoyuan.yu.compute.beans.ComputerSingleCheckListBean;
+import com.kuoyuan.yu.common.config.Constants;
+import com.kuoyuan.yu.compute.adapters.SingleCheckPagerAdapter;
+import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 import com.kuoyuan.yu.compute.views.SingCheckBottomDialog;
-import com.kuoyuan.yu.english.presenters.EnglishSingleCheckPresenter;
+import com.kuoyuan.yu.english.presenters.SingleCheckPresenter;
 import com.kuoyuan.yu.english.presenters.IEnglishSingleCheckView;
 
 import java.util.List;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 import butterknife.OnPageChange;
 
@@ -29,7 +29,7 @@ import butterknife.OnPageChange;
  * @author yukuoyuan
  * @link github https://github.com/yukuoyuan
  */
-public class EnglishSingleCheckActivity extends BaseActivity<EnglishSingleCheckPresenter> implements IEnglishSingleCheckView, SingCheckBottomDialog.OnSingleCheckBottomDialogListener {
+public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> implements IEnglishSingleCheckView, SingCheckBottomDialog.OnSingleCheckBottomDialogListener {
 
 
     @BindView(R.id.vp_english_single_check)
@@ -43,17 +43,25 @@ public class EnglishSingleCheckActivity extends BaseActivity<EnglishSingleCheckP
     /**
      * 数据源
      */
-    private List<ComputerSingleCheckListBean.ComputerSingleDataBean> listData;
+    private List<SingleCheckListBean.SingleDataBean> listData;
+    /**
+     * 页面类型数据
+     */
+    private int mPageTypeValue;
+
     @Override
     protected void initData(Bundle extras) {
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        if (extras != null) {
+            mPageTypeValue = extras.getInt(Constants.PAGE_TYPE_KEY);
+        }
         getSupportActionBar().setTitle("单选题");
-        getPresenter().getListData();
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getPresenter().getListData(mPageTypeValue);
     }
 
     @Override
-    protected EnglishSingleCheckPresenter createPresenter() {
-        return new EnglishSingleCheckPresenter(this, this);
+    protected SingleCheckPresenter createPresenter() {
+        return new SingleCheckPresenter(this, this);
     }
 
     @Override
@@ -73,13 +81,13 @@ public class EnglishSingleCheckActivity extends BaseActivity<EnglishSingleCheckP
     }
 
     @Override
-    public void initData2View(List<ComputerSingleCheckListBean.ComputerSingleDataBean> listData) {
+    public void initData2View(List<SingleCheckListBean.SingleDataBean> listData) {
         mTotalCount = listData.size();
         this.listData = listData;
         showBottomCountTip(0);
-        ComputerSingleCheckPagerAdapter computerSingleCheckPagerAdapter = new ComputerSingleCheckPagerAdapter(getSupportFragmentManager());
-        vpEnglishSingleCheck.setAdapter(computerSingleCheckPagerAdapter);
-        computerSingleCheckPagerAdapter.setData(listData);
+        SingleCheckPagerAdapter singleCheckPagerAdapter = new SingleCheckPagerAdapter(getSupportFragmentManager());
+        vpEnglishSingleCheck.setAdapter(singleCheckPagerAdapter);
+        singleCheckPagerAdapter.setData(listData);
     }
 
     @Override
@@ -103,6 +111,7 @@ public class EnglishSingleCheckActivity extends BaseActivity<EnglishSingleCheckP
         }
         return super.onOptionsItemSelected(item);
     }
+
     @Override
     public void showBottomCountTip(int position) {
         /*
