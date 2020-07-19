@@ -1897,19 +1897,19 @@
       "tip": "我看到她处理这些包裹很费劲， 所以我帮助了她。",
       "checkData": [
         {
-          "title": "service B. money C. use D. chance",
+          "title": "service",
           "isRight": false
         },
         {
-          "title": "service B. money C. use D. chance",
+          "title": "money",
           "isRight": false
         },
         {
-          "title": "service B. money C. use D. chance",
+          "title": "use",
           "isRight": false
         },
         {
-          "title": "service B. money C. use D. chance",
+          "title": "chance",
           "isRight": false
         }
       ]

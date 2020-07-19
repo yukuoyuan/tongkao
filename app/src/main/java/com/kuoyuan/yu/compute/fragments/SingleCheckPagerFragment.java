@@ -8,11 +8,16 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.adapters.BaseRecyclerViewAdapter;
+import com.kuoyuan.yu.common.db.DbSingleBean;
 import com.kuoyuan.yu.common.fragments.BaseFragment;
 import com.kuoyuan.yu.compute.adapters.SingleCheckListAdapter;
 import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
+
+import java.util.List;
 
 import butterknife.BindView;
 
@@ -34,7 +39,7 @@ public class SingleCheckPagerFragment extends BaseFragment implements BaseRecycl
     /**
      * 数据
      */
-    private SingleCheckListBean.SingleDataBean mComputerSingleDataBean;
+    private DbSingleBean mComputerSingleDataBean;
 
     public static SingleCheckPagerFragment newInstance(Bundle args) {
         SingleCheckPagerFragment fragment = new SingleCheckPagerFragment();
@@ -59,7 +64,8 @@ public class SingleCheckPagerFragment extends BaseFragment implements BaseRecycl
         rcvComputerSingleCheckList.setLayoutManager(new LinearLayoutManager(getActivity()));
         SingleCheckListAdapter singleCheckListAdapter = new SingleCheckListAdapter(getActivity());
         rcvComputerSingleCheckList.setAdapter(singleCheckListAdapter);
-        singleCheckListAdapter.setData(mComputerSingleDataBean.checkData);
+        List<SingleCheckListBean.SingleDataBean.ComputerSingleCheckDataBean> computerSingleCheckDataBeanList = new Gson().fromJson(mComputerSingleDataBean.answers, new TypeToken<List<SingleCheckListBean.SingleDataBean.ComputerSingleCheckDataBean>>(){}.getType());
+        singleCheckListAdapter.setData(computerSingleCheckDataBeanList);
         singleCheckListAdapter.setOnItemClickListener(this);
     }
 

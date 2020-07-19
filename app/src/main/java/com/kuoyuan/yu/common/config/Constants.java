@@ -14,17 +14,17 @@ public class Constants {
     /**
      * 英语统考b单选
      */
-    public static final int PAGE_TYPE_ENGLISH_B_SINGLE = 201;
+    public static final int PAGE_TYPE_ENGLISH_B_SINGLE = 2010000;
     /**
      * 计算机单选题
      */
-    public static final int PAGE_TYPE_COMPUTER_SINGLE = 202;
+    public static final int PAGE_TYPE_COMPUTER_SINGLE = 2020000;
     /**
      * 英语统考b词汇单选
      */
-    public static final int PAGE_TYPE_ENGLISH_VOCABULARY_AND_GRAMMAR_SINGLE = 203;
+    public static final int PAGE_TYPE_ENGLISH_VOCABULARY_AND_GRAMMAR_SINGLE = 2030000;
     /**
      * 学位英语词汇与语法单选
      */
-    public static final int PAGE_TYPE_ENGLISH_ACADEMIC_DEGREE_SINGLE = 204;
+    public static final int PAGE_TYPE_ENGLISH_ACADEMIC_DEGREE_SINGLE = 2040000;
 }

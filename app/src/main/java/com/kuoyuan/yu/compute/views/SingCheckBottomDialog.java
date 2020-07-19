@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.adapters.BaseRecyclerViewAdapter;
+import com.kuoyuan.yu.common.db.DbSingleBean;
 import com.kuoyuan.yu.common.utils.ListUtils;
 import com.kuoyuan.yu.common.views.BaseBottomDialog;
 import com.kuoyuan.yu.compute.adapters.SingCheckBottomListAdapter;
@@ -22,7 +23,7 @@ import butterknife.BindView;
  * @date 2020/6/21
  */
 public class SingCheckBottomDialog extends BaseBottomDialog implements
-        BaseRecyclerViewAdapter.OnItemClickListener<SingleCheckListBean.SingleDataBean> {
+        BaseRecyclerViewAdapter.OnItemClickListener<DbSingleBean> {
 
     @BindView(R.id.rcv_dialog_single_check_list)
     RecyclerView rcvDialogSingleCheckList;
@@ -42,7 +43,7 @@ public class SingCheckBottomDialog extends BaseBottomDialog implements
      *
      * @param data 数据
      */
-    private void initData2View(List<SingleCheckListBean.SingleDataBean> data) {
+    private void initData2View(List<DbSingleBean> data) {
         SingCheckBottomListAdapter singCheckBottomListAdapter = new SingCheckBottomListAdapter(context);
         rcvDialogSingleCheckList.setAdapter(singCheckBottomListAdapter);
         singCheckBottomListAdapter.setData(data);
@@ -55,7 +56,7 @@ public class SingCheckBottomDialog extends BaseBottomDialog implements
     }
 
     @Override
-    public void onItemClick(SingleCheckListBean.SingleDataBean computerSingleDataBean, int position, int type) {
+    public void onItemClick(DbSingleBean computerSingleDataBean, int position, int type) {
         if (onSingleCheckBottomDialogListener != null) {
             onSingleCheckBottomDialogListener.onSingleCheckBottomDialogCheck(position);
         }
@@ -67,7 +68,7 @@ public class SingCheckBottomDialog extends BaseBottomDialog implements
      *
      * @param listData 数据源
      */
-    public void setData(List<SingleCheckListBean.SingleDataBean> listData) {
+    public void setData(List<DbSingleBean> listData) {
         if (!ListUtils.isEmpty(listData)) {
             initData2View(listData);
         }

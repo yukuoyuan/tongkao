@@ -1,5 +1,6 @@
 package com.kuoyuan.yu.english.presenters;
 
+import com.kuoyuan.yu.common.db.DbSingleBean;
 import com.kuoyuan.yu.common.presenters.IBaseView;
 import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 
@@ -17,7 +18,7 @@ public interface ISingleCheckView extends IBaseView {
      *
      * @param data 数据
      */
-    void initData2View(List<SingleCheckListBean.SingleDataBean> data);
+    void initData2View(List<DbSingleBean> data);
 
     /**
      * 展示底部的弹窗

@@ -10,6 +10,7 @@ import androidx.viewpager.widget.ViewPager;
 import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.activitys.BaseActivity;
 import com.kuoyuan.yu.common.config.Constants;
+import com.kuoyuan.yu.common.db.DbSingleBean;
 import com.kuoyuan.yu.compute.adapters.SingleCheckPagerAdapter;
 import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 import com.kuoyuan.yu.compute.views.SingCheckBottomDialog;
@@ -43,7 +44,7 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
     /**
      * 数据源
      */
-    private List<SingleCheckListBean.SingleDataBean> listData;
+    private List<DbSingleBean> listData;
     /**
      * 页面类型数据
      */
@@ -81,7 +82,7 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
     }
 
     @Override
-    public void initData2View(List<SingleCheckListBean.SingleDataBean> listData) {
+    public void initData2View(List<DbSingleBean> listData) {
         mTotalCount = listData.size();
         this.listData = listData;
         showBottomCountTip(0);
