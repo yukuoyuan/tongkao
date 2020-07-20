@@ -4,6 +4,8 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Handler;
 
+import com.facebook.stetho.Stetho;
+
 /**
  * Created on 2020/7/19
  *
@@ -19,6 +21,7 @@ public class TongKaoApplication extends Application {
         super.onCreate();
         instance = this;
         mainHandler = new Handler();
+        Stetho.initializeWithDefaults(this);
     }
 
     public static Context getInstance() {

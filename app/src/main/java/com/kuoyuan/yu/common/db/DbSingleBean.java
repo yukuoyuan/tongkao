@@ -5,6 +5,7 @@ import android.os.Parcelable;
 
 import org.greenrobot.greendao.annotation.Entity;
 import org.greenrobot.greendao.annotation.Generated;
+import org.greenrobot.greendao.annotation.Id;
 
 /**
  * Created on 2020/7/19
@@ -18,7 +19,8 @@ public class DbSingleBean implements Parcelable {
     /**
      * id
      */
-    public long id;
+    @Id
+    public Long id;
     /**
      * 标题
      */
@@ -43,76 +45,19 @@ public class DbSingleBean implements Parcelable {
      * 是否收藏
      */
     public boolean isCollection;
-    @Generated(hash = 1919485997)
-    public DbSingleBean(long id, String title, String tip, String answers,
-            long type, boolean isWrong, boolean isCollection) {
-        this.id = id;
-        this.title = title;
-        this.tip = tip;
-        this.answers = answers;
-        this.type = type;
-        this.isWrong = isWrong;
-        this.isCollection = isCollection;
-    }
-    @Generated(hash = 2096071294)
-    public DbSingleBean() {
-    }
 
     private DbSingleBean(Builder builder) {
-        setId(builder.id);
-        setTitle(builder.title);
-        setTip(builder.tip);
-        setAnswers(builder.answers);
-        setType(builder.type);
+        id = builder.id;
+        title = builder.title;
+        tip = builder.tip;
+        answers = builder.answers;
+        type = builder.type;
         isWrong = builder.isWrong;
         isCollection = builder.isCollection;
     }
 
-    public long getId() {
-        return this.id;
-    }
-    public void setId(long id) {
-        this.id = id;
-    }
-    public String getTitle() {
-        return this.title;
-    }
-    public void setTitle(String title) {
-        this.title = title;
-    }
-    public String getTip() {
-        return this.tip;
-    }
-    public void setTip(String tip) {
-        this.tip = tip;
-    }
-    public String getAnswers() {
-        return this.answers;
-    }
-    public void setAnswers(String answers) {
-        this.answers = answers;
-    }
-    public long getType() {
-        return this.type;
-    }
-    public void setType(long type) {
-        this.type = type;
-    }
-    public boolean getIsWrong() {
-        return this.isWrong;
-    }
-    public void setIsWrong(boolean isWrong) {
-        this.isWrong = isWrong;
-    }
-    public boolean getIsCollection() {
-        return this.isCollection;
-    }
-    public void setIsCollection(boolean isCollection) {
-        this.isCollection = isCollection;
-    }
-
     public static final class Builder {
-        private long id;
+        private Long id;
         private String title;
         private String tip;
         private String answers;
@@ -123,7 +68,7 @@ public class DbSingleBean implements Parcelable {
         public Builder() {
         }
 
-        public Builder id(long val) {
+        public Builder id(Long val) {
             id = val;
             return this;
         }
@@ -170,7 +115,7 @@ public class DbSingleBean implements Parcelable {
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeLong(this.id);
+        dest.writeValue(this.id);
         dest.writeString(this.title);
         dest.writeString(this.tip);
         dest.writeString(this.answers);
@@ -179,8 +124,64 @@ public class DbSingleBean implements Parcelable {
         dest.writeByte(this.isCollection ? (byte) 1 : (byte) 0);
     }
 
+    public Long getId() {
+        return this.id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getTitle() {
+        return this.title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public String getTip() {
+        return this.tip;
+    }
+
+    public void setTip(String tip) {
+        this.tip = tip;
+    }
+
+    public String getAnswers() {
+        return this.answers;
+    }
+
+    public void setAnswers(String answers) {
+        this.answers = answers;
+    }
+
+    public long getType() {
+        return this.type;
+    }
+
+    public void setType(long type) {
+        this.type = type;
+    }
+
+    public boolean getIsWrong() {
+        return this.isWrong;
+    }
+
+    public void setIsWrong(boolean isWrong) {
+        this.isWrong = isWrong;
+    }
+
+    public boolean getIsCollection() {
+        return this.isCollection;
+    }
+
+    public void setIsCollection(boolean isCollection) {
+        this.isCollection = isCollection;
+    }
+
     protected DbSingleBean(Parcel in) {
-        this.id = in.readLong();
+        this.id = (Long) in.readValue(Long.class.getClassLoader());
         this.title = in.readString();
         this.tip = in.readString();
         this.answers = in.readString();
@@ -189,7 +190,23 @@ public class DbSingleBean implements Parcelable {
         this.isCollection = in.readByte() != 0;
     }
 
-    public static final Parcelable.Creator<DbSingleBean> CREATOR = new Parcelable.Creator<DbSingleBean>() {
+    @Generated(hash = 891013547)
+    public DbSingleBean(Long id, String title, String tip, String answers, long type,
+            boolean isWrong, boolean isCollection) {
+        this.id = id;
+        this.title = title;
+        this.tip = tip;
+        this.answers = answers;
+        this.type = type;
+        this.isWrong = isWrong;
+        this.isCollection = isCollection;
+    }
+
+    @Generated(hash = 2096071294)
+    public DbSingleBean() {
+    }
+
+    public static final Creator<DbSingleBean> CREATOR = new Creator<DbSingleBean>() {
         @Override
         public DbSingleBean createFromParcel(Parcel source) {
             return new DbSingleBean(source);

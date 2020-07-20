@@ -14,6 +14,7 @@ import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.adapters.BaseRecyclerViewAdapter;
 import com.kuoyuan.yu.common.db.DbSingleBean;
 import com.kuoyuan.yu.common.fragments.BaseFragment;
+import com.kuoyuan.yu.common.utils.DbHelper;
 import com.kuoyuan.yu.compute.adapters.SingleCheckListAdapter;
 import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 
@@ -64,7 +65,8 @@ public class SingleCheckPagerFragment extends BaseFragment implements BaseRecycl
         rcvComputerSingleCheckList.setLayoutManager(new LinearLayoutManager(getActivity()));
         SingleCheckListAdapter singleCheckListAdapter = new SingleCheckListAdapter(getActivity());
         rcvComputerSingleCheckList.setAdapter(singleCheckListAdapter);
-        List<SingleCheckListBean.SingleDataBean.ComputerSingleCheckDataBean> computerSingleCheckDataBeanList = new Gson().fromJson(mComputerSingleDataBean.answers, new TypeToken<List<SingleCheckListBean.SingleDataBean.ComputerSingleCheckDataBean>>(){}.getType());
+        List<SingleCheckListBean.SingleDataBean.ComputerSingleCheckDataBean> computerSingleCheckDataBeanList = new Gson().fromJson(mComputerSingleDataBean.answers, new TypeToken<List<SingleCheckListBean.SingleDataBean.ComputerSingleCheckDataBean>>() {
+        }.getType());
         singleCheckListAdapter.setData(computerSingleCheckDataBeanList);
         singleCheckListAdapter.setOnItemClickListener(this);
     }
@@ -76,18 +78,28 @@ public class SingleCheckPagerFragment extends BaseFragment implements BaseRecycl
 
     @Override
     public void onItemClick(SingleCheckListBean.SingleDataBean.ComputerSingleCheckDataBean computerSingleCheckDataBean, int position, int type) {
+        /*
+         * 是否错误了
+         */
+        DbSingleBean dbSingleBean = DbHelper.getInstance().getDbSingleBeanById(mComputerSingleDataBean.id);
         if (type == 1) {
             /*
              * 选择正确
              */
             tvComputerSingleCheckErrorTip.setTextColor(Color.BLUE);
             tvComputerSingleCheckErrorTip.setText(TextUtils.isEmpty(mComputerSingleDataBean.tip) ? "" : "内容翻译:\n\n" + mComputerSingleDataBean.tip);
+            dbSingleBean.isWrong = false;
         } else if (type == 2) {
             /*
              * 选择错误
              */
             tvComputerSingleCheckErrorTip.setTextColor(Color.RED);
             tvComputerSingleCheckErrorTip.setText(TextUtils.isEmpty(mComputerSingleDataBean.tip) ? "" : "错误提示:\n\n" + mComputerSingleDataBean.tip);
+            dbSingleBean.isWrong = true;
         }
+        /*
+         * 更新一下本地数据库
+         */
+        DbHelper.getInstance().updateSingleBean(dbSingleBean);
     }
 }

@@ -71,6 +71,27 @@ public class DbHelper {
     }
 
     /**
+     * 增加或者更新旧的数据
+     *
+     * @param dbSingleBean 数据
+     */
+    public void updateSingleBean(DbSingleBean dbSingleBean) {
+        DbSingleBeanDao dbSingleBeanDao = mDaoSession.getDbSingleBeanDao();
+        dbSingleBeanDao.update(dbSingleBean);
+    }
+
+    /**
+     * 根据id获取响应的数据
+     *
+     * @param id 数据
+     * @return 数据
+     */
+    public DbSingleBean getDbSingleBeanById(long id) {
+        DbSingleBeanDao dbSingleBeanDao = mDaoSession.getDbSingleBeanDao();
+        return dbSingleBeanDao.load(id);
+    }
+
+    /**
      * 获取列表
      *
      * @param type         类型
@@ -83,5 +104,15 @@ public class DbHelper {
         return dbSingleBeanDao.queryBuilder().where(DbSingleBeanDao.Properties.Type.eq(type),
                 DbSingleBeanDao.Properties.IsWrong.eq(isWrong),
                 DbSingleBeanDao.Properties.IsCollection.eq(isCollection)).list();
+    }
+    /**
+     * 获取列表
+     *
+     * @param type         类型
+     * @return 数据
+     */
+    public List<DbSingleBean> getSingleBeanList(long type) {
+        DbSingleBeanDao dbSingleBeanDao = mDaoSession.getDbSingleBeanDao();
+        return dbSingleBeanDao.queryBuilder().where(DbSingleBeanDao.Properties.Type.eq(type)).list();
     }
 }

@@ -35,14 +35,14 @@ public class SingleCheckPresenter extends BasePresenter<ISingleCheckView> {
         /*
          * 查看本地是否有数据,如果有就用db的,没有的话,用assets的数据
          */
-        List<DbSingleBean> singleBeanList = DbHelper.getInstance().getSingleBeanList(pageTypeValue, false, false);
+        List<DbSingleBean> singleBeanList = DbHelper.getInstance().getSingleBeanList(pageTypeValue);
         if (ListUtils.isEmpty(singleBeanList)) {
             getAssetsData(pageTypeValue);
         } else {
             /*
              * 有数据,就直接填充界面
              */
-            if (getBaseView()!=null){
+            if (getBaseView() != null) {
                 getBaseView().initData2View(singleBeanList);
             }
         }
@@ -70,7 +70,7 @@ public class SingleCheckPresenter extends BasePresenter<ISingleCheckView> {
             for (int i = 0; i < singleCheckBean.data.size(); i++) {
                 SingleCheckListBean.SingleDataBean dataBean = singleCheckBean.data.get(i);
                 DbSingleBean dbSingleBean = new DbSingleBean.Builder()
-                        .id(pageTypeValue + i)
+                        .id(Long.valueOf(pageTypeValue + i))
                         .title(dataBean.title)
                         .tip(dataBean.tip)
                         .answers(new Gson().toJson(dataBean.checkData))

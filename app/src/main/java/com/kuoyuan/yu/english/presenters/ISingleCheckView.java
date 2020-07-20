@@ -31,4 +31,9 @@ public interface ISingleCheckView extends IBaseView {
      * @param position 选中的索引
      */
     void showBottomCountTip(int position);
+
+    /**
+     * 是否被收藏了
+     */
+    void isCollection();
 }

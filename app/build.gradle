@@ -40,4 +40,5 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha03'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.1'
     implementation 'org.greenrobot:greendao:3.3.0'
+    implementation 'com.facebook.stetho:stetho:1.5.1'
 }

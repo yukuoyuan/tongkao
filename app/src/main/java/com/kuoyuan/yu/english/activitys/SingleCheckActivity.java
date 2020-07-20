@@ -1,6 +1,7 @@
 package com.kuoyuan.yu.english.activitys;
 
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
@@ -11,8 +12,8 @@ import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.activitys.BaseActivity;
 import com.kuoyuan.yu.common.config.Constants;
 import com.kuoyuan.yu.common.db.DbSingleBean;
+import com.kuoyuan.yu.common.utils.DbHelper;
 import com.kuoyuan.yu.compute.adapters.SingleCheckPagerAdapter;
-import com.kuoyuan.yu.compute.beans.SingleCheckListBean;
 import com.kuoyuan.yu.compute.views.SingCheckBottomDialog;
 import com.kuoyuan.yu.english.presenters.SingleCheckPresenter;
 import com.kuoyuan.yu.english.presenters.ISingleCheckView;
@@ -49,6 +50,14 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
      * 页面类型数据
      */
     private int mPageTypeValue;
+    /**
+     * 右侧菜单
+     */
+    private Menu menu;
+    /**
+     * 选择的索引
+     */
+    private int currentPosition;
 
     @Override
     protected void initData(Bundle extras) {
@@ -101,13 +110,28 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
 
     @OnPageChange(R.id.vp_english_single_check)
     public void onPageSelected(int position) {
+        this.currentPosition = position;
         showBottomCountTip(position);
+        isCollection();
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
             onBackPressed();
+            return true;
+        } else if (item.getItemId() == R.id.ic_single_check_actionbar_right_collection) {
+            /*
+             * 收藏,或者取消收藏
+             */
+            DbSingleBean dbSingleBean = DbHelper.getInstance().getDbSingleBeanById(listData.get(currentPosition).id);
+            dbSingleBean.isCollection = !dbSingleBean.isCollection;
+            /*
+             * 更新一下本地数据库
+             */
+            DbHelper.getInstance().updateSingleBean(dbSingleBean);
+            isCollection();
             return true;
         }
         return super.onOptionsItemSelected(item);
@@ -119,6 +143,33 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
          * 设置显示
          */
         tvEnglishSingleCheckMore.setText(String.format("%d/%d", position, mTotalCount));
+    }
+
+    @Override
+    public void isCollection() {
+        /*
+         * 设置默认的按钮颜色
+         */
+        MenuItem item = menu.findItem(R.id.ic_single_check_actionbar_right_collection);
+        if (listData.get(currentPosition).isCollection) {
+            item.setIcon(R.drawable.icon_actionbar_collection_check);
+        } else {
+            item.setIcon(R.drawable.icon_actionbar_collection_uncheck);
+        }
+    }
+
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        this.menu = menu;
+        isCollection();
+        return super.onPrepareOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
+        getMenuInflater().inflate(R.menu.single_check_menu, menu);
+        return true;
     }
 
     @Override
