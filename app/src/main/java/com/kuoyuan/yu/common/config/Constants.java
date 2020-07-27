@@ -12,6 +12,10 @@ public class Constants {
      */
     public static final String PAGE_TYPE_KEY = "page_type_key";
     /**
+     * 传递的页面数据类型的key 0位默认 1 为错误的, 2位收藏的
+     */
+    public static final String PAGE_DATA_TYPE_KEY = "page_data_type_key";
+    /**
      * 英语统考b单选
      */
     public static final int PAGE_TYPE_ENGLISH_B_SINGLE = 2010000;

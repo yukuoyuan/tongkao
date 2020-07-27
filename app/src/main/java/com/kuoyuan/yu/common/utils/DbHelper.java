@@ -94,21 +94,33 @@ public class DbHelper {
     /**
      * 获取列表
      *
-     * @param type         类型
-     * @param isWrong      是否错误
-     * @param isCollection 是否收藏
+     * @param type    类型
+     * @param isWrong 是否错误
      * @return 数据
      */
-    public List<DbSingleBean> getSingleBeanList(long type, boolean isWrong, boolean isCollection) {
+    public List<DbSingleBean> getSingleBeanIsWrongList(long type, boolean isWrong) {
         DbSingleBeanDao dbSingleBeanDao = mDaoSession.getDbSingleBeanDao();
         return dbSingleBeanDao.queryBuilder().where(DbSingleBeanDao.Properties.Type.eq(type),
-                DbSingleBeanDao.Properties.IsWrong.eq(isWrong),
-                DbSingleBeanDao.Properties.IsCollection.eq(isCollection)).list();
+                DbSingleBeanDao.Properties.IsWrong.eq(isWrong)).list();
     }
+
     /**
      * 获取列表
      *
      * @param type         类型
+     * @param isCollection 是否收藏
+     * @return 数据
+     */
+    public List<DbSingleBean> getSingleBeanIsCollectionList(long type, boolean isCollection) {
+        DbSingleBeanDao dbSingleBeanDao = mDaoSession.getDbSingleBeanDao();
+        return dbSingleBeanDao.queryBuilder().where(DbSingleBeanDao.Properties.Type.eq(type),
+                DbSingleBeanDao.Properties.IsCollection.eq(isCollection)).list();
+    }
+
+    /**
+     * 获取列表
+     *
+     * @param type 类型
      * @return 数据
      */
     public List<DbSingleBean> getSingleBeanList(long type) {

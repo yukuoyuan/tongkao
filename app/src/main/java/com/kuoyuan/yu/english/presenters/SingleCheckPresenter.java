@@ -29,15 +29,33 @@ public class SingleCheckPresenter extends BasePresenter<ISingleCheckView> {
     /**
      * 获取数据
      *
-     * @param pageTypeValue 页面类型
+     * @param pageTypeValue     页面类型
+     * @param pageDataTypeValue 数据类型
      */
-    public void getListData(int pageTypeValue) {
+    public void getListData(int pageTypeValue, int pageDataTypeValue) {
         /*
          * 查看本地是否有数据,如果有就用db的,没有的话,用assets的数据
          */
-        List<DbSingleBean> singleBeanList = DbHelper.getInstance().getSingleBeanList(pageTypeValue);
+        List<DbSingleBean> singleBeanList;
+        if (pageDataTypeValue == 1) {
+            /*
+             * 错误的数据
+             */
+            singleBeanList = DbHelper.getInstance().getSingleBeanIsWrongList(pageTypeValue, true);
+
+        } else if (pageDataTypeValue == 2) {
+            /*
+             * 收藏的数据
+             */
+            singleBeanList = DbHelper.getInstance().getSingleBeanIsCollectionList(pageTypeValue, true);
+        } else {
+            /*
+             * 全部的数据
+             */
+            singleBeanList = DbHelper.getInstance().getSingleBeanList(pageTypeValue);
+        }
         if (ListUtils.isEmpty(singleBeanList)) {
-            getAssetsData(pageTypeValue);
+            getAssetsData(pageTypeValue, pageDataTypeValue);
         } else {
             /*
              * 有数据,就直接填充界面
@@ -51,9 +69,10 @@ public class SingleCheckPresenter extends BasePresenter<ISingleCheckView> {
     /**
      * 获取数据
      *
-     * @param pageTypeValue 页面类型
+     * @param pageTypeValue     页面类型
+     * @param pageDataTypeValue 数据类型
      */
-    public void getAssetsData(int pageTypeValue) {
+    public void getAssetsData(int pageTypeValue, int pageDataTypeValue) {
         String fileName = "";
         if (pageTypeValue == Constants.PAGE_TYPE_ENGLISH_B_SINGLE) {
             fileName = "englishsinglecheck.json";
@@ -78,7 +97,7 @@ public class SingleCheckPresenter extends BasePresenter<ISingleCheckView> {
                         .build();
                 DbHelper.getInstance().addSingleBean(dbSingleBean);
             }
-            getListData(pageTypeValue);
+            getListData(pageTypeValue, pageDataTypeValue);
         }
     }
 }

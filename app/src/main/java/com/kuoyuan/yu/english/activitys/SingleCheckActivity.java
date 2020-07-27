@@ -66,17 +66,22 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
             "android.permission.READ_EXTERNAL_STORAGE",
             "android.permission.WRITE_EXTERNAL_STORAGE"
     };
+    /**
+     * 数据类型 0位默认 1 为错误的, 2位收藏的
+     */
+    private int mPageDataTypeValue;
 
     @Override
     protected void initData(Bundle extras) {
         if (extras != null) {
             mPageTypeValue = extras.getInt(Constants.PAGE_TYPE_KEY);
+            mPageDataTypeValue = extras.getInt(Constants.PAGE_DATA_TYPE_KEY);
         }
         getSupportActionBar().setTitle("单选题");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
             // You can use the API that requires the permission.
-            getPresenter().getListData(mPageTypeValue);
+            getPresenter().getListData(mPageTypeValue,mPageDataTypeValue);
         } else {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 // You can directly ask for the permission.
@@ -186,7 +191,7 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     // Permission is granted. Continue the action or workflow
                     // in your app.
-                    getPresenter().getListData(mPageTypeValue);
+                    getPresenter().getListData(mPageTypeValue, mPageDataTypeValue);
                 } else {
                     // Explain to the user that the feature is unavailable because
                     // the features requires a permission that the user has denied.
