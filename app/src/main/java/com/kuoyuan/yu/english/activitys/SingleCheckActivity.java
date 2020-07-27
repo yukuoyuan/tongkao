@@ -1,12 +1,17 @@
 package com.kuoyuan.yu.english.activitys;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-import androidx.viewpager.widget.ViewPager;
+import androidx.annotation.NonNull;
+import androidx.core.content.ContextCompat;
+import androidx.viewpager2.widget.ViewPager2;
 
 import com.kuoyuan.yu.R;
 import com.kuoyuan.yu.common.activitys.BaseActivity;
@@ -22,7 +27,6 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.OnClick;
-import butterknife.OnPageChange;
 
 /**
  * Created on 2020/6/15
@@ -35,7 +39,7 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
 
 
     @BindView(R.id.vp_english_single_check)
-    ViewPager vpEnglishSingleCheck;
+    ViewPager2 vpEnglishSingleCheck;
     @BindView(R.id.tv_english_single_check_more)
     TextView tvEnglishSingleCheckMore;
     /**
@@ -58,6 +62,10 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
      * 选择的索引
      */
     private int currentPosition;
+    String[] permissions = {
+            "android.permission.READ_EXTERNAL_STORAGE",
+            "android.permission.WRITE_EXTERNAL_STORAGE"
+    };
 
     @Override
     protected void initData(Bundle extras) {
@@ -66,7 +74,15 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
         }
         getSupportActionBar().setTitle("单选题");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getPresenter().getListData(mPageTypeValue);
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
+            // You can use the API that requires the permission.
+            getPresenter().getListData(mPageTypeValue);
+        } else {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                // You can directly ask for the permission.
+                requestPermissions(permissions, 200);
+            }
+        }
     }
 
     @Override
@@ -95,9 +111,18 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
         mTotalCount = listData.size();
         this.listData = listData;
         showBottomCountTip(0);
-        SingleCheckPagerAdapter singleCheckPagerAdapter = new SingleCheckPagerAdapter(getSupportFragmentManager());
+        SingleCheckPagerAdapter singleCheckPagerAdapter = new SingleCheckPagerAdapter(this);
         vpEnglishSingleCheck.setAdapter(singleCheckPagerAdapter);
         singleCheckPagerAdapter.setData(listData);
+        vpEnglishSingleCheck.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
+            @Override
+            public void onPageSelected(int position) {
+                super.onPageSelected(position);
+                currentPosition = position;
+                showBottomCountTip(position);
+                isCollection();
+            }
+        });
     }
 
     @Override
@@ -107,14 +132,6 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
         checkSingCheckBottomDialog.show();
         checkSingCheckBottomDialog.setOnSingleCheckBottomDialogListener(this);
     }
-
-    @OnPageChange(R.id.vp_english_single_check)
-    public void onPageSelected(int position) {
-        this.currentPosition = position;
-        showBottomCountTip(position);
-        isCollection();
-    }
-
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -150,11 +167,36 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
         /*
          * 设置默认的按钮颜色
          */
-        MenuItem item = menu.findItem(R.id.ic_single_check_actionbar_right_collection);
-        if (listData.get(currentPosition).isCollection) {
-            item.setIcon(R.drawable.icon_actionbar_collection_check);
-        } else {
-            item.setIcon(R.drawable.icon_actionbar_collection_uncheck);
+        if (menu != null) {
+            MenuItem item = menu.findItem(R.id.ic_single_check_actionbar_right_collection);
+            if (listData.get(currentPosition).isCollection) {
+                item.setIcon(R.drawable.icon_actionbar_collection_check);
+            } else {
+                item.setIcon(R.drawable.icon_actionbar_collection_uncheck);
+            }
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        switch (requestCode) {
+            case 200:
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    // Permission is granted. Continue the action or workflow
+                    // in your app.
+                    getPresenter().getListData(mPageTypeValue);
+                } else {
+                    // Explain to the user that the feature is unavailable because
+                    // the features requires a permission that the user has denied.
+                    // At the same time, respect the user's decision. Don't link to
+                    // system settings in an effort to convince the user to change
+                    // their decision.
+                }
+                return;
+            default:
+                break;
         }
     }
 
