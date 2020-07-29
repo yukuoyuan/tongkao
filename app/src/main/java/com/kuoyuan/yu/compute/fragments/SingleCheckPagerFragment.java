@@ -97,6 +97,7 @@ public class SingleCheckPagerFragment extends BaseFragment implements BaseRecycl
             tvComputerSingleCheckErrorTip.setText(TextUtils.isEmpty(mComputerSingleDataBean.tip) ? "" : "错误提示:\n\n" + mComputerSingleDataBean.tip);
             dbSingleBean.isWrong = true;
         }
+        dbSingleBean.todo = true;
         /*
          * 更新一下本地数据库
          */

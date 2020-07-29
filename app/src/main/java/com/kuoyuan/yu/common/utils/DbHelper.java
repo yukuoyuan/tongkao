@@ -120,6 +120,19 @@ public class DbHelper {
     /**
      * 获取列表
      *
+     * @param type   类型
+     * @param isTodo 是否做过
+     * @return 数据
+     */
+    public List<DbSingleBean> getSingleBeanTodoList(long type, boolean isTodo) {
+        DbSingleBeanDao dbSingleBeanDao = mDaoSession.getDbSingleBeanDao();
+        return dbSingleBeanDao.queryBuilder().where(DbSingleBeanDao.Properties.Type.eq(type),
+                DbSingleBeanDao.Properties.IsCollection.eq(isTodo)).list();
+    }
+
+    /**
+     * 获取列表
+     *
      * @param type 类型
      * @return 数据
      */

@@ -24,8 +24,10 @@ public class MainActivity extends BaseActivity {
     Switch swIsSwitchWrong;
     @BindView(R.id.sw_is_switch_collection)
     Switch swIsSwitchCollection;
+    @BindView(R.id.sw_is_switch_to_do)
+    Switch swIsSwitchToDo;
     /**
-     *0位默认 1 为错误的, 2位收藏的
+     * 0位默认 1 为错误的, 2位收藏的
      */
     private int dataType;
 
@@ -88,12 +90,13 @@ public class MainActivity extends BaseActivity {
         }
     }
 
-    @OnCheckedChanged({R.id.sw_is_switch_wrong, R.id.sw_is_switch_collection})
+    @OnCheckedChanged({R.id.sw_is_switch_wrong, R.id.sw_is_switch_collection, R.id.sw_is_switch_to_do})
     public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         switch (buttonView.getId()) {
             case R.id.sw_is_switch_wrong:
                 if (isChecked) {
                     swIsSwitchCollection.setChecked(false);
+                    swIsSwitchToDo.setChecked(false);
                     dataType = 1;
                 } else {
                     dataType = 0;
@@ -102,7 +105,17 @@ public class MainActivity extends BaseActivity {
             case R.id.sw_is_switch_collection:
                 if (isChecked) {
                     swIsSwitchWrong.setChecked(false);
+                    swIsSwitchToDo.setChecked(false);
                     dataType = 2;
+                } else {
+                    dataType = 0;
+                }
+                break;
+            case R.id.sw_is_switch_to_do:
+                if (isChecked) {
+                    swIsSwitchWrong.setChecked(false);
+                    swIsSwitchCollection.setChecked(false);
+                    dataType = 3;
                 } else {
                     dataType = 0;
                 }

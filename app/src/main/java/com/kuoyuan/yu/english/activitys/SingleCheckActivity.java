@@ -67,7 +67,7 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
             "android.permission.WRITE_EXTERNAL_STORAGE"
     };
     /**
-     * 数据类型 0位默认 1 为错误的, 2位收藏的
+     * 数据类型 0位默认 1 为错误的, 2位收藏的 ,3 未做过的题目
      */
     private int mPageDataTypeValue;
 
@@ -81,7 +81,7 @@ public class SingleCheckActivity extends BaseActivity<SingleCheckPresenter> impl
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) {
             // You can use the API that requires the permission.
-            getPresenter().getListData(mPageTypeValue,mPageDataTypeValue);
+            getPresenter().getListData(mPageTypeValue, mPageDataTypeValue);
         } else {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                 // You can directly ask for the permission.

@@ -45,6 +45,10 @@ public class DbSingleBean implements Parcelable {
      * 是否收藏
      */
     public boolean isCollection;
+    /**
+     * 是否做过
+     */
+    public boolean todo;
 
     private DbSingleBean(Builder builder) {
         id = builder.id;
@@ -180,6 +184,14 @@ public class DbSingleBean implements Parcelable {
         this.isCollection = isCollection;
     }
 
+    public boolean getTodo() {
+        return this.todo;
+    }
+
+    public void setTodo(boolean todo) {
+        this.todo = todo;
+    }
+
     protected DbSingleBean(Parcel in) {
         this.id = (Long) in.readValue(Long.class.getClassLoader());
         this.title = in.readString();
@@ -190,9 +202,9 @@ public class DbSingleBean implements Parcelable {
         this.isCollection = in.readByte() != 0;
     }
 
-    @Generated(hash = 891013547)
+    @Generated(hash = 1580231232)
     public DbSingleBean(Long id, String title, String tip, String answers, long type,
-            boolean isWrong, boolean isCollection) {
+            boolean isWrong, boolean isCollection, boolean todo) {
         this.id = id;
         this.title = title;
         this.tip = tip;
@@ -200,6 +212,7 @@ public class DbSingleBean implements Parcelable {
         this.type = type;
         this.isWrong = isWrong;
         this.isCollection = isCollection;
+        this.todo = todo;
     }
 
     @Generated(hash = 2096071294)

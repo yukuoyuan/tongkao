@@ -48,6 +48,11 @@ public class SingleCheckPresenter extends BasePresenter<ISingleCheckView> {
              * 收藏的数据
              */
             singleBeanList = DbHelper.getInstance().getSingleBeanIsCollectionList(pageTypeValue, true);
+        } else if (pageDataTypeValue == 3) {
+            /*
+             * 未做过的题目
+             */
+            singleBeanList = DbHelper.getInstance().getSingleBeanTodoList(pageTypeValue, false);
         } else {
             /*
              * 全部的数据
